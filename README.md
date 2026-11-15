@@ -1,6 +1,6 @@
-# AI Concreta
+# AI Essenziale
 
-Instagram page @aiconcreta: Italian AI news, tools and prompts, written by a scheduled Claude Code agent and **approved
+Instagram page @aiessenziale: Italian AI news, tools and prompts, written by a scheduled Claude Code agent and **approved
 by a human on Telegram** before anything is published.
 
 ```
@@ -42,7 +42,7 @@ python3 tools/fetch_feeds.py                        # today's uncovered news
 2. **Telegram**: in Telegram, talk to @BotFather → `/newbot` → copy the token. Send any message to your new bot, then open
    `https://api.telegram.org/bot<TOKEN>/getUpdates` and copy `message.chat.id`.
    Repo secrets: `TELEGRAM_TOKEN`, `TELEGRAM_CHAT_ID`.
-3. **Instagram**: @aiconcreta must be a professional (Creator or Business) account linked to a Facebook Page. Get a Page
+3. **Instagram**: @aiessenziale must be a professional (Creator or Business) account linked to a Facebook Page. Get a Page
    token the same way as for @fondamentali.gym (Meta app → Facebook Login → long-lived Page token) and its IG user id.
    Repo secrets: `IG_TOKEN`, `IG_USER_ID`.
 4. **Cover images**: repo secret `GEMINI_API_KEY` (the same Google AI Studio key as for the Colosso photos, about €0.12 per

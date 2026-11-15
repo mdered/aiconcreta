@@ -1,6 +1,6 @@
-# AI Concreta
+# AI Essenziale
 
-Automated, human-approved Instagram (later TikTok) page in Italian about AI news, tools and prompts: @aiconcreta.
+Automated, human-approved Instagram (later TikTok) page in Italian about AI news, tools and prompts: @aiessenziale.
 
 - `BRAND.md`: audience, voice, accuracy rules, content mix, post anatomy. Read it before writing any post.
 - `DRAFTING.md`: the daily drafting run (the scheduled Claude Code agent follows it). When asked to "draft" or "write today's posts", follow it.

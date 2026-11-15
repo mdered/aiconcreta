@@ -1,9 +1,9 @@
-# AI Concreta: brand and voice
+# AI Essenziale: brand and voice
 
-**Promise:** le novità dell'intelligenza artificiale, in concreto. Every post answers "e io cosa ci faccio?"
+**Promise:** l'essenziale delle novità sull'intelligenza artificiale, in concreto. Every post answers "e io cosa ci faccio?"
 **Audience:** Italian working adults, 25–50: employees, freelancers, small-business owners, students about to work.
 Curious about AI and already trying ChatGPT, but not technical. They want to save time, not follow tech gossip.
-**Bio:** L'intelligenza artificiale, fatta bene. 🇮🇹 / Novità, tool e prompt che puoi usare subito.
+**Bio:** L'intelligenza artificiale, essenziale. 🇮🇹 / Novità, tool e prompt che puoi usare subito.
 
 ## Content mix (per week, about 14 posts)
 | kind | share | what it is |
@@ -42,7 +42,7 @@ Curious about AI and already trying ChatGPT, but not technical. They want to sav
   The title states the concrete change or benefit. Good: "Gemini ora *riassume le tue mail* in Gmail". Bad: "Google ha fatto una cosa incredibile".
 - **Middle slides (1–5):** `point` (title + 1–3 sentences), `list` (2–5 short items), `prompt` (the copyable prompt). Each slide teaches one thing.
 - **In concreto (last):** 1–3 actions or takeaways the reader can apply ("Provalo su…", "Se usi X, controlla…", "Non serve fare nulla: …").
-- **Closing slide:** added automatically (Segui @aiconcreta).
+- **Closing slide:** added automatically (Segui @aiessenziale).
 
 ## Caption
 1. First line: the hook, max ~90 characters (visible before "altro").

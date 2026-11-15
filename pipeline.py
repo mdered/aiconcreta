@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""The AI Concreta pipeline. GitHub Actions runs it every 10 minutes (and when new drafts are pushed):
+"""The AI Essenziale pipeline. GitHub Actions runs it every 10 minutes (and when new drafts are pushed):
 
   1. poll     read your taps on Telegram: ✅ schedule · ⚡ publish now · ❌ reject · ↩️ undo; commands /coda, /aiuto
   2. render   draw new or changed drafts (drafts/<id>/post.json → media/<id>/NN.jpg)

@@ -23,7 +23,6 @@
     ],
     "kind": "italia",
     "msg_id": 100,
-    "note": "approved on Telegram; tap lost, applied by hand",
     "sent_at": "2026-11-15T21:12:30+00:00",
     "status": "scheduled",
     "when": "2026-11-18T12:30:00+01:00"
@@ -50,7 +49,6 @@
     ],
     "kind": "news",
     "msg_id": 34,
-    "note": "scheduled by hand at the user's request",
     "sent_at": "2026-11-15T20:25:22+00:00",
     "status": "scheduled",
     "when": "2026-11-16T18:30:00+01:00"
@@ -79,10 +77,9 @@
     ],
     "kind": "news",
     "msg_id": 92,
-    "note": "approved on Telegram; tap lost, applied by hand",
     "sent_at": "2026-11-15T21:11:25+00:00",
     "status": "scheduled",
-    "when": "2026-11-17T18:30:00+01:00"
+    "when": "2026-11-17T12:30:00+01:00"
   },
   "2026-11-15-gemini-4-hydrogen-ricerca": {
     "album": [
@@ -106,7 +103,6 @@
     ],
     "kind": "news",
     "msg_id": 20,
-    "note": "scheduled by hand at the user's request",
     "sent_at": "2026-11-15T20:24:19+00:00",
     "status": "scheduled",
     "when": "2026-11-16T12:30:00+01:00"
@@ -133,7 +129,6 @@
     ],
     "kind": "italia",
     "msg_id": 107,
-    "note": "approved on Telegram; tap lost, applied by hand",
     "sent_at": "2026-11-15T21:12:31+00:00",
     "status": "scheduled",
     "when": "2026-11-18T18:30:00+01:00"
@@ -148,6 +143,7 @@
       41
     ],
     "created": "2026-11-15T22:00:00+01:00",
+    "decided_at": "2026-11-15T22:45:55+00:00",
     "hash": "74bfc1aefc2e80bda47412aae61bd1fa91cc051ebf4cd66223bef19828700602",
     "images": [
       "media/2026-11-15-prompt-colloquio-simulato/01.jpg",
@@ -160,7 +156,8 @@
     "kind": "prompt",
     "msg_id": 42,
     "sent_at": "2026-11-15T20:40:28+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-19T18:30:00+01:00"
   },
   "2026-11-15-prompt-mail-difficile": {
     "album": [
@@ -184,10 +181,9 @@
     ],
     "kind": "prompt",
     "msg_id": 27,
-    "note": "scheduled by hand at the user's request",
     "sent_at": "2026-11-15T20:24:21+00:00",
     "status": "scheduled",
-    "when": "2026-11-17T12:30:00+01:00"
+    "when": "2026-11-17T18:30:00+01:00"
   },
   "2026-11-15-prompt-priorita-settimana": {
     "album": [
@@ -210,13 +206,10 @@
       "media/2026-11-15-prompt-priorita-settimana/06.jpg"
     ],
     "kind": "prompt",
-    "media_id": "18132100811504198",
     "msg_id": 49,
-    "permalink": "https://www.instagram.com/p/Dfx0ulqiZtK/",
-    "published_at": "2026-11-15T22:11:35+00:00",
     "sent_at": "2026-11-15T20:40:29+00:00",
-    "status": "published",
-    "when": "2026-11-15T22:10:30+00:00"
+    "status": "scheduled",
+    "when": "2026-11-19T12:30:00+01:00"
   },
   "2026-11-15-prompt-spiega-documento": {
     "album": [
@@ -228,6 +221,7 @@
       55
     ],
     "created": "2026-11-15T22:00:00+01:00",
+    "decided_at": "2026-11-15T22:45:55+00:00",
     "hash": "045d0ecdd8444b348cfd8de28938f76c7733cebf3c15c6c87da41c3a17f252e0",
     "images": [
       "media/2026-11-15-prompt-spiega-documento/01.jpg",
@@ -240,6 +234,7 @@
     "kind": "prompt",
     "msg_id": 56,
     "sent_at": "2026-11-15T20:40:31+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-20T12:30:00+01:00"
   }
 }

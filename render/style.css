@@ -1,4 +1,4 @@
-/* AI Concreta: carbon background with a concrete grain, one acid-lime accent, Space Grotesk headlines, Inter body.
+/* AI Essenziale: carbon background with a concrete grain, one acid-lime accent, Space Grotesk headlines, Inter body.
    Every text size is multiplied by --k, which slide.html lowers (down to 0.72) until the text fits. */
 @font-face { font-family: "Space Grotesk"; src: url("fonts/SpaceGrotesk.woff2") format("woff2"); font-weight: 300 700; }
 @font-face { font-family: "Inter"; src: url("fonts/Inter.woff2") format("woff2"); font-weight: 100 900; }

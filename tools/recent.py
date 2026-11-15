@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""What AI Concreta covered recently, for the drafting agent: the last 30 days of drafts (with their status) and the
+"""What AI Essenziale covered recently, for the drafting agent: the last 30 days of drafts (with their status) and the
 content mix of the last 7 days."""
 import collections, datetime, glob, json, os
 
