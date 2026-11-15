@@ -29,7 +29,7 @@ STATE = os.path.join(ROOT, "state", "posts.json")
 TG_STATE = os.path.join(ROOT, "state", "telegram.json")
 BASE_URL = os.environ.get("MEDIA_BASE_URL", "https://mdered.github.io/aiconcreta/")
 LIVE = os.environ.get("LIVE", "").strip().lower() == "true"
-SLOTS = [tuple(map(int, s.split(":"))) for s in os.environ.get("SLOTS", "12:30,18:30").split(",") if s.strip()]
+SLOTS = [tuple(map(int, s.split(":"))) for s in (os.environ.get("SLOTS") or "12:30,18:30").split(",") if s.strip()]
 TG_TOKEN, TG_CHAT = os.environ.get("TELEGRAM_TOKEN", ""), os.environ.get("TELEGRAM_CHAT_ID", "")
 IG_TOKEN, IG_USER = os.environ.get("IG_TOKEN", ""), os.environ.get("IG_USER_ID", "")
 GRAPH = "https://graph.facebook.com/v21.0"
@@ -174,19 +174,26 @@ def step_poll(state, posts):
     updates = tg("getUpdates", offset=tgs["offset"], timeout=0, allowed_updates=["callback_query", "message"])
     for u in updates:
         tgs["offset"] = u["update_id"] + 1
+        try:
+            handle_update(u, state, posts)
+        except Exception:
+            print(f"update {u['update_id']} failed:\n{traceback.format_exc()}")
+        save_json(TG_STATE, tgs)                                  # a tap is handled once, even if a later one fails
+
+
+def handle_update(u, state, posts):
         if "callback_query" in u:
             q = u["callback_query"]
             if str(q.get("message", {}).get("chat", {}).get("id")) != str(TG_CHAT):
-                continue                                          # only you can approve
+                return                                            # only you can approve
             action, _, pid = q.get("data", "").partition("|")
             entry, answer = state.get(pid), "Fatto"
             post = posts.get(pid, (None, None, None))[1]
             if not entry or not post:
                 answer = "Bozza non trovata"
             elif action in ("ok", "now") and entry["status"] == "sent":
-                entry["status"] = "scheduled"
-                entry["when"] = next_slot(state) if action == "ok" else now().isoformat(timespec="seconds")
-                entry["decided_at"] = now().isoformat(timespec="seconds")
+                when = next_slot(state) if action == "ok" else now().isoformat(timespec="seconds")
+                entry.update(status="scheduled", when=when, decided_at=now().isoformat(timespec="seconds"))
                 answer = f"Programmato: {nice(entry['when'])}" if action == "ok" else "Lo pubblico al prossimo giro (entro ~10 min)"
             elif action == "no" and entry["status"] == "sent":
                 entry["status"], entry["decided_at"] = "rejected", now().isoformat(timespec="seconds")
@@ -213,7 +220,6 @@ def step_poll(state, posts):
             elif cmd:
                 say("Tocca i pulsanti sotto ogni bozza.\n✅ Programma: al prossimo orario libero "
                     f"({', '.join(f'{h}:{m:02d}' for h, m in SLOTS)})\n⚡ Subito: entro ~10 minuti\n❌ Scarta\n↩️ Annulla\n\n/coda: cosa è programmato")
-    save_json(TG_STATE, tgs)
 
 
 def step_render(state, posts):
@@ -322,7 +328,7 @@ def instagram(urls, caption):
 
 def step_publish(state, posts):
     due = sorted((e["when"], pid) for pid, e in state.items()
-                 if e["status"] == "scheduled" and datetime.datetime.fromisoformat(e["when"]) <= now())
+                 if e["status"] == "scheduled" and e.get("when") and datetime.datetime.fromisoformat(e["when"]) <= now())
     for when, pid in due:
         e, post = state[pid], posts.get(pid, (None, None, None))[1]
         if not post:
@@ -365,6 +371,9 @@ STEPS = {"poll": step_poll, "render": step_render, "notify": step_notify, "expir
 def main():
     names = sys.argv[1:] or list(STEPS)
     state, posts = load_json(STATE, {}), drafts()
+    for e in state.values():                                      # repair: "scheduled" without a time goes back to your choice
+        if e.get("status") == "scheduled" and not e.get("when"):
+            e["status"] = "sent"
     print(f"{'LIVE' if LIVE else 'TEST MODE'} · {now().astimezone(TZ):%Y-%m-%d %H:%M} Rome · {len(posts)} drafts")
     failed = False
     sys.path.insert(0, os.path.join(ROOT, "render"))
