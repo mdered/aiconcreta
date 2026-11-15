@@ -1,16 +1,16 @@
 {
   "2026-11-15-aiact-etichetta-contenuti": {
     "album": [
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
-      63
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
     ],
     "created": "2026-11-15T22:00:00+01:00",
-    "hash": "988ab40f818dd66e78b2baa007337949a07e9f84135f04435d21df66bbbaf255",
+    "hash": "7f2d49181f888640aa82680cc6c4e443cafe5e370dd468e47d950a65aefbeda2",
     "images": [
       "media/2026-11-15-aiact-etichetta-contenuti/01.jpg",
       "media/2026-11-15-aiact-etichetta-contenuti/02.jpg",
@@ -21,8 +21,8 @@
       "media/2026-11-15-aiact-etichetta-contenuti/07.jpg"
     ],
     "kind": "italia",
-    "msg_id": 64,
-    "sent_at": "2026-11-15T20:46:52+00:00",
+    "msg_id": 100,
+    "sent_at": "2026-11-15T21:12:30+00:00",
     "status": "sent"
   },
   "2026-11-15-chatgpt-wallet": {
@@ -107,15 +107,15 @@
   },
   "2026-11-15-italia-decreto-179": {
     "album": [
-      73,
-      74,
-      75,
-      76,
-      77,
-      78
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
     ],
     "created": "2026-11-15T22:00:00+01:00",
-    "hash": "5d494d0349c703b544fc6fb575df122434528521592f3e8a625d50edace92370",
+    "hash": "cfae283e5d7eaa60bb8c56296a8514f20cfb9534b63ab323ff63a86e56c7a824",
     "images": [
       "media/2026-11-15-italia-decreto-179/01.jpg",
       "media/2026-11-15-italia-decreto-179/02.jpg",
@@ -125,8 +125,8 @@
       "media/2026-11-15-italia-decreto-179/06.jpg"
     ],
     "kind": "italia",
-    "msg_id": 79,
-    "sent_at": "2026-11-15T20:46:55+00:00",
+    "msg_id": 107,
+    "sent_at": "2026-11-15T21:12:31+00:00",
     "status": "sent"
   },
   "2026-11-15-prompt-colloquio-simulato": {
