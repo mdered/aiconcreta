@@ -33,6 +33,7 @@
       19
     ],
     "created": "2026-11-15T21:00:00+01:00",
+    "decided_at": "2026-11-15T20:31:00+00:00",
     "hash": "27462e6b28ae195fddd3adecbbe9d41c848b1d0491d924dbe7c57098578879f6",
     "images": [
       "media/2026-11-15-gemini-4-hydrogen-ricerca/01.jpg",
@@ -44,8 +45,10 @@
     ],
     "kind": "news",
     "msg_id": 20,
+    "published_at": "2026-11-15T20:31:04+00:00",
     "sent_at": "2026-11-15T20:24:19+00:00",
-    "status": "sent"
+    "status": "test",
+    "when": "2026-11-15T20:31:00+00:00"
   },
   "2026-11-15-prompt-mail-difficile": {
     "album": [
@@ -69,6 +72,6 @@
     "kind": "prompt",
     "msg_id": 27,
     "sent_at": "2026-11-15T20:24:21+00:00",
-    "status": "scheduled"
+    "status": "sent"
   }
 }
