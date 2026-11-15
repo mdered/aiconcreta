@@ -48,6 +48,8 @@ Always 2 broad: `#intelligenzaartificiale #ai`. Then 3–6 specific to the post 
 topic: `#produttività #lavoro #aiact #prompt #tecnologia #smartworking #pmi`). Lowercase, no spam tags.
 
 ## Visual identity (render/style.css)
+**Logo:** a concrete slab with "AI" cut in lime (`.slab` in style.css; profile picture: `python render/render.py profile`).
+The name stays in the handle and bio, never inside the profile circle (unreadable at 44 px).
 Carbon background with a concrete grain, one accent: acid lime `#c8ff2e`. Space Grotesk for titles, Inter for text,
 JetBrains Mono for prompts. "In concreto" is the full-lime signature slide.
 

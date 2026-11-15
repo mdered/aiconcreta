@@ -91,7 +91,7 @@ class Browser:
 
 # ---------------------------------------------------------------- slides
 def frame(inner, page, total, kind_label=None, source=None, last=False, image=None, credit=None):
-    top = f'<div class="top"><div class="brand"><b>AI</b>CONCRETA</div><div class="pg">{page}/{total}</div></div>'
+    top = f'<div class="top"><div class="brand"><div class="slab"><span>AI</span></div>CONCRETA</div><div class="pg">{page}/{total}</div></div>'
     left = esc(f"Fonte: {source}") if source else HANDLE
     right = "" if last else '<span class="next">Scorri <i>→</i></span>'
     pic = ""
@@ -120,7 +120,7 @@ def slide_html(s, kind):
         items = "".join(f'<div class="c-item"><span>{esc(i)}</span></div>' for i in s["items"])
         return f'<div class="inner"><div class="concreto-title">In concreto.</div><div class="c-items">{items}</div></div>', "concreto"
     if t == "cta":
-        return ('<div class="inner cta"><div class="logo">AI</div><h2>Segui <em>@aiconcreta</em></h2>'
+        return ('<div class="inner cta"><div class="slab"><span>AI</span></div><h2>Segui <em>@aiconcreta</em></h2>'
                 '<p class="sub">Le novità dell\'intelligenza artificiale, in concreto. Ogni giorno, in italiano.</p>'
                 '<div class="actions"><span><i>↗</i>Condividi</span><span><i>■</i>Salva</span><span><i>+</i>Segui</span></div></div>'), "cta"
     raise ValueError(t)
@@ -169,7 +169,7 @@ def render_post(post_path, out_dir=None, with_images=True):
 def render_profile(path):
     b = Browser()
     try:
-        im, _ = b.shot('<div class="pp"><div class="ai">AI</div><div class="word">CONCRETA</div></div>', "s-profile", (1080, 1080))
+        im, _ = b.shot('<div class="slab"><span>AI</span></div>', "s-profile", (1080, 1080))
         im.save(path)
     finally:
         b.close()

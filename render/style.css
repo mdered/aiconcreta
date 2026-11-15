@@ -93,3 +93,18 @@ h2 { font: 700 calc(70px * var(--k))/1.06 "Space Grotesk"; letter-spacing: -0.02
 #stage.has-img h1 { font-size: calc(92px * var(--k)); text-shadow: 0 4px 30px rgba(0,0,0,.6); }
 #stage.has-img .sub { margin-top: calc(28px * var(--k)); font-size: calc(38px * var(--k)); color: #c9cbd0; }
 #stage.has-img .kicker { margin-bottom: calc(28px * var(--k)); }
+
+/* ---- the logo: a concrete slab with "AI" in lime. Size with --s (the slab's side). ---- */
+.slab { --s: 50px; position: relative; flex: none; width: var(--s); height: var(--s); border-radius: calc(var(--s) * .07);
+  background: linear-gradient(150deg, #8b8d88 0%, #5d5f5b 55%, #474945 100%); display: grid; place-items: center; overflow: hidden;
+  box-shadow: inset 0 calc(var(--s) * -.045) 0 rgba(0,0,0,.32), inset 0 calc(var(--s) * .02) 0 rgba(255,255,255,.18), 0 calc(var(--s) * .05) calc(var(--s) * .12) rgba(0,0,0,.55); }
+.slab::after { content: ""; position: absolute; inset: 0; opacity: .6; mix-blend-mode: multiply; pointer-events: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .8 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  background-size: calc(var(--s) * 1.2); }
+.slab span { position: relative; z-index: 2; font: 700 calc(var(--s) * .62)/1 "Space Grotesk"; letter-spacing: -.06em; color: var(--lime);
+  margin-left: -.04em; text-shadow: 0 0 calc(var(--s) * .08) rgba(200,255,46,.55), 0 calc(var(--s) * .012) 0 rgba(0,0,0,.35); }
+.brand .slab { --s: 54px; }
+.cta .slab { --s: 230px; margin-bottom: 52px; box-shadow: inset 0 -10px 0 rgba(0,0,0,.32), inset 0 4px 0 rgba(255,255,255,.18), 0 30px 80px rgba(0,0,0,.6), 0 0 90px rgba(200,255,46,.12); }
+#stage.s-profile { background: radial-gradient(700px 700px at 50% 45%, #1d1f22, #0d0e10); }
+#stage.s-profile .slab { --s: 720px; }
+#stage.s-concreto .brand .slab { box-shadow: inset 0 -2px 0 rgba(0,0,0,.32), 0 3px 8px rgba(0,0,0,.25); }
