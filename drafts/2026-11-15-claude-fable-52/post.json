@@ -1,0 +1,49 @@
+{
+  "id": "2026-11-15-claude-fable-52",
+  "kind": "news",
+  "created": "2026-11-15T22:00:00+01:00",
+  "story_key": "https://www.anthropic.com/news",
+  "sources": [
+    {"name": "Anthropic (elenco novità, 9 novembre 2026)", "url": "https://www.anthropic.com/news"},
+    {"name": "9to5Mac", "url": "https://9to5mac.com/2026/11/09/anthropic-upgrades-claude-with-new-fable-5-2-model-details-here/"},
+    {"name": "TestingCatalog", "url": "https://www.testingcatalog.com/anthropic-launches-claude-fable-5-2-and-mythos-5-2/"}
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Claude Fable 5.2: *quale modello* usare?",
+      "sub": "Anthropic ha presentato due nuovi modelli. Ecco a chi servono davvero.",
+      "image_prompt": "Three concrete steps of different heights on a dark workshop floor, the tallest one lit by a single lime light, empty space at the bottom."
+    },
+    {
+      "type": "point",
+      "title": "Cosa è uscito",
+      "body": "Il 9 novembre 2026 Anthropic ha presentato Claude Fable 5.2 e Mythos 5.2. Sono pensati per i lavori tecnici più difficili. Secondo Anthropic generano risposte fino al 30% più veloci dei modelli 5.1."
+    },
+    {
+      "type": "point",
+      "title": "Fable e Mythos",
+      "body": "Fable è disponibile nelle piattaforme di Claude. Mythos è limitato: possono chiederlo solo organizzazioni verificate di cybersicurezza e scienze della vita."
+    },
+    {
+      "type": "point",
+      "title": "Per il lavoro di tutti i giorni",
+      "body": "Anthropic consiglia Claude Opus 5.5 per la maggior parte del lavoro quotidiano. Fable e Mythos servono ai progetti più ambiziosi. Per compiti leggeri ci sono Sonnet 5.5 e Haiku 5.5."
+    },
+    {
+      "type": "point",
+      "title": "Disponibilità e prezzi",
+      "body": "Per sviluppatori: 8 dollari ogni milione di token in ingresso e 40 in uscita. Disponibilità in Italia non ancora annunciata."
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Se usi Claude per scrivere e analizzare, parti da Opus 5.5",
+        "Prova Fable solo se hai un problema tecnico lungo e complesso",
+        "Controlla nel tuo piano quale modello è incluso"
+      ]
+    }
+  ],
+  "caption": "Anthropic ha due nuovi modelli. Ma per la maggior parte di noi non cambia la scelta di tutti i giorni.\n\nIl 9 novembre sono arrivati Claude Fable 5.2 e Mythos 5.2, pensati per lavori tecnici molto difficili. Mythos è riservato a organizzazioni verificate.\n\nAnthropic consiglia Opus 5.5 per il lavoro quotidiano e modelli più piccoli per i compiti leggeri.\n\nIn concreto: per scrivere, riassumere e analizzare, non serve cambiare modello.\n\nTu quale modello usi di solito?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#claude", "#anthropic", "#tecnologia", "#produttività"]
+}
