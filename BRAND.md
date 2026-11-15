@@ -49,5 +49,16 @@ topic: `#produttività #lavoro #aiact #prompt #tecnologia #smartworking #pmi`). 
 
 ## Visual identity (render/style.css)
 Carbon background with a concrete grain, one accent: acid lime `#c8ff2e`. Space Grotesk for titles, Inter for text,
-JetBrains Mono for prompts. "In concreto" is the full-lime signature slide. No stock photos, no logos, no screenshots of other
-people's content (copyright): the design is typographic.
+JetBrains Mono for prompts. "In concreto" is the full-lime signature slide.
+
+## Cover images
+The cover has a picture on top (the inner slides stay typographic, they're for reading). Two kinds:
+1. **AI-generated (default):** write `image_prompt` on the cover slide: one or two English sentences describing a single,
+   concrete visual metaphor for the story (an object, a scene). The house style (dark concrete, one lime light, empty bottom
+   third) is added automatically. No people, faces, logos, brand names, text or screens; don't name products in the prompt.
+   The slide shows "Immagine generata con AI".
+   Good: "A matte black wallet on a concrete pedestal, a glowing fingerprint on its surface." Bad: "The ChatGPT logo on a phone".
+2. **Official image:** for a company's own announcement, the header image of that announcement page (usually its `og:image`)
+   may be saved as `drafts/<id>/cover.jpg`, with `"image_credit": "<Company>"` on the cover. Only images the company
+   published itself; never photos from agencies or newspapers (Reuters, Getty, ANSA…), never pictures of people.
+   When in doubt, use an AI image.

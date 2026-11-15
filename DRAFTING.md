@@ -28,6 +28,8 @@ Read `BRAND.md` first, every run. The accuracy rules there come before everythin
    - `id`: today's date + a short slug, e.g. `2026-11-16-gemini-gmail-riassunti` (max 48 characters).
    - `created`: now, ISO with timezone. `story_key`: the primary source URL. `sources`: the pages you used (name + url).
    - 4–6 slides total is the sweet spot: cover, 2–4 middle slides, "concreto".
+   - Cover picture: an `image_prompt` on the cover (see "Cover images" in BRAND.md), or the official announcement image
+     saved as `drafts/<id>/cover.jpg` plus `image_credit`. The workflow generates the AI image when it renders.
 7. `python3 tools/validate.py` and fix every problem it reports (it checks every draft, lengths, banned hype words).
 8. Re-read each draft once as the reader would: is every sentence true, clear, and useful? Is the cover title something you'd
    stop scrolling for, and does the post deliver what it promises?

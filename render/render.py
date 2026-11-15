@@ -90,11 +90,15 @@ class Browser:
 
 
 # ---------------------------------------------------------------- slides
-def frame(inner, page, total, kind_label=None, source=None, last=False):
+def frame(inner, page, total, kind_label=None, source=None, last=False, image=None, credit=None):
     top = f'<div class="top"><div class="brand"><b>AI</b>CONCRETA</div><div class="pg">{page}/{total}</div></div>'
     left = esc(f"Fonte: {source}") if source else HANDLE
     right = "" if last else '<span class="next">Scorri <i>→</i></span>'
-    return (f'<div class="bg"></div><div class="grain"></div>{top}<div class="content">{inner}</div>'
+    pic = ""
+    if image:
+        tag = esc(f"Immagine: {credit}") if credit else "Immagine generata con AI"
+        pic = f'<div class="pic"><img src="file://{image}"><div class="fade"></div><span class="credit">{tag}</span></div>'
+    return (f'<div class="bg"></div>{pic}<div class="grain"></div>{top}<div class="content">{inner}</div>'
             f'<div class="rule"></div><div class="bottom"><span>{left}</span>{right}</div>')
 
 
@@ -122,7 +126,7 @@ def slide_html(s, kind):
     raise ValueError(t)
 
 
-def render_post(post_path, out_dir=None):
+def render_post(post_path, out_dir=None, with_images=True):
     post = json.load(open(post_path, encoding="utf-8"))
     problems = postspec.check(post, os.path.basename(os.path.dirname(os.path.abspath(post_path))))
     if problems:
@@ -133,6 +137,13 @@ def render_post(post_path, out_dir=None):
     for s in slides:
         if s["type"] == "point":
             n += 1; s["_n"] = n
+    image, credit = (None, None)
+    if with_images:
+        import images
+        try:
+            image, credit = images.cover_image(post)
+        except Exception as e:                                    # no picture is better than no post
+            print(f"{post['id']}: cover image failed ({e}), typographic cover")
     tmp = out_dir + ".tmp"
     shutil.rmtree(tmp, ignore_errors=True); os.makedirs(tmp)
     bad, b = [], Browser()
@@ -140,7 +151,9 @@ def render_post(post_path, out_dir=None):
         for i, s in enumerate(slides, 1):
             inner, cls = slide_html(s, post["kind"])
             source = post["sources"][0]["name"] if s["type"] == "cover" and post.get("sources") else None
-            im, fit = b.shot(frame(inner, i, len(slides), source=source, last=i == len(slides)), "s-" + cls, FEED)
+            pic = image if s["type"] == "cover" else None
+            im, fit = b.shot(frame(inner, i, len(slides), source=source, last=i == len(slides), image=pic, credit=credit),
+                             "s-" + cls + (" has-img" if pic else ""), FEED)
             im.save(os.path.join(tmp, f"{i:02d}.jpg"), quality=92, optimize=True)
             if fit["overflow"]:
                 bad.append(f"slide {i} ({s['type']}): text does not fit")

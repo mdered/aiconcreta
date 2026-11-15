@@ -8,7 +8,9 @@
                                                 # (evergreen prompt posts: "evergreen:<slug>", sources may be [])
   "sources": [{"name": "Google", "url": "https://blog.google/..."}],
   "slides": [                                   # 3-7 slides; the closing "follow" slide is added automatically
-    {"type": "cover", "title": "Gemini ora *scrive le mail* al posto tuo", "sub": "optional line under the title"},
+    {"type": "cover", "title": "Gemini ora *scrive le mail* al posto tuo", "sub": "optional line under the title",
+     "image_prompt": "English scene description for the AI cover (see BRAND.md)",   # optional
+     "image_credit": "Google"},                 # only with drafts/<id>/cover.jpg from the company's own announcement
     {"type": "point", "title": "...", "body": "..."},
     {"type": "list", "title": "...", "items": ["...", "..."]},
     {"type": "prompt", "title": "...", "prompt": "...", "note": "optional"},
@@ -23,7 +25,7 @@ import datetime, re
 
 KINDS = {"news": "Novità", "tool": "Tool", "prompt": "Prompt", "italia": "Italia"}
 LIMITS = {  # characters
-    "cover.title": 80, "cover.sub": 140, "point.title": 70, "point.body": 300, "list.title": 70, "list.item": 110,
+    "cover.title": 80, "cover.sub": 140, "cover.image_prompt": 500, "cover.image_credit": 40, "point.title": 70, "point.body": 300, "list.title": 70, "list.item": 110,
     "prompt.title": 70, "prompt.prompt": 420, "prompt.note": 120, "concreto.item": 120, "caption": 1600,
 }
 AI_NOTE = "Contenuto preparato con l'aiuto dell'AI e verificato dalla redazione."
@@ -73,6 +75,10 @@ def check(post, folder_name=None):
             length("cover.title", s.get("title"))
             if s.get("sub"):
                 length("cover.sub", s["sub"])
+            if s.get("image_prompt"):
+                length("cover.image_prompt", s["image_prompt"])
+            if s.get("image_credit"):
+                length("cover.image_credit", s["image_credit"])
         elif t == "point":
             length("point.title", s.get("title")); length("point.body", s.get("body"))
         elif t == "list":

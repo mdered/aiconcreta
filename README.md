@@ -7,7 +7,7 @@ by a human on Telegram** before anything is published.
 06:30  Claude Code (scheduled cloud agent, DRAFTING.md) ── writes 3 drafts ──► drafts/<id>/post.json ──► git push
           │
 GitHub Actions, every 10 min (pipeline.py)
-          ├─ render   drafts → media/<id>/NN.jpg (headless Chrome)
+          ├─ render   drafts → media/<id>/NN.jpg (headless Chrome; AI cover image via Gemini)
           ├─ notify   album + caption + buttons on Telegram
           ├─ poll     ✅ Programma (next free slot: 12:30 / 18:30) · ⚡ Subito · ❌ Scarta · ↩️ Annulla
           ├─ expire   unanswered after 36 h
@@ -45,15 +45,18 @@ python3 tools/fetch_feeds.py                        # today's uncovered news
 3. **Instagram**: @aiconcreta must be a professional (Creator or Business) account linked to a Facebook Page. Get a Page
    token the same way as for @fondamentali.gym (Meta app → Facebook Login → long-lived Page token) and its IG user id.
    Repo secrets: `IG_TOKEN`, `IG_USER_ID`.
-4. **Drafting agent**: a Claude Code scheduled cloud agent on this repo, daily at 06:30 Europe/Rome, prompt:
+4. **Cover images**: repo secret `GEMINI_API_KEY` (the same Google AI Studio key as for the Colosso photos, about €0.12 per
+   cover). Without it the covers stay typographic.
+5. **Drafting agent**: a Claude Code scheduled cloud agent on this repo, daily at 06:30 Europe/Rome, prompt:
    "Follow DRAFTING.md."
-5. Watch a few days in **test mode** (Telegram tells you what it would have published). Then repo variable `LIVE` = `true`.
+6. Watch a few days in **test mode** (Telegram tells you what it would have published). Then repo variable `LIVE` = `true`.
    Optional variable `SLOTS` (default `12:30,18:30`).
 
 ## Rules
 - Nothing is published without a ✅ or ⚡ on Telegram. Only the configured chat can approve.
 - A post is published once (`state/posts.json`), at most one per run, and never more than 12 hours late.
 - Captions end with the source and "Contenuto preparato con l'aiuto dell'AI e verificato dalla redazione."
-- No photos, logos or screenshots of other people's content: the slides are typographic.
+- Cover pictures are AI-generated in the house style, or the company's own announcement image with a credit; never agency
+  photos, logos or other people's screenshots. Inner slides are typographic.
 
 TikTok comes later: its Content Posting API only posts privately until the app passes TikTok's audit.

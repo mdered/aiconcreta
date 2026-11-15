@@ -82,3 +82,14 @@ h2 { font: 700 calc(70px * var(--k))/1.06 "Space Grotesk"; letter-spacing: -0.02
 .pp { text-align: center; color: var(--ink); }
 .pp .ai { font: 700 520px/0.8 "Space Grotesk"; letter-spacing: -0.06em; }
 .pp .word { margin-top: 40px; font: 700 92px/1 "Space Grotesk"; letter-spacing: .14em; }
+
+/* cover with a picture: the image fills the top, fades into the background, the text sits in the bottom part */
+.pic { position: absolute; inset: 0 0 auto 0; height: 1000px; z-index: 1; }
+.pic img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pic .fade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(17,18,20,.55) 0%, rgba(17,18,20,0) 18%,
+  rgba(17,18,20,0) 45%, rgba(17,18,20,.85) 78%, #111214 100%); }
+.pic .credit { position: absolute; right: 72px; top: 132px; font: 500 20px/1 "Inter"; color: rgba(255,255,255,.62); letter-spacing: .02em; }
+#stage.has-img .content { top: 560px; justify-content: flex-end; }
+#stage.has-img h1 { font-size: calc(92px * var(--k)); text-shadow: 0 4px 30px rgba(0,0,0,.6); }
+#stage.has-img .sub { margin-top: calc(28px * var(--k)); font-size: calc(38px * var(--k)); color: #c9cbd0; }
+#stage.has-img .kicker { margin-bottom: calc(28px * var(--k)); }
