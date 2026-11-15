@@ -1,0 +1,49 @@
+{
+  "id": "2026-11-15-prompt-spiega-documento",
+  "kind": "prompt",
+  "created": "2026-11-15T22:00:00+01:00",
+  "story_key": "evergreen:prompt-spiega-documento",
+  "sources": [],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Capisci un *documento difficile* in 2 minuti",
+      "sub": "Il prompt da copiare per ChatGPT, Claude o Gemini.",
+      "image_prompt": "A dense stack of paper sheets on a concrete table, with one sheet lit by a lime light and unfolding into a simple clear diagram."
+    },
+    {
+      "type": "point",
+      "title": "Quando ti serve",
+      "body": "Una circolare, un manuale, un testo pieno di burocratese. Prima di leggerlo tutto, ti serve la mappa."
+    },
+    {
+      "type": "prompt",
+      "title": "Incolla il testo, poi questo:",
+      "prompt": "Spiegami il testo qui sopra in italiano semplice, come a una persona che non è del settore.\n1. Di cosa parla, in 2 righe\n2. I punti importanti, massimo 5\n3. Cosa devo fare io e entro quando, solo se è scritto nel testo\nSe qualcosa non è chiaro, dimmelo invece di inventare."
+    },
+    {
+      "type": "list",
+      "title": "Perché funziona",
+      "items": [
+        "Chiedi un linguaggio semplice e un formato preciso",
+        "\"Solo se è scritto nel testo\" evita scadenze inventate",
+        "Ti dice dove il testo è ambiguo, invece di tirare a indovinare"
+      ]
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Usalo per capire, poi controlla le parti importanti nel testo originale",
+        "Per contratti, tasse e questioni legali chiedi sempre a un professionista"
+      ]
+    }
+  ],
+  "caption": "Un testo di dieci pagine che non hai voglia di leggere?\n\nCopia il prompt dalla slide 3 e incolla il documento: ti restituisce di cosa parla, i punti chiave e cosa devi fare.\n\nIn concreto: è una mappa, non un parere. Le parti che contano le rileggi tu.\n\nQual è il documento più incomprensibile che hai dovuto leggere?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#prompt",
+    "#produttività",
+    "#lavoro"
+  ]
+}

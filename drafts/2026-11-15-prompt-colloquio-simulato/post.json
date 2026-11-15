@@ -1,0 +1,49 @@
+{
+  "id": "2026-11-15-prompt-colloquio-simulato",
+  "kind": "prompt",
+  "created": "2026-11-15T22:00:00+01:00",
+  "story_key": "evergreen:prompt-colloquio-simulato",
+  "sources": [],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Allenati al colloquio con *un finto selezionatore*",
+      "sub": "Il prompt da copiare per ChatGPT, Claude o Gemini.",
+      "image_prompt": "An empty chair facing a concrete desk with a single lime spotlight on it, as if waiting for someone to sit down."
+    },
+    {
+      "type": "point",
+      "title": "Quando ti serve",
+      "body": "Hai un colloquio la prossima settimana e vuoi arrivarci preparato. Puoi fare le prove con l'AI, tutte le volte che vuoi."
+    },
+    {
+      "type": "prompt",
+      "title": "Scrivi ruolo e azienda, poi questo:",
+      "prompt": "Fai il selezionatore per il ruolo di [ruolo] in [azienda o settore].\nFammi una domanda alla volta, aspetta la mia risposta e poi dammi un commento breve: cosa va bene e cosa migliorare.\nDopo 5 domande, dammi un voto da 1 a 10 e 3 consigli."
+    },
+    {
+      "type": "list",
+      "title": "Perché funziona",
+      "items": [
+        "Una domanda alla volta: sembra un colloquio vero",
+        "Il commento dopo ogni risposta ti fa correggere subito",
+        "Voto e consigli finali: sai su cosa lavorare"
+      ]
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Rispondi ad alta voce prima di scrivere: è più simile al colloquio vero",
+        "Non inserire dati riservati di aziende o di altre persone"
+      ]
+    }
+  ],
+  "caption": "Colloquio la prossima settimana? Fai le prove prima.\n\nCopia il prompt dalla slide 3, scrivi ruolo e azienda e rispondi a 5 domande. Dopo ogni risposta ricevi un commento, alla fine voto e 3 consigli.\n\nIn concreto: è un allenamento, le domande vere saranno diverse.\n\nQual è la domanda che ti mette più in difficoltà?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#prompt",
+    "#lavoro",
+    "#carriera"
+  ]
+}

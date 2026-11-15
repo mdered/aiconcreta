@@ -1,0 +1,49 @@
+{
+  "id": "2026-11-15-prompt-priorita-settimana",
+  "kind": "prompt",
+  "created": "2026-11-15T22:00:00+01:00",
+  "story_key": "evergreen:prompt-priorita-settimana",
+  "sources": [],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Pianifica la settimana in *10 minuti*",
+      "sub": "Il prompt da copiare per ChatGPT, Claude o Gemini.",
+      "image_prompt": "A concrete slab with a few stacked blocks neatly ordered by size, lit by a single lime light."
+    },
+    {
+      "type": "point",
+      "title": "Quando ti serve",
+      "body": "Hai venti cose da fare e non sai da dove partire. Un buon prompt ti aiuta a scegliere, non a fare di più."
+    },
+    {
+      "type": "prompt",
+      "title": "Scrivi la tua lista, poi questo:",
+      "prompt": "Ecco tutto quello che ho da fare questa settimana, con le scadenze che conosco.\nOrdina le attività per priorità: prima urgenti e importanti.\nPoi proponi un piano giorno per giorno, massimo 3 attività al giorno.\nDimmi cosa conviene rimandare o delegare."
+    },
+    {
+      "type": "list",
+      "title": "Perché funziona",
+      "items": [
+        "Il limite di 3 attività al giorno evita piani irrealistici",
+        "Chiedi cosa rimandare: è la parte che di solito eviti",
+        "Il piano è una proposta: lo aggiusti in un minuto"
+      ]
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Fallo il lunedì mattina o la domenica sera",
+        "Aggiungi le scadenze vere: l'AI non le conosce se non gliele dici"
+      ]
+    }
+  ],
+  "caption": "Venti cose da fare e nessuna priorità?\n\nCopia il prompt dalla slide 3, incolla la tua lista e chiedi un piano con massimo 3 attività al giorno. Ti dice anche cosa rimandare.\n\nIn concreto: scrivi le scadenze vere, il piano lo decidi sempre tu.\n\nCome organizzi di solito la tua settimana?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#prompt",
+    "#produttività",
+    "#lavoro"
+  ]
+}
