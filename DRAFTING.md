@@ -7,7 +7,7 @@ on Telegram; nothing you write is published without that. The GitHub workflow re
 Read `BRAND.md` first, every run. The accuracy rules there come before everything else.
 
 ## Steps
-1. `git pull --rebase`
+1. `git fetch -q origin main && git checkout -q -B main origin/main` (cloud checkouts can start on a detached HEAD)
 2. `python3 tools/recent.py`: what was covered in the last 30 days and the mix of the last 7. Don't repeat a story, and
    steer the mix toward BRAND.md (about 50% news, 15% tool, 15% prompt, 20% italia).
 3. `python3 tools/fetch_feeds.py`: uncovered news of the last 36 hours. If it's thin (weekend), use `--hours 72`. Also check
@@ -36,7 +36,7 @@ Read `BRAND.md` first, every run. The accuracy rules there come before everythin
 8. Re-read each draft once as the reader would: is every sentence true, clear, and useful? Is the cover title something you'd
    stop scrolling for, and does the post deliver what it promises?
 9. Commit and push only `drafts/`:
-   `git add drafts && git commit -m "Bozze <date>" && git pull --rebase && git push`
+   `git add drafts && git commit -m "Bozze <date>" && git pull --rebase origin main && git push origin HEAD:main`
 
 ## Don'ts
 - Don't edit `state/`, `media/`, the workflow or the scripts during a drafting run.
