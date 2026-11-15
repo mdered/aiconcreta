@@ -24,10 +24,18 @@ Curious about AI and already trying ChatGPT, but not technical. They want to sav
 ## Accuracy rules (non-negotiable)
 1. Every fact must be in a source you opened today. Prefer the primary source (the company's own post) over press.
 2. Numbers, dates, prices, model names and quotes are copied exactly, never estimated or "rounded up".
-3. Availability: say whether it works in Italy/EU only if the source says so; otherwise "disponibilità in Italia non ancora annunciata".
+3. Availability: mention Italy/EU only when it's a real question (a new feature or product that may be US-only). Then say
+   what the source says, or "disponibilità in Italia non ancora annunciata" if it says nothing. Never write that line about
+   a product people in Italy already use (ChatGPT, Claude, Gemini, Copilot…) unless the source says the feature is limited.
 4. No rumors, leaks, "secondo indiscrezioni", stock tips, medical, legal or financial advice.
 5. People: don't make posts about a private person; for public figures stick to what they did or said on record, no gossip.
-6. If you're not sure about something, leave it out. A shorter true post beats a complete wrong one.
+6. If you're not sure about something, leave it out. A shorter true post beats a complete wrong one. If what's left is too
+   thin to be useful, drop the story; never fill the gap by telling the reader what you couldn't find.
+7. **Laws and rules (AI Act, Italian decrees, Garante, AgID):** only with the official text or the authority's own page
+   (EUR-Lex, Gazzetta Ufficiale, the authority's site) plus one reliable outlet, and after a search for later changes
+   (postponements, amendments, guidelines). Include the exceptions that matter. If any of this fails, skip the topic.
+8. **The page speaks as a newsroom, never as the drafting process.** No "ho letto", "non ho trovato", "secondo la mia
+   ricerca" on slides or in captions. Those notes belong in your run summary.
 
 ## Post anatomy
 - **Cover:** a kicker (automatic: NOVITÀ / TOOL / PROMPT / ITALIA), a title of max ~60 characters with 1–3 *accent words*, optional sub-line.

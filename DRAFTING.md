@@ -26,7 +26,9 @@ Read `BRAND.md` first, every run. The accuracy rules there come before everythin
    If a story's key claim can't be confirmed (e.g. "the first…", a number only one outlet reports), drop the story.
 6. Write each post as `drafts/<id>/post.json` (format: `tools/postspec.py`; example: `examples/`).
    - `id`: today's date + a short slug, e.g. `2026-11-16-gemini-gmail-riassunti` (max 48 characters).
-   - `created`: now, ISO with timezone. `story_key`: the primary source URL. `sources`: the pages you used (name + url).
+   - `created`: now, ISO with timezone. `story_key`: the URL of the specific announcement or article (never a news index
+     page like anthropic.com/news). `sources`: the pages you actually opened (name + url).
+   - News means the last 7 days. An older event is fine only with a new angle, and only once.
    - 4–6 slides total is the sweet spot: cover, 2–4 middle slides, "concreto".
    - Cover picture: an `image_prompt` on the cover (see "Cover images" in BRAND.md), or the official announcement image
      saved as `drafts/<id>/cover.jpg` plus `image_credit`. The workflow generates the AI image when it renders.
