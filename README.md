@@ -9,7 +9,7 @@ by a human on Telegram** before anything is published.
 GitHub Actions, every 10 min (pipeline.py)
           ├─ render   drafts → media/<id>/NN.jpg (headless Chrome; AI cover image via Gemini)
           ├─ notify   album + caption + buttons on Telegram
-          ├─ poll     ✅ Programma (next free slot: 12:30 / 18:30) · ⚡ Subito · ❌ Scarta · ↩️ Annulla
+          ├─ poll     ✅ Programma (next free slot: 12:30 / 18:30) · ⚡ Appena possibile · ❌ Scarta · ↩️ Annulla
           ├─ expire   unanswered after 36 h
           └─ publish  due posts → Instagram carousel (test mode until LIVE=true)
 ```
