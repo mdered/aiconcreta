@@ -10,6 +10,7 @@
       99
     ],
     "created": "2026-11-15T22:00:00+01:00",
+    "decided_at": "2026-11-15T21:20:10+00:00",
     "hash": "7f2d49181f888640aa82680cc6c4e443cafe5e370dd468e47d950a65aefbeda2",
     "images": [
       "media/2026-11-15-aiact-etichetta-contenuti/01.jpg",
@@ -22,8 +23,10 @@
     ],
     "kind": "italia",
     "msg_id": 100,
+    "note": "approved on Telegram; tap lost, applied by hand",
     "sent_at": "2026-11-15T21:12:30+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-18T12:30:00+01:00"
   },
   "2026-11-15-chatgpt-wallet": {
     "album": [
@@ -63,6 +66,7 @@
       91
     ],
     "created": "2026-11-15T22:00:00+01:00",
+    "decided_at": "2026-11-15T21:20:10+00:00",
     "hash": "1468bbf1d951e7b41870c4e660a2c43ca1211ba9427433ab8bac3097c4ca936c",
     "images": [
       "media/2026-11-15-claude-fable-52/01.jpg",
@@ -75,8 +79,10 @@
     ],
     "kind": "news",
     "msg_id": 92,
+    "note": "approved on Telegram; tap lost, applied by hand",
     "sent_at": "2026-11-15T21:11:25+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-17T18:30:00+01:00"
   },
   "2026-11-15-gemini-4-hydrogen-ricerca": {
     "album": [
@@ -115,6 +121,7 @@
       106
     ],
     "created": "2026-11-15T22:00:00+01:00",
+    "decided_at": "2026-11-15T21:20:10+00:00",
     "hash": "cfae283e5d7eaa60bb8c56296a8514f20cfb9534b63ab323ff63a86e56c7a824",
     "images": [
       "media/2026-11-15-italia-decreto-179/01.jpg",
@@ -126,8 +133,10 @@
     ],
     "kind": "italia",
     "msg_id": 107,
+    "note": "approved on Telegram; tap lost, applied by hand",
     "sent_at": "2026-11-15T21:12:31+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-18T18:30:00+01:00"
   },
   "2026-11-15-prompt-colloquio-simulato": {
     "album": [
