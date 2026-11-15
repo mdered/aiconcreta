@@ -4,9 +4,18 @@
   "created": "2026-11-15T22:00:00+01:00",
   "story_key": "https://www.anthropic.com/news",
   "sources": [
-    {"name": "Anthropic (elenco novità, 9 novembre 2026)", "url": "https://www.anthropic.com/news"},
-    {"name": "9to5Mac", "url": "https://9to5mac.com/2026/11/09/anthropic-upgrades-claude-with-new-fable-5-2-model-details-here/"},
-    {"name": "TestingCatalog", "url": "https://www.testingcatalog.com/anthropic-launches-claude-fable-5-2-and-mythos-5-2/"}
+    {
+      "name": "Anthropic (elenco novità, 9 novembre 2026)",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "name": "9to5Mac",
+      "url": "https://9to5mac.com/2026/11/09/anthropic-upgrades-claude-with-new-fable-5-2-model-details-here/"
+    },
+    {
+      "name": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/anthropic-launches-claude-fable-5-2-and-mythos-5-2/"
+    }
   ],
   "slides": [
     {
@@ -32,8 +41,8 @@
     },
     {
       "type": "point",
-      "title": "Disponibilità e prezzi",
-      "body": "Per sviluppatori: 8 dollari ogni milione di token in ingresso e 40 in uscita. Disponibilità in Italia non ancora annunciata."
+      "title": "Per chi sviluppa",
+      "body": "Chi usa Claude tramite API paga 8 dollari per milione di token in ingresso e 40 in uscita. Fable è disponibile anche su AWS, Google Cloud e Microsoft Azure."
     },
     {
       "type": "concreto",
@@ -45,5 +54,12 @@
     }
   ],
   "caption": "Anthropic ha due nuovi modelli. Ma per la maggior parte di noi non cambia la scelta di tutti i giorni.\n\nIl 9 novembre sono arrivati Claude Fable 5.2 e Mythos 5.2, pensati per lavori tecnici molto difficili. Mythos è riservato a organizzazioni verificate.\n\nAnthropic consiglia Opus 5.5 per il lavoro quotidiano e modelli più piccoli per i compiti leggeri.\n\nIn concreto: per scrivere, riassumere e analizzare, non serve cambiare modello.\n\nTu quale modello usi di solito?",
-  "hashtags": ["#intelligenzaartificiale", "#ai", "#claude", "#anthropic", "#tecnologia", "#produttività"]
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#claude",
+    "#anthropic",
+    "#tecnologia",
+    "#produttività"
+  ]
 }
