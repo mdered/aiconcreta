@@ -50,6 +50,30 @@
     "status": "test",
     "when": "2026-11-15T20:31:00+00:00"
   },
+  "2026-11-15-prompt-colloquio-simulato": {
+    "album": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "created": "2026-11-15T22:00:00+01:00",
+    "hash": "74bfc1aefc2e80bda47412aae61bd1fa91cc051ebf4cd66223bef19828700602",
+    "images": [
+      "media/2026-11-15-prompt-colloquio-simulato/01.jpg",
+      "media/2026-11-15-prompt-colloquio-simulato/02.jpg",
+      "media/2026-11-15-prompt-colloquio-simulato/03.jpg",
+      "media/2026-11-15-prompt-colloquio-simulato/04.jpg",
+      "media/2026-11-15-prompt-colloquio-simulato/05.jpg",
+      "media/2026-11-15-prompt-colloquio-simulato/06.jpg"
+    ],
+    "kind": "prompt",
+    "msg_id": 42,
+    "sent_at": "2026-11-15T20:40:28+00:00",
+    "status": "sent"
+  },
   "2026-11-15-prompt-mail-difficile": {
     "album": [
       21,
@@ -72,6 +96,54 @@
     "kind": "prompt",
     "msg_id": 27,
     "sent_at": "2026-11-15T20:24:21+00:00",
+    "status": "sent"
+  },
+  "2026-11-15-prompt-priorita-settimana": {
+    "album": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "created": "2026-11-15T22:00:00+01:00",
+    "hash": "a433863fbbf2a1b779376fd76a1c88d3df899e63cfc4ff2c6bcfff4f8b2b7f14",
+    "images": [
+      "media/2026-11-15-prompt-priorita-settimana/01.jpg",
+      "media/2026-11-15-prompt-priorita-settimana/02.jpg",
+      "media/2026-11-15-prompt-priorita-settimana/03.jpg",
+      "media/2026-11-15-prompt-priorita-settimana/04.jpg",
+      "media/2026-11-15-prompt-priorita-settimana/05.jpg",
+      "media/2026-11-15-prompt-priorita-settimana/06.jpg"
+    ],
+    "kind": "prompt",
+    "msg_id": 49,
+    "sent_at": "2026-11-15T20:40:29+00:00",
+    "status": "sent"
+  },
+  "2026-11-15-prompt-spiega-documento": {
+    "album": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "created": "2026-11-15T22:00:00+01:00",
+    "hash": "045d0ecdd8444b348cfd8de28938f76c7733cebf3c15c6c87da41c3a17f252e0",
+    "images": [
+      "media/2026-11-15-prompt-spiega-documento/01.jpg",
+      "media/2026-11-15-prompt-spiega-documento/02.jpg",
+      "media/2026-11-15-prompt-spiega-documento/03.jpg",
+      "media/2026-11-15-prompt-spiega-documento/04.jpg",
+      "media/2026-11-15-prompt-spiega-documento/05.jpg",
+      "media/2026-11-15-prompt-spiega-documento/06.jpg"
+    ],
+    "kind": "prompt",
+    "msg_id": 56,
+    "sent_at": "2026-11-15T20:40:31+00:00",
     "status": "sent"
   }
 }
