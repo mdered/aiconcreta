@@ -5,7 +5,7 @@ on:
     - cron: "3-59/10 * * * *"      # every 10 minutes (GitHub often starts it a few minutes late)
   push:
     branches: [main]
-    paths: ["drafts/**"]          # new drafts get rendered and sent right away
+    paths: ["drafts/**", "heartbeat.txt"]   # new drafts get rendered right away; heartbeat.txt = backup nudge at publishing times
   workflow_dispatch:
 
 permissions:
