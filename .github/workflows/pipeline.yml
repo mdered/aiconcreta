@@ -2,7 +2,7 @@ name: Pipeline
 
 on:
   schedule:
-    - cron: "*/10 * * * *"        # GitHub often starts it a few minutes late
+    - cron: "3-59/10 * * * *"      # every 10 minutes (GitHub often starts it a few minutes late)
   push:
     branches: [main]
     paths: ["drafts/**"]          # new drafts get rendered and sent right away
