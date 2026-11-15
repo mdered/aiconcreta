@@ -1,7 +1,14 @@
 {
   "2026-11-15-chatgpt-wallet": {
+    "album": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
     "created": "2026-11-15T21:00:00+01:00",
-    "error": "[Errno 39] Directory not empty: '/tmp/tmp1mt8u560/Default'",
     "hash": "29344bc8cda10890681ce552e06ff4ea36488aa815b513e7499313c5d21eb781",
     "images": [
       "media/2026-11-15-chatgpt-wallet/01.jpg",
@@ -12,7 +19,9 @@
       "media/2026-11-15-chatgpt-wallet/06.jpg"
     ],
     "kind": "news",
-    "status": "render_failed"
+    "msg_id": 34,
+    "sent_at": "2026-11-15T20:25:22+00:00",
+    "status": "sent"
   },
   "2026-11-15-gemini-4-hydrogen-ricerca": {
     "album": [
