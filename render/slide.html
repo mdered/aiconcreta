@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><title>AI Concreta slide</title>
+<link rel="stylesheet" href="style.css"></head>
+<body><div id="stage"></div>
+<script>
+// render.py calls show(html, cls, W, H): draws one slide, shrinks the text until it fits, and reports any overflow.
+window.show = async function (html, cls, W, H) {
+  const st = document.getElementById('stage');
+  st.className = cls; st.style.setProperty('--W', W + 'px'); st.style.setProperty('--H', H + 'px');
+  st.style.setProperty('--k', 1);
+  st.innerHTML = html;
+  await document.fonts.ready;
+  await Promise.all([...document.images].map(i => i.decode().catch(() => {})));
+  const c = st.querySelector('.content'), inner = c && c.firstElementChild;
+  if (!inner) return { overflow: false, k: 1 };
+  const over = () => inner.offsetHeight > c.clientHeight + 1 ||
+    [...inner.querySelectorAll('*')].some(e => e.scrollWidth > e.clientWidth + 1 && getComputedStyle(e).overflow !== 'visible') ||
+    inner.scrollWidth > c.clientWidth + 1;
+  let k = 1;                                                   // every size in style.css is multiplied by --k
+  while (over() && k > 0.72) { k = +(k - 0.02).toFixed(2); st.style.setProperty('--k', k); }
+  return { overflow: over(), k };
+};
+window.READY = true;
+</script>
+</body></html>

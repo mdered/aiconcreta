@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-15-prompt-mail-difficile",
+  "kind": "prompt",
+  "created": "2026-11-15T21:00:00+01:00",
+  "story_key": "evergreen:mail-difficile",
+  "sources": [],
+  "slides": [
+    {"type": "cover", "title": "Rispondi a una *mail difficile* senza perdere la calma", "sub": "Il prompt da copiare per ChatGPT, Claude o Gemini."},
+    {"type": "point", "title": "Quando ti serve", "body": "Un cliente arrabbiato, un collega che pretende tutto per ieri, una richiesta a cui devi dire di no. Scrivere a caldo è il modo più veloce per peggiorare le cose."},
+    {"type": "prompt", "title": "Incolla la mail, poi questo:", "prompt": "Scrivi una risposta a questa mail.\nObiettivo: [cosa vuoi ottenere]\nTono: cortese ma fermo, senza scuse inutili.\nMassimo 120 parole.\nPoi dammi una seconda versione più diretta."},
+    {"type": "list", "title": "Perché funziona", "items": ["Dichiari l'obiettivo: la risposta punta lì", "Il tono è deciso da te, non dalla rabbia", "Due versioni: scegli e aggiusti in un minuto"]},
+    {"type": "concreto", "items": ["Togli nomi e dati riservati prima di incollare la mail", "Rileggi sempre: la firma e la responsabilità restano tue"]}
+  ],
+  "caption": "La mail che ti ha rovinato la mattina? Rispondi così.\n\nCopia il prompt dalla slide 3, incolla la mail ricevuta e scrivi cosa vuoi ottenere. In pochi secondi hai due risposte, una cortese e una più diretta.\n\nIn concreto: togli i dati riservati prima di incollare, e rileggi sempre prima di inviare.\n\nQual è la mail più difficile a cui hai dovuto rispondere?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#prompt", "#lavoro", "#produttività"]
+}

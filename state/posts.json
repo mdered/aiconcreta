@@ -1,0 +1,44 @@
+{
+  "2026-11-15-chatgpt-wallet": {
+    "created": "2026-11-15T21:00:00+01:00",
+    "hash": "ca669dd10143b506a7f3ebc3cd879a014f6054fd957c44d46ba12419d20ddc86",
+    "images": [
+      "media/2026-11-15-chatgpt-wallet/01.jpg",
+      "media/2026-11-15-chatgpt-wallet/02.jpg",
+      "media/2026-11-15-chatgpt-wallet/03.jpg",
+      "media/2026-11-15-chatgpt-wallet/04.jpg",
+      "media/2026-11-15-chatgpt-wallet/05.jpg",
+      "media/2026-11-15-chatgpt-wallet/06.jpg"
+    ],
+    "kind": "news",
+    "status": "rendered"
+  },
+  "2026-11-15-gemini-4-hydrogen-ricerca": {
+    "created": "2026-11-15T21:00:00+01:00",
+    "hash": "8fd231ecc1f6fd55d4909102766a8150bd3ef35b298c20dcfe2aebb87ee9641a",
+    "images": [
+      "media/2026-11-15-gemini-4-hydrogen-ricerca/01.jpg",
+      "media/2026-11-15-gemini-4-hydrogen-ricerca/02.jpg",
+      "media/2026-11-15-gemini-4-hydrogen-ricerca/03.jpg",
+      "media/2026-11-15-gemini-4-hydrogen-ricerca/04.jpg",
+      "media/2026-11-15-gemini-4-hydrogen-ricerca/05.jpg",
+      "media/2026-11-15-gemini-4-hydrogen-ricerca/06.jpg"
+    ],
+    "kind": "news",
+    "status": "rendered"
+  },
+  "2026-11-15-prompt-mail-difficile": {
+    "created": "2026-11-15T21:00:00+01:00",
+    "hash": "83c8f53f0be3d9af31042ec9e6584f1b60d83b5f6faf2a6962be69ae919b890a",
+    "images": [
+      "media/2026-11-15-prompt-mail-difficile/01.jpg",
+      "media/2026-11-15-prompt-mail-difficile/02.jpg",
+      "media/2026-11-15-prompt-mail-difficile/03.jpg",
+      "media/2026-11-15-prompt-mail-difficile/04.jpg",
+      "media/2026-11-15-prompt-mail-difficile/05.jpg",
+      "media/2026-11-15-prompt-mail-difficile/06.jpg"
+    ],
+    "kind": "prompt",
+    "status": "rendered"
+  }
+}

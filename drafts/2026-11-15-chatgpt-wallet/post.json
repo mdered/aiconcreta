@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-15-chatgpt-wallet",
+  "kind": "news",
+  "created": "2026-11-15T21:00:00+01:00",
+  "story_key": "https://openai.com/index/introducing-chatgpt-wallet",
+  "sources": [
+    {"name": "TechCrunch", "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "ChatGPT ora può *comprare per te*", "sub": "Si chiama Wallet. Per ora solo negli Stati Uniti: ecco come funziona."},
+    {"type": "point", "title": "Come funziona", "body": "Gli agenti di ChatGPT, chiamati dots, ti aiutano a scegliere i prodotti e completano l'acquisto. Prima di pagare vedi articoli, totale e carta, e confermi con Face ID o impronta."},
+    {"type": "point", "title": "E i dati della carta?", "body": "La carta si aggiunge una volta sola. A ogni acquisto il negozio riceve un codice al posto del numero della carta, più indirizzo di spedizione e contatti. Restano i vantaggi e le tutele della tua carta."},
+    {"type": "point", "title": "Chi può usarlo", "body": "Per ora un numero limitato di abbonati Pro negli Stati Uniti, maggiorenni, con una carta Visa, Mastercard o American Express emessa negli USA. Per l'Italia non c'è ancora una data."},
+    {"type": "concreto", "items": ["Oggi in Italia non devi fare nulla: non è ancora disponibile", "Quando arriverà, usa i limiti di spesa che OpenAI ha annunciato", "Gli acquisti fatti dall'AI vanno sempre controllati, come quelli di una persona"]}
+  ],
+  "caption": "ChatGPT ora può fare acquisti al posto tuo. Ma non ancora in Italia.\n\nCon ChatGPT Wallet gli agenti di OpenAI scelgono i prodotti e completano il pagamento. Tu controlli articoli e totale, poi confermi con Face ID o impronta.\n\nPer ora è solo per alcuni abbonati Pro negli Stati Uniti. OpenAI ha annunciato anche limiti di spesa per categoria e periodo.\n\nIn concreto: è un'anteprima di quello che arriverà. Meglio sapere già come funziona.\n\nLasceresti fare la spesa a un'AI?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#openai", "#shopping", "#tecnologia"]
+}

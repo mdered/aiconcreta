@@ -1,0 +1,47 @@
+name: Pipeline
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"        # GitHub often starts it a few minutes late
+  push:
+    branches: [main]
+    paths: ["drafts/**"]          # new drafts get rendered and sent right away
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet pillow websocket-client
+      - name: Poll, render, notify, expire, publish
+        env:
+          CHROME: google-chrome
+          LIVE: ${{ vars.LIVE }}
+          SLOTS: ${{ vars.SLOTS }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python pipeline.py
+      - name: Save state and slides
+        if: always()
+        run: |
+          git add state media
+          if ! git diff --cached --quiet; then
+            git config user.name "pipeline"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -q -m "Pipeline: state and slides"
+            for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          fi

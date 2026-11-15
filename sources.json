@@ -1,0 +1,27 @@
+{
+  "_doc": "News feeds read by tools/fetch_feeds.py. 'filter': keep only items whose title or summary contains one of these words (for general feeds). 'type': lab = primary source (the company itself), press = news outlet, it = Italian outlet, tools = hands-on tool blogs.",
+  "feeds": [
+    {"name": "OpenAI", "url": "https://openai.com/news/rss.xml", "type": "lab"},
+    {"name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "type": "lab"},
+    {"name": "Google", "url": "https://blog.google/technology/ai/rss/", "type": "lab"},
+    {"name": "Microsoft", "url": "https://news.microsoft.com/source/topics/ai/feed/", "type": "lab"},
+    {"name": "Meta", "url": "https://about.fb.com/news/feed/", "type": "lab", "filter": ["AI", "Llama", "Meta AI"]},
+    {"name": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml", "type": "lab"},
+    {"name": "The Verge", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "type": "press"},
+    {"name": "TechCrunch", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "type": "press"},
+    {"name": "Ars Technica", "url": "https://arstechnica.com/ai/feed/", "type": "press"},
+    {"name": "MIT Technology Review", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "type": "press"},
+    {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "type": "tools"},
+    {"name": "AI4Business", "url": "https://www.ai4business.it/feed/", "type": "it"},
+    {"name": "Agenda Digitale", "url": "https://www.agendadigitale.eu/feed/", "type": "it", "filter": ["intelligenza artificiale", "AI", "IA", "AI Act"]},
+    {"name": "Wired Italia", "url": "https://www.wired.it/feed/rss", "type": "it", "filter": ["intelligenza artificiale", "AI", "IA", "ChatGPT", "Gemini", "Claude", "OpenAI"]},
+    {"name": "ANSA", "url": "https://www.ansa.it/sito/notizie/tecnologia/tecnologia_rss.xml", "type": "it", "filter": ["intelligenza artificiale", "AI", "IA", "ChatGPT", "Gemini", "OpenAI"]},
+    {"name": "HDblog", "url": "https://www.hdblog.it/feed/", "type": "it", "filter": ["intelligenza artificiale", "AI", "IA", "ChatGPT", "Gemini", "Claude", "Copilot"]},
+    {"name": "DDay.it", "url": "https://www.dday.it/rss", "type": "it", "filter": ["intelligenza artificiale", "AI", "IA", "ChatGPT", "Gemini", "Claude", "Copilot"]}
+  ],
+  "check_by_hand": [
+    "https://www.anthropic.com/news (no RSS feed)",
+    "https://ai.meta.com/blog/ (no RSS feed)",
+    "https://mistral.ai/news (no RSS feed)"
+  ]
+}

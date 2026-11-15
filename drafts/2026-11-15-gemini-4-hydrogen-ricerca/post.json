@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-15-gemini-4-hydrogen-ricerca",
+  "kind": "news",
+  "created": "2026-11-15T21:00:00+01:00",
+  "story_key": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "sources": [
+    {"name": "Google", "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"},
+    {"name": "Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "Google ora capisce le tue *domande complicate*", "sub": "Arriva Gemini 4 Hydrogen, il nuovo modello veloce di Google. Nella ricerca è per tutti."},
+    {"type": "point", "title": "Cosa cambia nella ricerca", "body": "Puoi scrivere domande lunghe, con più richieste insieme o qualche errore di battitura. Google le divide in tante ricerche in parallelo e risponde con più link, immagini e tabelle di confronto."},
+    {"type": "list", "title": "Dove lo trovi", "items": ["Ricerca Google: per tutti gli utenti, in arrivo in tutto il mondo", "App Gemini: chi la usa gratis lo riceve con la scelta automatica del modello", "Google Fogli: prima per gli abbonati AI Pro e Ultra"]},
+    {"type": "point", "title": "Il limite da conoscere", "body": "Hydrogen è il modello pensato per la velocità, non per i ragionamenti lunghi: per quelli Google ha modelli più potenti. E i miglioramenti dichiarati sono test di Google, non ancora verificati da altri."},
+    {"type": "concreto", "items": ["Prova a cercare con una domanda intera, come la faresti a un collega", "Apri sempre i link: anche la risposta migliore può sbagliare"]}
+  ],
+  "caption": "Google ora capisce le domande lunghe e complicate.\n\nCon Gemini 4 Hydrogen, la Ricerca divide la tua domanda in tante ricerche in parallelo e risponde con più link, immagini e tabelle. Google dice che è per tutti gli utenti, in tutto il mondo.\n\nNell'app Gemini gratuita arriva con la scelta automatica del modello.\n\nIn concreto: cerca come parleresti a un collega, poi controlla le fonti.\n\nQual è la domanda più complicata che hai mai fatto a Google?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#google", "#gemini", "#tecnologia", "#produttività"]
+}

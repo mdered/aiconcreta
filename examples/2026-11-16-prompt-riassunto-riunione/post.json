@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-16-prompt-riassunto-riunione",
+  "kind": "prompt",
+  "created": "2026-11-16T06:40:00+01:00",
+  "story_key": "evergreen:riassunto-riunione",
+  "sources": [],
+  "slides": [
+    {"type": "cover", "title": "Trasforma un'ora di riunione in *5 righe utili*", "sub": "Il prompt da copiare per ChatGPT, Claude o Gemini."},
+    {"type": "point", "title": "Il problema", "body": "Gli appunti di una riunione sono lunghi e disordinati. Quello che serve davvero sono le decisioni, chi fa cosa e le scadenze."},
+    {"type": "prompt", "title": "Incolla gli appunti, poi questo:", "prompt": "Sei il mio assistente. Dagli appunti qui sopra estrai:\n1. Le decisioni prese\n2. Chi fa cosa, con la scadenza\n3. Le domande rimaste aperte\nMassimo 5 righe. Non inventare nulla che non sia negli appunti."},
+    {"type": "list", "title": "Perché funziona", "items": ["Dai un ruolo e un formato preciso", "Limiti la lunghezza: niente muri di testo", "\"Non inventare\" riduce gli errori"]},
+    {"type": "concreto", "items": ["Usalo subito dopo ogni riunione", "Controlla sempre nomi e date prima di inviare il riassunto"]}
+  ],
+  "caption": "Un'ora di riunione, 5 righe di riassunto.\n\nCopia il prompt dalla slide 3 e incollalo dopo i tuoi appunti: decisioni, compiti e domande aperte, in ordine.\n\nTu come prendi appunti alle riunioni?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#prompt", "#produttività", "#lavoro"]
+}
