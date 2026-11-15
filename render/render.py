@@ -31,13 +31,13 @@ def esc(s):
 
 class Browser:
     def __init__(self):
-        self.tmp = tempfile.TemporaryDirectory()
+        self.tmp = tempfile.mkdtemp(prefix="aiconcreta-chrome-")
         with socket.socket() as sk:
             sk.bind(("127.0.0.1", 0)); port = sk.getsockname()[1]
         self.proc = subprocess.Popen(
             [CHROME, "--headless=new", "--hide-scrollbars", "--force-device-scale-factor=1", "--allow-file-access-from-files",
              "--no-sandbox", "--disable-gpu", "--run-all-compositor-stages-before-draw", "--remote-allow-origins=*",
-             f"--remote-debugging-port={port}", f"--user-data-dir={self.tmp.name}", "--window-size=1080,1350", "about:blank"],
+             f"--remote-debugging-port={port}", f"--user-data-dir={self.tmp}", "--window-size=1080,1350", "about:blank"],
             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         page = None
         for _ in range(150):
@@ -86,7 +86,12 @@ class Browser:
         return im, fit
 
     def close(self):
-        self.ws.close(); self.proc.terminate(); self.proc.wait(); self.tmp.cleanup()
+        self.ws.close(); self.proc.terminate()
+        try:
+            self.proc.wait(timeout=10)
+        except subprocess.TimeoutExpired:
+            self.proc.kill(); self.proc.wait()
+        shutil.rmtree(self.tmp, ignore_errors=True)               # Chrome may still be flushing its profile: never fail here
 
 
 # ---------------------------------------------------------------- slides

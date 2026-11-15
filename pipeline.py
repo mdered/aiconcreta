@@ -220,8 +220,10 @@ def step_render(state, posts):
     import render  # needs Chrome + pillow + websocket-client; imported only when there's something to draw
     for pid, (path, post, sha) in posts.items():
         e = state.get(pid)
-        if e and (e.get("hash") == sha or e["status"] not in ("new", "rendered", "sent", "render_failed")):
+        if e and e["status"] not in ("new", "rendered", "sent", "render_failed"):
             continue
+        if e and e.get("hash") == sha and not (e["status"] == "render_failed" and e.get("attempts", 0) < 3):
+            continue                                              # unchanged (a failed render is retried up to 3 times)
         if not e:
             try:
                 created = datetime.datetime.fromisoformat(post.get("created", ""))
@@ -234,8 +236,10 @@ def step_render(state, posts):
         try:
             files = render.render_post(path)
         except (Exception, SystemExit) as err:
-            state[pid] = {**(old or {}), "status": "render_failed", "hash": sha, "error": str(err)[:800]}
-            say(f"⚠️ Non riesco a disegnare la bozza <code>{html.escape(pid)}</code>:\n<pre>{html.escape(str(err)[:800])}</pre>")
+            tries = (old or {}).get("attempts", 0) + 1 if (old or {}).get("hash") == sha else 1
+            state[pid] = {**(old or {}), "status": "render_failed", "hash": sha, "error": str(err)[:800], "attempts": tries}
+            if tries >= 3:
+                say(f"⚠️ Non riesco a disegnare la bozza <code>{html.escape(pid)}</code>:\n<pre>{html.escape(str(err)[:800])}</pre>")
             print(f"render {pid}: FAILED {err}")
             continue
         if old and old.get("status") == "sent" and old.get("msg_id"):               # an edited draft: retire the old message
