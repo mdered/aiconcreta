@@ -2,45 +2,60 @@
   "id": "2026-11-15-italia-decreto-179",
   "kind": "italia",
   "created": "2026-11-15T22:00:00+01:00",
-  "story_key": "https://iapp.org/news/a/italys-ai-act-framework-takes-shape-what-legislative-decree-no-179-2026-means-for-organizations",
+  "story_key": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00200/sg",
   "sources": [
-    {"name": "IAPP", "url": "https://iapp.org/news/a/italys-ai-act-framework-takes-shape-what-legislative-decree-no-179-2026-means-for-organizations"}
+    {
+      "name": "Gazzetta Ufficiale, D.Lgs. 179/2026",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00200/sg"
+    },
+    {
+      "name": "Lavorosì",
+      "url": "https://www.lavorosi.it/d-lgs-7-ottobre-2026-n-179-ia-in-gazzetta-nuove-regole-per-lavoro-professionisti-e-formazione/"
+    }
   ],
   "slides": [
     {
       "type": "cover",
-      "title": "Chi controlla l'AI in Italia? *Ora c'è la risposta*",
-      "sub": "Il decreto 179/2026 assegna i ruoli per far rispettare l'AI Act.",
-      "image_prompt": "Two concrete pillars side by side with a lime light beam passing between them, dark workshop, empty space at the bottom."
+      "title": "Licenziamenti e promozioni: *decide una persona*, non l'AI",
+      "sub": "Lo stabilisce il nuovo decreto italiano sull'intelligenza artificiale, in vigore dal 23 ottobre 2026.",
+      "image_prompt": "A heavy old rubber stamp resting on a single sheet of paper on a concrete desk; a small robotic arm has stopped just short of it, as if not allowed to press it. One lime light from above."
     },
     {
       "type": "point",
-      "title": "Cosa è successo",
-      "body": "Il decreto legislativo 179/2026 è in vigore dal 23 ottobre. È il secondo passo dopo la legge 132/2025, e serve a far funzionare in Italia le regole europee sull'AI."
+      "title": "Cosa dice la legge",
+      "body": "Il decreto legislativo 179/2026, articolo 41: se l'azienda usa l'AI per decidere su assunzione, cambi di contratto, licenziamento, sanzioni o valutazioni, la decisione finale non può essere solo automatica. L'ultima parola spetta a una persona."
     },
     {
       "type": "list",
-      "title": "Chi fa cosa",
+      "title": "I tuoi diritti",
       "items": [
-        "AgID: sceglie e controlla gli enti che verificano i sistemi AI",
-        "ACN, l'Agenzia per la cybersicurezza: vigila sul mercato dell'AI",
-        "ACN è anche il punto di contatto con le istituzioni europee"
+        "Puoi chiedere a una persona di spiegarti la decisione che ti riguarda",
+        "La spiegazione deve dire se e quanto ha pesato l'AI, e i criteri principali",
+        "Un licenziamento deciso solo da un sistema automatico è nullo",
+        "Il tuo consenso non rende valida una decisione solo automatica"
       ]
     },
     {
       "type": "point",
-      "title": "Perché ti riguarda",
-      "body": "Se la tua azienda usa AI, i controlli passeranno da questi enti. L'articolo che ho letto non spiega l'impatto su lavoratori e piccole imprese: per questo non lo racconto."
+      "title": "Cosa resta fuori",
+      "body": "La selezione dei curriculum non conta come decisione finale: un filtro automatico può escluderti dalle prime fasi. Valgono comunque le regole su privacy e discriminazione."
     },
     {
       "type": "concreto",
       "items": [
-        "Chiedi in azienda quali strumenti AI usate e chi li ha scelti",
-        "Segui AgID e ACN per le indicazioni ufficiali",
-        "Il testo del decreto è in Gazzetta Ufficiale: non è una consulenza legale"
+        "Se una decisione sul tuo lavoro ti sembra presa da un software, chiedi la motivazione",
+        "Se gestisci persone, l'AI può aiutarti a valutare: la decisione e la firma restano tue",
+        "Per un caso concreto rivolgiti a un sindacato o a un avvocato del lavoro"
       ]
     }
   ],
-  "caption": "In Italia ora sappiamo chi controlla le regole sull'AI.\n\nIl decreto legislativo 179/2026 è in vigore dal 23 ottobre. AgID si occupa degli enti che verificano i sistemi AI. L'ACN, l'Agenzia per la cybersicurezza, vigila sul mercato ed è il punto di contatto con l'Europa.\n\nIn concreto: se usi AI al lavoro, sapere chi controlla aiuta a capire a chi chiedere.\n\nIn azienda da te si parla di regole sull'AI?",
-  "hashtags": ["#intelligenzaartificiale", "#ai", "#aiact", "#italia", "#lavoro", "#pmi"]
+  "caption": "In Italia un algoritmo non può licenziarti da solo.\n\nCon il decreto legislativo 179/2026, in vigore dal 23 ottobre, le decisioni finali su assunzioni, cambi di contratto, licenziamenti, sanzioni e valutazioni spettano a una persona, anche quando l'azienda usa l'AI.\n\nPuoi chiedere a una persona di spiegarti la decisione, compreso quanto ha pesato l'AI. Un licenziamento deciso solo da un sistema automatico è nullo.\n\nIn concreto: l'AI può aiutare chi decide, non sostituirlo.\n\nNella tua azienda si usa già l'AI per valutare il personale?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#lavoro",
+    "#dirittidellavoro",
+    "#risorseumane",
+    "#italia"
+  ]
 }

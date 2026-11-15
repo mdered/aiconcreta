@@ -2,51 +2,64 @@
   "id": "2026-11-15-aiact-etichetta-contenuti",
   "kind": "italia",
   "created": "2026-11-15T22:00:00+01:00",
-  "story_key": "https://it.euronews.com/next/2026/08/07/ue-nuove-regole-di-trasparenza-sullia-valgono-anche-per-gli-utenti-comuni-non-solo-big-tec",
+  "story_key": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
   "sources": [
-    {"name": "Euronews Italia", "url": "https://it.euronews.com/next/2026/08/07/ue-nuove-regole-di-trasparenza-sullia-valgono-anche-per-gli-utenti-comuni-non-solo-big-tec"}
+    {
+      "name": "AI Act, articolo 50",
+      "url": "https://artificialintelligenceact.eu/article/50/"
+    },
+    {
+      "name": "Diritto Bancario",
+      "url": "https://www.dirittobancario.it/art/digital-omnibus-sullia-principali-novita-e-impatti-operativi/"
+    }
   ],
   "slides": [
     {
       "type": "cover",
-      "title": "Pubblichi contenuti AI? *Devi dirlo*",
-      "sub": "Dal 2 agosto 2026 l'AI Act ha regole di trasparenza. Valgono anche per chi lavora con i social.",
-      "image_prompt": "A single raw concrete tag label hanging from a matte black object on a concrete table, lit by one lime light, empty space at the bottom."
-    },
-    {
-      "type": "point",
-      "title": "Cosa è cambiato",
-      "body": "Dal 2 agosto 2026 vale l'articolo 50 dell'AI Act. Se parli con un chatbot, deve essere chiaro che è una macchina. I contenuti creati con l'AI vanno segnalati in certi casi."
+      "title": "Usi l'AI per i contenuti di lavoro? *Ecco quando dirlo*",
+      "sub": "Le regole di trasparenza dell'AI Act valgono dal 2 agosto 2026. Il rinvio non riguarda chi pubblica.",
+      "image_prompt": "A small, clean paper label tied with string to a glowing translucent cube on a concrete table, like a price tag on a product, lit by a single lime light."
     },
     {
       "type": "list",
-      "title": "Quando va segnalato",
+      "title": "Quando va dichiarato",
       "items": [
-        "Deepfake: immagini, audio o video che sembrano veri",
-        "Voce sintetica realistica di una persona precisa",
-        "Foto o video in cui volti o oggetti sono sostituiti",
-        "Testi su temi di interesse pubblico, come salute o economia"
+        "Deepfake: immagini, audio o video che sembrano veri ma sono creati o modificati con l'AI",
+        "Testi generati con l'AI e pubblicati per informare su temi di interesse pubblico",
+        "Chatbot: chi ci parla deve sapere che è una macchina"
       ]
     },
     {
       "type": "point",
-      "title": "Chi è escluso",
-      "body": "L'uso personale, non professionale, è escluso. Anche le piccole correzioni: ortografia, ritaglio, luce. Se però usi i contenuti per lavoro e ci guadagni, le regole probabilmente valgono."
+      "title": "Le eccezioni",
+      "body": "Per i testi non serve se una persona li ha rivisti e qualcuno ne ha la responsabilità editoriale. Per opere chiaramente artistiche o satiriche basta segnalarlo senza rovinare l'opera. L'uso personale, non professionale, è escluso."
     },
     {
       "type": "point",
-      "title": "Le multe",
-      "body": "Chi non rispetta le regole rischia fino a 15 milioni di euro o il 3% del fatturato mondiale. Di solito risponde l'azienda, non il singolo dipendente."
+      "title": "E il rinvio?",
+      "body": "Il Digital Omnibus (Regolamento UE 2026/1744) ha spostato al 2 dicembre 2026 solo la marcatura tecnica dei contenuti, per chi fornisce strumenti AI già in commercio. Gli obblighi di chi pubblica non sono rinviati."
+    },
+    {
+      "type": "point",
+      "title": "Le sanzioni",
+      "body": "Fino a 15 milioni di euro o al 3% del fatturato mondiale annuo. Per le piccole e medie imprese vale l'importo più basso dei due."
     },
     {
       "type": "concreto",
       "items": [
-        "Se pubblichi per lavoro immagini o video fatti con l'AI, scrivilo in modo chiaro",
-        "Una nota nascosta nei termini d'uso non basta: l'etichetta deve vedersi",
-        "Nel dubbio chiedi al tuo consulente: questa non è una consulenza legale"
+        "Immagini o video realistici fatti con l'AI nei contenuti di lavoro: aggiungi un'etichetta visibile",
+        "Testi AI su temi pubblici: falli rivedere da una persona che ne risponde, oppure dichiaralo",
+        "Per il tuo caso specifico chiedi a un consulente: questa non è una consulenza legale"
       ]
     }
   ],
-  "caption": "Se pubblichi contenuti fatti con l'AI per lavoro, da agosto ci sono regole nuove.\n\nL'articolo 50 dell'AI Act è in vigore dal 2 agosto 2026. Chatbot e agenti devono farsi riconoscere. Deepfake, voci sintetiche e immagini modificate in modo sostanziale vanno segnalati.\n\nL'uso personale è escluso. Le multe arrivano fino a 15 milioni di euro o al 3% del fatturato mondiale.\n\nIn concreto: se usi immagini AI nei tuoi post di lavoro, aggiungi un'etichetta ben visibile. Non è una consulenza legale.\n\nTu segnali già quando usi l'AI?",
-  "hashtags": ["#intelligenzaartificiale", "#ai", "#aiact", "#lavoro", "#socialmedia", "#pmi"]
+  "caption": "Usi l'AI per i contenuti di lavoro? Dal 2 agosto ci sono regole precise su quando dirlo.\n\nCon l'articolo 50 dell'AI Act vanno dichiarati deepfake, chatbot e testi generati con l'AI pubblicati per informare su temi di interesse pubblico. Per i testi non serve se una persona li ha rivisti e ne risponde.\n\nIl rinvio deciso dall'UE riguarda solo la marcatura tecnica per chi fornisce strumenti AI, non chi pubblica.\n\nIn concreto: contenuti realistici fatti con l'AI? Un'etichetta visibile ti mette al sicuro.\n\nTu segnali già quando usi l'AI?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#aiact",
+    "#socialmediamarketing",
+    "#lavoro",
+    "#europa"
+  ]
 }
