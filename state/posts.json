@@ -1,4 +1,30 @@
 {
+  "2026-11-15-aiact-etichetta-contenuti": {
+    "album": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "created": "2026-11-15T22:00:00+01:00",
+    "hash": "988ab40f818dd66e78b2baa007337949a07e9f84135f04435d21df66bbbaf255",
+    "images": [
+      "media/2026-11-15-aiact-etichetta-contenuti/01.jpg",
+      "media/2026-11-15-aiact-etichetta-contenuti/02.jpg",
+      "media/2026-11-15-aiact-etichetta-contenuti/03.jpg",
+      "media/2026-11-15-aiact-etichetta-contenuti/04.jpg",
+      "media/2026-11-15-aiact-etichetta-contenuti/05.jpg",
+      "media/2026-11-15-aiact-etichetta-contenuti/06.jpg",
+      "media/2026-11-15-aiact-etichetta-contenuti/07.jpg"
+    ],
+    "kind": "italia",
+    "msg_id": 64,
+    "sent_at": "2026-11-15T20:46:52+00:00",
+    "status": "sent"
+  },
   "2026-11-15-chatgpt-wallet": {
     "album": [
       28,
@@ -21,6 +47,32 @@
     "kind": "news",
     "msg_id": 34,
     "sent_at": "2026-11-15T20:25:22+00:00",
+    "status": "sent"
+  },
+  "2026-11-15-claude-fable-52": {
+    "album": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "created": "2026-11-15T22:00:00+01:00",
+    "hash": "764136f7d5df4f9610e75a5ef6d54feee692de47ee5deb92ab9651001c17042d",
+    "images": [
+      "media/2026-11-15-claude-fable-52/01.jpg",
+      "media/2026-11-15-claude-fable-52/02.jpg",
+      "media/2026-11-15-claude-fable-52/03.jpg",
+      "media/2026-11-15-claude-fable-52/04.jpg",
+      "media/2026-11-15-claude-fable-52/05.jpg",
+      "media/2026-11-15-claude-fable-52/06.jpg",
+      "media/2026-11-15-claude-fable-52/07.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 72,
+    "sent_at": "2026-11-15T20:46:54+00:00",
     "status": "sent"
   },
   "2026-11-15-gemini-4-hydrogen-ricerca": {
@@ -49,6 +101,30 @@
     "sent_at": "2026-11-15T20:24:19+00:00",
     "status": "test",
     "when": "2026-11-15T20:31:00+00:00"
+  },
+  "2026-11-15-italia-decreto-179": {
+    "album": [
+      73,
+      74,
+      75,
+      76,
+      77,
+      78
+    ],
+    "created": "2026-11-15T22:00:00+01:00",
+    "hash": "5d494d0349c703b544fc6fb575df122434528521592f3e8a625d50edace92370",
+    "images": [
+      "media/2026-11-15-italia-decreto-179/01.jpg",
+      "media/2026-11-15-italia-decreto-179/02.jpg",
+      "media/2026-11-15-italia-decreto-179/03.jpg",
+      "media/2026-11-15-italia-decreto-179/04.jpg",
+      "media/2026-11-15-italia-decreto-179/05.jpg",
+      "media/2026-11-15-italia-decreto-179/06.jpg"
+    ],
+    "kind": "italia",
+    "msg_id": 79,
+    "sent_at": "2026-11-15T20:46:55+00:00",
+    "status": "sent"
   },
   "2026-11-15-prompt-colloquio-simulato": {
     "album": [
