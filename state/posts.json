@@ -54,16 +54,16 @@
   },
   "2026-11-15-claude-fable-52": {
     "album": [
-      65,
-      66,
-      67,
-      68,
-      69,
-      70,
-      71
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
     ],
     "created": "2026-11-15T22:00:00+01:00",
-    "hash": "764136f7d5df4f9610e75a5ef6d54feee692de47ee5deb92ab9651001c17042d",
+    "hash": "1468bbf1d951e7b41870c4e660a2c43ca1211ba9427433ab8bac3097c4ca936c",
     "images": [
       "media/2026-11-15-claude-fable-52/01.jpg",
       "media/2026-11-15-claude-fable-52/02.jpg",
@@ -74,8 +74,8 @@
       "media/2026-11-15-claude-fable-52/07.jpg"
     ],
     "kind": "news",
-    "msg_id": 72,
-    "sent_at": "2026-11-15T20:46:54+00:00",
+    "msg_id": 92,
+    "sent_at": "2026-11-15T21:11:25+00:00",
     "status": "sent"
   },
   "2026-11-15-gemini-4-hydrogen-ricerca": {
