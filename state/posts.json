@@ -35,6 +35,7 @@
       33
     ],
     "created": "2026-11-15T21:00:00+01:00",
+    "decided_at": "2026-11-15T22:00:00+01:00",
     "hash": "29344bc8cda10890681ce552e06ff4ea36488aa815b513e7499313c5d21eb781",
     "images": [
       "media/2026-11-15-chatgpt-wallet/01.jpg",
@@ -46,8 +47,10 @@
     ],
     "kind": "news",
     "msg_id": 34,
+    "note": "scheduled by hand at the user's request",
     "sent_at": "2026-11-15T20:25:22+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-16T18:30:00+01:00"
   },
   "2026-11-15-claude-fable-52": {
     "album": [
@@ -85,7 +88,7 @@
       19
     ],
     "created": "2026-11-15T21:00:00+01:00",
-    "decided_at": "2026-11-15T20:31:00+00:00",
+    "decided_at": "2026-11-15T22:00:00+01:00",
     "hash": "27462e6b28ae195fddd3adecbbe9d41c848b1d0491d924dbe7c57098578879f6",
     "images": [
       "media/2026-11-15-gemini-4-hydrogen-ricerca/01.jpg",
@@ -97,10 +100,10 @@
     ],
     "kind": "news",
     "msg_id": 20,
-    "published_at": "2026-11-15T20:31:04+00:00",
+    "note": "scheduled by hand at the user's request",
     "sent_at": "2026-11-15T20:24:19+00:00",
-    "status": "test",
-    "when": "2026-11-15T20:31:00+00:00"
+    "status": "scheduled",
+    "when": "2026-11-16T12:30:00+01:00"
   },
   "2026-11-15-italia-decreto-179": {
     "album": [
@@ -160,6 +163,7 @@
       26
     ],
     "created": "2026-11-15T21:00:00+01:00",
+    "decided_at": "2026-11-15T22:00:00+01:00",
     "hash": "742330ecc7b604c4ab2ab8201f1de6a6508ce5eaee424351232fc3c081841caf",
     "images": [
       "media/2026-11-15-prompt-mail-difficile/01.jpg",
@@ -171,8 +175,10 @@
     ],
     "kind": "prompt",
     "msg_id": 27,
+    "note": "scheduled by hand at the user's request",
     "sent_at": "2026-11-15T20:24:21+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-17T12:30:00+01:00"
   },
   "2026-11-15-prompt-priorita-settimana": {
     "album": [
