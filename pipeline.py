@@ -130,7 +130,7 @@ def preview(post, entry):
     cap = postspec.full_caption(post)
     if len(cap) > 2600:
         cap = cap[:2600] + "…"
-    status = {"sent": "⏳ In attesa della tua scelta (scade dopo 36 ore).\nDopo il tocco il messaggio si aggiorna entro 10–20 minuti: basta un tocco.",
+    status = {"sent": "⏳ In attesa della tua scelta (scade dopo 36 ore).\nDopo il tocco il messaggio si aggiorna entro 1–2 minuti: basta un tocco.",
               "scheduled": f"✅ Programmato: {nice(entry['when'])}" if entry.get("when") else "✅ Programmato",
               "rejected": "❌ Scartato", "expired": "⌛ Scaduto (nessuna risposta in 36 ore)",
               "published": "📣 Pubblicato", "test": "🧪 Pubblicato in modalità test (non davvero)",
@@ -205,7 +205,7 @@ def handle_update(u, state, posts):
             elif action in ("ok", "now") and entry["status"] == "sent":
                 when = next_slot(state) if action == "ok" else now().isoformat(timespec="seconds")
                 entry.update(status="scheduled", when=when, decided_at=now().isoformat(timespec="seconds"))
-                answer = f"Programmato: {nice(entry['when'])}" if action == "ok" else "Lo pubblico al prossimo giro (entro ~20 min)"
+                answer = f"Programmato: {nice(entry['when'])}" if action == "ok" else "Lo pubblico tra 1–2 minuti"
             elif action == "no" and entry["status"] == "sent":
                 entry["status"], entry["decided_at"] = "rejected", now().isoformat(timespec="seconds")
                 answer = "Scartato"
@@ -230,7 +230,7 @@ def handle_update(u, state, posts):
                     + f"\n\nIn attesa di una tua scelta: {pending}\nModalità: {'LIVE' if LIVE else 'TEST (non pubblica davvero)'}")
             elif cmd:
                 say("Tocca i pulsanti sotto ogni bozza.\n✅ Programma: al prossimo orario libero "
-                    f"({', '.join(f'{h}:{m:02d}' for h, m in SLOTS)})\n⚡ Appena possibile: entro ~20 minuti\n❌ Scarta\n↩️ Annulla\n\n/coda: cosa è programmato")
+                    f"({', '.join(f'{h}:{m:02d}' for h, m in SLOTS)})\n⚡ Appena possibile: entro 1–2 minuti\n❌ Scarta\n↩️ Annulla\n\n/coda: cosa è programmato")
 
 
 def step_render(state, posts):

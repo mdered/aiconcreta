@@ -6,7 +6,7 @@ by a human on Telegram** before anything is published.
 ```
 06:30  Claude Code (scheduled cloud agent, DRAFTING.md) ── writes 3 drafts ──► drafts/<id>/post.json ──► git push
           │
-GitHub Actions, every 10 min (pipeline.py)
+GitHub Actions (pipeline.py), started by a Cloudflare Worker (worker/trigger.js): within a minute of a tap, and every 10 min
           ├─ render   drafts → media/<id>/NN.jpg (headless Chrome; AI cover image via Gemini)
           ├─ notify   album + caption + buttons on Telegram
           ├─ poll     ✅ Programma (next free slot: 12:30 / 18:30) · ⚡ Appena possibile · ❌ Scarta · ↩️ Annulla
@@ -60,3 +60,10 @@ python3 tools/fetch_feeds.py                        # today's uncovered news
   photos, logos or other people's screenshots. Inner slides are typographic.
 
 TikTok comes later: its Content Posting API only posts privately until the app passes TikTok's audit.
+
+## Trigger (Cloudflare Worker)
+GitHub's own timer is unreliable (hours late), so `worker/trigger.js` runs on Cloudflare's free plan every minute: it
+checks Telegram's pending-update count (read-only, never consumes taps) and starts the workflow when a tap is waiting,
+and every 10 minutes anyway; never while a run is queued or running. Worker `aiessenziale-trigger`, secrets
+`TELEGRAM_TOKEN` and `GITHUB_TOKEN` (fine-grained, this repo only, Actions: read and write). To redeploy after editing,
+upload the script with the Cloudflare API (token in `~/.config/cloudflare/aiessenziale-token`).
