@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-16-tool-claude-sheets",
+  "kind": "tool",
+  "created": "2026-11-16T07:05:00+01:00",
+  "story_key": "https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets",
+  "sources": [
+    {
+      "name": "Claude Help Center: Claude Sheets",
+      "url": "https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets"
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Un foglio di calcolo fatto da *Claude*, in chat",
+      "sub": "Claude Sheets: come provarlo e cosa non sa fare.",
+      "image_prompt": "A single concrete tile with a neat grid of lime cells engraved into it, resting on a dark table."
+    },
+    {
+      "type": "point",
+      "title": "Cos'è",
+      "body": "Claude Sheets è un foglio di calcolo in beta dentro Claude. Tu e Claude modificate le stesse celle."
+    },
+    {
+      "type": "list",
+      "title": "Come provarlo",
+      "items": [
+        "Piani: Pro, Max, Ultra, Team ed Enterprise",
+        "Chiedi un foglio in una chat, oppure apri la scheda Artifacts e scegli Sheets",
+        "Puoi importare file CSV, Excel o Google Sheets",
+        "Esporti in .xlsx o CSV"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Cosa sa fare",
+      "items": [
+        "Aggiunge schede e formule tra schede",
+        "Formattazione, menu a tendina, caselle e grafici",
+        "Le modifiche di Claude sono evidenziate",
+        "La cronologia ti fa tornare a una versione precedente"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Cosa non sa ancora fare",
+      "items": [
+        "Tabelle pivot e ricerca e sostituzione",
+        "Macro Excel e VBA",
+        "Dati in tempo reale da altre app",
+        "Su cellulare è solo in lettura"
+      ]
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Provalo su un budget o una lista spese semplice",
+        "Per lavori complessi esporta in Excel e continua lì",
+        "Gli usi contano nei limiti del tuo piano"
+      ]
+    }
+  ],
+  "caption": "Un foglio di calcolo che costruisci parlando con Claude.\n\nClaude Sheets è in beta sui piani Pro, Max, Ultra, Team ed Enterprise. Funziona con schede, formule e grafici, ma non ha ancora tabelle pivot né macro. Su cellulare è solo in lettura.\n\nIn concreto: provalo su un budget semplice, poi esporta in Excel.\n\nPer cosa useresti un foglio fatto da Claude?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#claude",
+    "#excel",
+    "#produttività",
+    "#lavoro"
+  ]
+}

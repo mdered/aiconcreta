@@ -1,0 +1,50 @@
+{
+  "id": "2026-11-16-prompt-confronta-preventivi",
+  "kind": "prompt",
+  "created": "2026-11-16T07:10:00+01:00",
+  "story_key": "evergreen:prompt-confronta-preventivi",
+  "sources": [],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Confronta due preventivi *senza perderti*",
+      "sub": "Il prompt da copiare per ChatGPT, Claude o Gemini.",
+      "image_prompt": "Two concrete slabs on a balance scale, one lit by a single lime light."
+    },
+    {
+      "type": "point",
+      "title": "Quando ti serve",
+      "body": "Hai due offerte, con voci scritte in modo diverso. Confrontarle a occhio è lento e si sbaglia."
+    },
+    {
+      "type": "prompt",
+      "title": "Incolla i due preventivi, poi questo:",
+      "prompt": "Sopra trovi due preventivi, A e B.\nFai una tabella con le voci: cosa include, cosa non include, costo, tempi.\nEvidenzia le voci che compaiono solo in uno dei due.\nElenca 3 domande da fare a ciascun fornitore prima di scegliere.\nNon inventare dati che non sono nei testi."
+    },
+    {
+      "type": "list",
+      "title": "Perché funziona",
+      "items": [
+        "La tabella mette le voci una accanto all'altra",
+        "Vedi subito cosa manca in una delle due offerte",
+        "Le domande ti preparano alla telefonata"
+      ]
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Togli dati personali prima di incollare i testi",
+        "Controlla tu i totali: confronta le cifre con i documenti originali"
+      ]
+    }
+  ],
+  "caption": "Due preventivi, voci diverse, nessuna idea di quale scegliere?\n\nCopia il prompt dalla slide 3 e incolla le due offerte: ti restituisce una tabella e le domande da fare.\n\nIn concreto: togli i dati personali e ricontrolla le cifre.\n\nQuando hai scelto un fornitore per ultimo, cosa ha deciso?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#chatgpt",
+    "#prompt",
+    "#produttività",
+    "#pmi"
+  ]
+}

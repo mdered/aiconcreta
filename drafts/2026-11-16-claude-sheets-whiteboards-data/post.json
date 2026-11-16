@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-16-claude-sheets-whiteboards-data",
+  "kind": "news",
+  "created": "2026-11-16T07:00:00+01:00",
+  "story_key": "https://claude.com/resources/articles/sheets-whiteboards-data",
+  "sources": [
+    {
+      "name": "Anthropic",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+    },
+    {
+      "name": "Claude Help Center: Claude Sheets",
+      "url": "https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Claude ora crea *fogli e lavagne* condivisi",
+      "sub": "Sheets, Whiteboards e Data: cosa sono e chi li ha.",
+      "image_prompt": "A blank concrete wall with a grid of thin lime lines drawn on it, one square glowing softly."
+    },
+    {
+      "type": "point",
+      "title": "Tre strumenti nuovi",
+      "body": "Il 10 novembre Anthropic ha presentato Claude Sheets, Claude Whiteboards e Claude Data. Servono a lavorare in gruppo dentro Claude, non solo in chat."
+    },
+    {
+      "type": "list",
+      "title": "Cosa fanno",
+      "items": [
+        "Sheets (beta): fogli con schede, formule e menu a tendina, modificabili insieme a Claude",
+        "Whiteboards (beta): lavagne dove Claude trasforma un piano grezzo in una timeline con responsabili e date",
+        "Data: fai domande ai dati aziendali, serve un connettore (es. BigQuery)"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Chi li ha",
+      "body": "Sono disponibili sui piani a pagamento. Sui piani Team sono attivi di default. Sui piani Enterprise Sheets e Whiteboards sono spenti, finché un amministratore non li attiva."
+    },
+    {
+      "type": "point",
+      "title": "I limiti",
+      "body": "Sheets e Whiteboards sono in beta e le funzioni di Sheets per ora sono di base. Per tutte le funzioni di Excel puoi esportare in .xlsx o CSV."
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Hai un piano a pagamento? Chiedi un foglio in una chat e provalo su un file semplice",
+        "Se lavori in un'azienda con piano Enterprise, chiedi all'amministratore di attivarli"
+      ]
+    }
+  ],
+  "caption": "Claude ora crea fogli di calcolo e lavagne che puoi condividere con il team.\n\nIl 10 novembre Anthropic ha presentato Sheets e Whiteboards (in beta) e Data (disponibile in versione definitiva). Sono sui piani a pagamento. Sui piani Team sono attivi di default, su Enterprise serve l'amministratore.\n\nIn concreto: se hai un piano a pagamento, prova a chiedere un foglio in chat.\n\nTi servirebbe di più il foglio o la lavagna?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#claude",
+    "#produttività",
+    "#lavoro",
+    "#excel"
+  ]
+}
