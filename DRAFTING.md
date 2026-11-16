@@ -18,6 +18,8 @@ Read `BRAND.md` first, every run. The accuracy rules there come before everythin
      gossip, stock moves, or US politics without a consequence for Italians.
    - 1 `tool` or `prompt` (evergreen; pick whichever the 7-day mix lacks).
    If there's genuinely no good news, make 2 evergreen posts and 1 news post. Never pad with a weak story.
+   The 3 drafts cover 3 different stories: never two posts about the same launch or product in one run (pick the
+   better angle; a `tool` post about something just announced counts as the same story).
 5. For every news/italia/tool post: **open the primary source** (the company's announcement, the official document) with a web
    fetch, plus one independent outlet when possible. Write only what those pages say. Note availability in Italy/EU only if stated.
    If you can't open the primary source, use the press article but name it as the source and be more careful.
