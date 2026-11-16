@@ -236,5 +236,81 @@
     "sent_at": "2026-11-15T20:40:31+00:00",
     "status": "scheduled",
     "when": "2026-11-20T12:30:00+01:00"
+  },
+  "2026-11-16-claude-sheets-whiteboards-data": {
+    "album": [
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "created": "2026-11-16T07:00:00+01:00",
+    "hash": "58d7836d419e5b0b9143e061a7ed83d4df93929988844e80a439795f27ff2f94",
+    "images": [
+      "media/2026-11-16-claude-sheets-whiteboards-data/01.jpg",
+      "media/2026-11-16-claude-sheets-whiteboards-data/02.jpg",
+      "media/2026-11-16-claude-sheets-whiteboards-data/03.jpg",
+      "media/2026-11-16-claude-sheets-whiteboards-data/04.jpg",
+      "media/2026-11-16-claude-sheets-whiteboards-data/05.jpg",
+      "media/2026-11-16-claude-sheets-whiteboards-data/06.jpg",
+      "media/2026-11-16-claude-sheets-whiteboards-data/07.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 128,
+    "sent_at": "2026-11-16T05:41:17+00:00",
+    "status": "sent"
+  },
+  "2026-11-16-prompt-confronta-preventivi": {
+    "album": [
+      129,
+      130,
+      131,
+      132,
+      133,
+      134
+    ],
+    "created": "2026-11-16T07:10:00+01:00",
+    "hash": "c285c6c7e396f481b96fa29a1515f08af9e320727cc0548fbe903dafda2f1404",
+    "images": [
+      "media/2026-11-16-prompt-confronta-preventivi/01.jpg",
+      "media/2026-11-16-prompt-confronta-preventivi/02.jpg",
+      "media/2026-11-16-prompt-confronta-preventivi/03.jpg",
+      "media/2026-11-16-prompt-confronta-preventivi/04.jpg",
+      "media/2026-11-16-prompt-confronta-preventivi/05.jpg",
+      "media/2026-11-16-prompt-confronta-preventivi/06.jpg"
+    ],
+    "kind": "prompt",
+    "msg_id": 135,
+    "sent_at": "2026-11-16T05:41:19+00:00",
+    "status": "sent"
+  },
+  "2026-11-16-tool-claude-sheets": {
+    "album": [
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142
+    ],
+    "created": "2026-11-16T07:05:00+01:00",
+    "hash": "945a1d6460135402e7ec6f81916633968dd88f44d7d9cef3c979fbb28eceaae7",
+    "images": [
+      "media/2026-11-16-tool-claude-sheets/01.jpg",
+      "media/2026-11-16-tool-claude-sheets/02.jpg",
+      "media/2026-11-16-tool-claude-sheets/03.jpg",
+      "media/2026-11-16-tool-claude-sheets/04.jpg",
+      "media/2026-11-16-tool-claude-sheets/05.jpg",
+      "media/2026-11-16-tool-claude-sheets/06.jpg",
+      "media/2026-11-16-tool-claude-sheets/07.jpg"
+    ],
+    "kind": "tool",
+    "msg_id": 143,
+    "sent_at": "2026-11-16T05:41:22+00:00",
+    "status": "sent"
   }
 }
