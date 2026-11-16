@@ -81,13 +81,18 @@ def nice(when_iso):
 # ---------------------------------------------------------------- Telegram
 def tg(method, **params):
     data = json.dumps(params).encode()
-    req = urllib.request.Request(f"https://api.telegram.org/bot{TG_TOKEN}/{method}", data=data,
-                                 headers={"Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            return json.load(r)["result"]
-    except urllib.error.HTTPError as e:
-        raise RuntimeError(f"Telegram {method}: {e.read().decode()[:300]}") from None
+    for attempt in range(3):                                      # Telegram sometimes resets a connection: retry
+        req = urllib.request.Request(f"https://api.telegram.org/bot{TG_TOKEN}/{method}", data=data,
+                                     headers={"Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return json.load(r)["result"]
+        except urllib.error.HTTPError as e:
+            raise RuntimeError(f"Telegram {method}: {e.read().decode()[:300]}") from None
+        except (urllib.error.URLError, ConnectionError, TimeoutError) as e:
+            if attempt == 2:
+                raise RuntimeError(f"Telegram {method}: network error {e}") from None
+            time.sleep(3)
 
 
 def tg_album(paths):
@@ -453,6 +458,31 @@ def instagram(urls, caption):
     return media, link
 
 
+def already_done(state, pid, reel=False):
+    """Checks GitHub's latest state just before publishing: a run that was delayed may hold an old copy of the state, in
+    which a post that has since been published still looks scheduled. If it's done there, take that and skip."""
+    import subprocess
+    try:
+        subprocess.run(["git", "fetch", "-q", "origin", "main"], cwd=ROOT, check=True, timeout=60)
+        remote = json.loads(subprocess.run(["git", "show", "origin/main:state/posts.json"], cwd=ROOT, check=True,
+                                           capture_output=True, timeout=60).stdout)
+    except Exception as e:                                        # can't check: don't risk a double post
+        print(f"publish: can't read the latest state ({e}), skipping this run")
+        return True
+    r = remote.get(pid) or {}
+    if reel:
+        done = (r.get("reel") or {}).get("status") in ("published", "test", "skipped", "failed", "missed")
+    else:
+        done = r.get("status") in ("published", "test", "failed", "missed") or bool(r.get("media_id"))
+    if done:
+        print(f"publish {pid}: already handled in the latest state, skipped")
+        if reel:
+            state[pid]["reel"] = r["reel"]
+        else:
+            state[pid] = r
+    return done
+
+
 def instagram_reel(url, caption):
     c = graph("POST", f"{IG_USER}/media", media_type="REELS", video_url=url, caption=caption, share_to_feed="true")["id"]
     wait_ready(c, tries=120)                                      # video processing: up to 10 minutes
@@ -477,6 +507,8 @@ def publish_reels(state, posts):
             reel["status"] = "missed"; refresh_reel(pid, reel, post)
             continue
         url = BASE_URL + reel["video"]
+        if already_done(state, pid, reel=True):
+            return
         if not online(url, "video"):
             print(f"reel {pid}: video not online yet, retrying next run")
             return
@@ -525,6 +557,8 @@ def step_publish(state, posts):
             print(f"publish {pid}: images not online yet at {BASE_URL}, retrying next run")
             return
         caption = postspec.full_caption(post)
+        if already_done(state, pid):
+            return
         if not LIVE or not (IG_TOKEN and IG_USER):
             e["status"], e["published_at"] = "test", now().isoformat(timespec="seconds")
             refresh(pid, e, post)

@@ -21,6 +21,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main                  # the latest state, not the commit from when the run was queued (GitHub can delay runs)
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -44,5 +46,5 @@ jobs:
             git config user.name "pipeline"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -q -m "Pipeline: state and slides"
-            for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+            for i in 1 2 3; do git pull -q --rebase && git push -q && break; git rebase --abort 2>/dev/null; sleep 5; done
           fi
