@@ -305,7 +305,7 @@
       142
     ],
     "created": "2026-11-16T07:05:00+01:00",
-    "decided_at": "2026-11-16T15:12:42+00:00",
+    "decided_at": "2026-11-16T16:23:10+00:00",
     "hash": "945a1d6460135402e7ec6f81916633968dd88f44d7d9cef3c979fbb28eceaae7",
     "images": [
       "media/2026-11-16-tool-claude-sheets/01.jpg",
@@ -319,6 +319,7 @@
     "kind": "tool",
     "msg_id": 143,
     "sent_at": "2026-11-16T05:41:22+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-21T18:30:00+01:00"
   }
 }
