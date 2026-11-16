@@ -17,7 +17,8 @@
     {"type": "concreto", "items": ["...", "..."]}          # exactly one, last
   ],
   "caption": "Hook line\\n\\nShort text...\\n\\nQuestion for the comments?",
-  "hashtags": ["#intelligenzaartificiale", "#ai", "..."]
+  "hashtags": ["#intelligenzaartificiale", "#ai", "..."],
+  "voiceover": ["Hook spoken over the cover.", "One spoken line per slide...", "In concreto: ..."]   # optional: makes a Reel
 }
 Accent words in titles: wrap them in *asterisks* (shown in lime).
 """
@@ -109,7 +110,19 @@ def check(post, folder_name=None):
     tags = post.get("hashtags") or []
     if not 3 <= len(tags) <= 10 or not all(re.fullmatch(r"#[\wàèéìòù]+", t) for t in tags):
         p.append("hashtags: 3-10, each like #intelligenzaartificiale")
-    text = " ".join([post.get("caption", "")] + [str(v) for s in slides for v in s.values()]).lower()
+    vo = post.get("voiceover")
+    if vo is not None:
+        if not isinstance(vo, list) or len(vo) != len(slides) or not all(isinstance(v, str) and v.strip() for v in vo):
+            p.append(f"voiceover: one spoken line (text) per slide, {len(slides)} lines")
+        else:
+            words = len(" ".join(vo).split())
+            if not 45 <= words <= 95:
+                p.append(f"voiceover: {words} words, need 45-95 (a 25-35 second Reel)")
+            if len(vo[0].split()) > 18:
+                p.append("voiceover: the first line is the hook, at most 18 words")
+            if any(EMOJI.search(v) or "*" in v for v in vo):
+                p.append("voiceover: plain spoken text, no emoji or *asterisks*")
+    text = " ".join([post.get("caption", "")] + [str(v) for v in vo or []] + [str(v) for s in slides for v in s.values()]).lower()
     for w in BANNED:
         if w in text:
             p.append(f"hype word '{w}' (see BRAND.md)")

@@ -238,7 +238,7 @@ def main(post_path, out_path=None):
     os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
     ff = subprocess.Popen([imageio_ffmpeg.get_ffmpeg_exe(), "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
                            "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-i", wav, "-c:v", "libx264", "-pix_fmt", "yuv420p",
-                           "-crf", "20", "-preset", "medium", "-c:a", "aac", "-b:a", "160k", "-shortest",
+                           "-crf", "23", "-preset", "medium", "-c:a", "aac", "-b:a", "160k", "-shortest",
                            "-movflags", "+faststart", out_path], stdin=subprocess.PIPE)
     total_frames = sum(round(sg["secs"] * FPS) for g in groups for sg in g)
     ease = lambda x: 1 - (1 - x) ** 3

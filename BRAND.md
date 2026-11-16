@@ -72,3 +72,15 @@ The cover has a picture on top (the inner slides stay typographic, they're for r
    may be saved as `drafts/<id>/cover.jpg`, with `"image_credit": "<Company>"` on the cover. Only images the company
    published itself; never photos from agencies or newspapers (Reuters, Getty, ANSA…), never pictures of people.
    When in doubt, use an AI image.
+
+## Reels (voiceover)
+One draft a day carries a `voiceover`; after approval it becomes a 9:16 Reel (`render/reel.py`): an Italian AI voice
+reads it, each sentence appears big on screen word by word, published at 21:00. Write it to be **heard**:
+- **Line 1 = the hook** (max 18 words), spoken over the cover: the concrete change, said plainly. "ChatGPT adesso può
+  fare acquisti al posto tuo. Ma in Italia, per ora, no."
+- Then one line per slide, same order, 1-2 short sentences each. The last line starts with "In concreto:".
+- Spoken Italian: short sentences, tu, no parentheses, no lists, no URLs, no "come si vede nella slide". Numbers as
+  people say them ("ventidue euro al mese", or "22 euro al mese"; never "€22/mese").
+- Only facts that are on the slides. Fewer facts than the carousel is fine; different facts are not.
+- Don't add a greeting or "segui": the closing line ("Segui AI Essenziale…") is added automatically.
+- 45-95 words in total. Every sentence becomes one screen, so keep each sentence under ~16 words.
