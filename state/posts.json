@@ -319,7 +319,6 @@
     "kind": "tool",
     "msg_id": 143,
     "sent_at": "2026-11-16T05:41:22+00:00",
-    "status": "scheduled",
-    "when": "2026-11-21T18:30:00+01:00"
+    "status": "sent"
   }
 }
