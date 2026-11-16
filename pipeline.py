@@ -179,6 +179,11 @@ def step_poll(state, posts):
         except Exception:
             print(f"update {u['update_id']} failed:\n{traceback.format_exc()}")
         save_json(TG_STATE, tgs)                                  # a tap is handled once, even if a later one fails
+    if updates:                                                   # confirm them now, so Telegram's pending count drops
+        try:
+            tg("getUpdates", offset=tgs["offset"], limit=1, timeout=0, allowed_updates=["callback_query", "message"])
+        except Exception as e:                                    # harmless: the next run confirms them
+            print(f"poll: confirm failed ({e})")
 
 
 def handle_update(u, state, posts):
