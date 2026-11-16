@@ -182,10 +182,16 @@ def step_poll(state, posts):
 
 
 def handle_update(u, state, posts):
+        kind = next((k for k in u if k != "update_id"), "?")
+        x = u.get(kind) or {}
+        chats = {str((x.get("message") or {}).get("chat", {}).get("id")), str(x.get("chat", {}).get("id")),
+                 str(x.get("from", {}).get("id"))}                # private chat: your user id is the chat id
+        mine = str(TG_CHAT) in chats
+        print(f"update {u['update_id']}: {kind} {(x.get('data') or x.get('text') or '')[:60]!r} from you: {mine}")
+        if not mine:
+            return                                                # only you can approve or ask
         if "callback_query" in u:
             q = u["callback_query"]
-            if str(q.get("message", {}).get("chat", {}).get("id")) != str(TG_CHAT):
-                return                                            # only you can approve
             action, _, pid = q.get("data", "").partition("|")
             entry, answer = state.get(pid), "Fatto"
             post = posts.get(pid, (None, None, None))[1]
