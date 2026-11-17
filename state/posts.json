@@ -367,6 +367,7 @@
       169
     ],
     "created": "2026-11-17T06:40:00+01:00",
+    "decided_at": "2026-11-17T07:16:15+00:00",
     "hash": "5274cd80da255b566f412b125abae970634dbae13ab83b10c124f007f62231f4",
     "images": [
       "media/2026-11-17-prompt-controlla-fatti-testo-ai/01.jpg",
@@ -379,7 +380,8 @@
     "kind": "prompt",
     "msg_id": 170,
     "sent_at": "2026-11-17T05:34:11+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-22T18:30:00+01:00"
   },
   "2026-11-17-tool-gemini-notebook-documenti": {
     "album": [
@@ -391,6 +393,7 @@
       176
     ],
     "created": "2026-11-17T06:40:00+01:00",
+    "decided_at": "2026-11-17T07:16:16+00:00",
     "hash": "febe10f8a6593ccb8eb95a887ea15caad9c35c2d20bd5583bb180626c7e7b8b1",
     "images": [
       "media/2026-11-17-tool-gemini-notebook-documenti/01.jpg",
@@ -403,6 +406,7 @@
     "kind": "tool",
     "msg_id": 177,
     "sent_at": "2026-11-17T05:34:13+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-23T12:30:00+01:00"
   }
 }
