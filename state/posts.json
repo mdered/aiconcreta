@@ -324,5 +324,77 @@
     "sent_at": "2026-11-16T05:41:22+00:00",
     "status": "scheduled",
     "when": "2026-11-21T18:30:00+01:00"
+  },
+  "2026-11-17-google-maps-ask-maps-itinerari": {
+    "album": [
+      157,
+      158,
+      159,
+      160,
+      161,
+      162
+    ],
+    "created": "2026-11-17T06:40:00+01:00",
+    "hash": "060421f260ee9629b2c722f8062a15ac8dd66b827aafe94210d609e1842e8a62",
+    "images": [
+      "media/2026-11-17-google-maps-ask-maps-itinerari/01.jpg",
+      "media/2026-11-17-google-maps-ask-maps-itinerari/02.jpg",
+      "media/2026-11-17-google-maps-ask-maps-itinerari/03.jpg",
+      "media/2026-11-17-google-maps-ask-maps-itinerari/04.jpg",
+      "media/2026-11-17-google-maps-ask-maps-itinerari/05.jpg",
+      "media/2026-11-17-google-maps-ask-maps-itinerari/06.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 163,
+    "sent_at": "2026-11-17T05:34:10+00:00",
+    "status": "sent"
+  },
+  "2026-11-17-prompt-controlla-fatti-testo-ai": {
+    "album": [
+      164,
+      165,
+      166,
+      167,
+      168,
+      169
+    ],
+    "created": "2026-11-17T06:40:00+01:00",
+    "hash": "5274cd80da255b566f412b125abae970634dbae13ab83b10c124f007f62231f4",
+    "images": [
+      "media/2026-11-17-prompt-controlla-fatti-testo-ai/01.jpg",
+      "media/2026-11-17-prompt-controlla-fatti-testo-ai/02.jpg",
+      "media/2026-11-17-prompt-controlla-fatti-testo-ai/03.jpg",
+      "media/2026-11-17-prompt-controlla-fatti-testo-ai/04.jpg",
+      "media/2026-11-17-prompt-controlla-fatti-testo-ai/05.jpg",
+      "media/2026-11-17-prompt-controlla-fatti-testo-ai/06.jpg"
+    ],
+    "kind": "prompt",
+    "msg_id": 170,
+    "sent_at": "2026-11-17T05:34:11+00:00",
+    "status": "sent"
+  },
+  "2026-11-17-tool-gemini-notebook-documenti": {
+    "album": [
+      171,
+      172,
+      173,
+      174,
+      175,
+      176
+    ],
+    "created": "2026-11-17T06:40:00+01:00",
+    "hash": "febe10f8a6593ccb8eb95a887ea15caad9c35c2d20bd5583bb180626c7e7b8b1",
+    "images": [
+      "media/2026-11-17-tool-gemini-notebook-documenti/01.jpg",
+      "media/2026-11-17-tool-gemini-notebook-documenti/02.jpg",
+      "media/2026-11-17-tool-gemini-notebook-documenti/03.jpg",
+      "media/2026-11-17-tool-gemini-notebook-documenti/04.jpg",
+      "media/2026-11-17-tool-gemini-notebook-documenti/05.jpg",
+      "media/2026-11-17-tool-gemini-notebook-documenti/06.jpg"
+    ],
+    "kind": "tool",
+    "msg_id": 177,
+    "sent_at": "2026-11-17T05:34:13+00:00",
+    "status": "sent"
   }
 }
