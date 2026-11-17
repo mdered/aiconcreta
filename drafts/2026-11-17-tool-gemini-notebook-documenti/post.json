@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-17-tool-gemini-notebook-documenti",
+  "kind": "tool",
+  "created": "2026-11-17T06:40:00+01:00",
+  "story_key": "https://support.google.com/notebooklm/answer/16164461",
+  "sources": [
+    {
+      "name": "Google Help",
+      "url": "https://support.google.com/notebooklm/answer/16164461"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Fai domande ai *tuoi documenti*, con le fonti",
+      "sub": "Gemini Notebook di Google: un assistente di ricerca.",
+      "image_prompt": "A neat stack of paper documents on a concrete slab, one page lit by a thin lime beam of light."
+    },
+    {
+      "type": "point",
+      "title": "Cos'è",
+      "body": "Un assistente di ricerca di Google che lavora solo sui materiali che carichi tu. Le risposte arrivano con citazioni nel testo, così vedi da dove vengono."
+    },
+    {
+      "type": "list",
+      "title": "Cosa puoi caricare",
+      "items": [
+        "PDF e siti web",
+        "Video di YouTube e file audio",
+        "Google Docs e Google Slides"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Cosa ti restituisce",
+      "items": [
+        "Guide di studio e riassunti",
+        "Panoramiche audio",
+        "Mappe mentali",
+        "Chat con risposte basate sulle tue fonti"
+      ]
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Provalo con un contratto o un report lungo",
+        "Supporta oltre 80 lingue",
+        "Controlla sempre le citazioni prima di fidarti"
+      ]
+    }
+  ],
+  "caption": "Hai 40 pagine da leggere entro domani?\n\nGemini Notebook di Google ti lascia caricare PDF, siti, video e documenti e fare domande, con citazioni nel testo. Crea anche guide di studio, panoramiche audio e mappe mentali.\n\nIn concreto: caricane uno e chiedi dove trovi un dato, poi apri la citazione.\n\nCosa ti piacerebbe farci riassumere?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#google",
+    "#gemini",
+    "#produttività",
+    "#studio",
+    "#lavoro"
+  ]
+}

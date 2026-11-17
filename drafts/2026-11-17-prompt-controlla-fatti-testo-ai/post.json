@@ -1,0 +1,50 @@
+{
+  "id": "2026-11-17-prompt-controlla-fatti-testo-ai",
+  "kind": "prompt",
+  "created": "2026-11-17T06:40:00+01:00",
+  "story_key": "evergreen:prompt-controlla-fatti",
+  "sources": [],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Prima di inviare un testo dell'AI, *controlla i fatti*",
+      "sub": "Il prompt che ti fa trovare i punti da verificare.",
+      "image_prompt": "A magnifying glass resting on a matte black concrete block, a single lime light reflected in the lens."
+    },
+    {
+      "type": "point",
+      "title": "Il problema",
+      "body": "Un chatbot scrive frasi sicure anche quando sbaglia un numero, una data o un nome. Prima di inviare, serve sapere cosa controllare."
+    },
+    {
+      "type": "prompt",
+      "title": "Incolla il testo, poi questo:",
+      "prompt": "Rileggi il testo qui sopra. Elenca ogni numero, data, nome proprio e affermazione verificabile. Per ognuno scrivi quanto sei sicuro (alto, medio, basso) e come posso verificarlo. Non correggere e non aggiungere informazioni nuove."
+    },
+    {
+      "type": "list",
+      "title": "Perché funziona",
+      "items": [
+        "Trasforma il testo in una lista di controlli",
+        "Chiedi il livello di sicurezza, non solo il testo",
+        "\"Non aggiungere\" evita nuovi errori"
+      ]
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Usalo su mail, report e post prima di inviarli",
+        "Verifica a mano i punti segnati medio o basso, con una fonte ufficiale"
+      ]
+    }
+  ],
+  "caption": "L'AI scrive bene. Ma ha sempre ragione?\n\nCopia il prompt dalla slide 3 e incollalo sotto il testo: ottieni la lista di numeri, date e nomi da controllare, con il livello di sicurezza.\n\nIn concreto: verifica a mano i punti incerti prima di inviare.\n\nHai mai trovato un errore in un testo scritto dall'AI?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#chatgpt",
+    "#prompt",
+    "#produttività",
+    "#lavoro"
+  ]
+}

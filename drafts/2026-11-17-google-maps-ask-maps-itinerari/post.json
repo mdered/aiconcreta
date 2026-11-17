@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-17-google-maps-ask-maps-itinerari",
+  "kind": "news",
+  "created": "2026-11-17T06:40:00+01:00",
+  "story_key": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+  "sources": [
+    {
+      "name": "Google",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Google Maps ora *pianifica il viaggio* al posto tuo",
+      "sub": "Ask Maps crea itinerari giorno per giorno.",
+      "image_prompt": "A folded paper road map on a concrete table, a single glowing lime route line winding across it."
+    },
+    {
+      "type": "point",
+      "title": "Cosa fa",
+      "body": "Chiedi a Ask Maps, il chatbot di Google Maps, un piano: da una giornata di shopping a tre giorni di viaggio sulla costa. Ricevi un programma giorno per giorno, consigli e tappe numerate sulla mappa."
+    },
+    {
+      "type": "list",
+      "title": "Durante il viaggio",
+      "items": [
+        "Traffico in tempo reale e orari di apertura",
+        "Puoi aggiungere una tappa, come un punto panoramico",
+        "Un tocco sulla tappa e parte la navigazione",
+        "Condividi il piano o esportalo in Google Docs da computer"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Cosa è solo negli USA",
+      "body": "Consigli su parcheggi, ricarica EV e pedaggi, e la prenotazione di appuntamenti con chiamata ai negozi, partono prima negli Stati Uniti. Gli itinerari valgono ovunque ci sia Ask Maps."
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Aggiorna Google Maps su Android o iOS e cerca Ask Maps",
+        "Prova: \"Weekend di 2 giorni sul lago, senza auto\"",
+        "Controlla orari e prezzi prima di partire"
+      ]
+    }
+  ],
+  "caption": "Google Maps può costruirti l'itinerario del weekend.\n\nAsk Maps crea piani giorno per giorno con tappe numerate, traffico e orari in tempo reale. Arriva su Android e iOS e si estende a 30 paesi europei, tra cui Spagna e Germania. Disponibilità in Italia non ancora annunciata.\n\nIn concreto: quando compare, chiedigli un weekend e confronta le tappe con quello che conosci già.\n\nLo useresti per pianificare un viaggio?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#googlemaps",
+    "#gemini",
+    "#viaggi",
+    "#tecnologia"
+  ],
+  "voiceover": [
+    "Google Maps adesso può costruire l'itinerario del tuo viaggio. Ma in Italia non è ancora annunciato.",
+    "Chiedi un piano a Ask Maps e ricevi un programma giorno per giorno, con le tappe sulla mappa.",
+    "Vedi traffico e orari di apertura, e puoi aggiungere una tappa strada facendo.",
+    "Parcheggi, ricarica elettrica e prenotazioni partono prima solo negli Stati Uniti.",
+    "In concreto: quando Ask Maps arriva da te, chiedigli un weekend e controlla orari e prezzi."
+  ]
+}
