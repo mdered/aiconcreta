@@ -79,9 +79,12 @@
       "media/2026-11-15-claude-fable-52/07.jpg"
     ],
     "kind": "news",
+    "media_id": "18002581536018942",
     "msg_id": 92,
+    "permalink": "https://www.instagram.com/p/Df11ct2HxRH/",
+    "published_at": "2026-11-17T11:34:54+00:00",
     "sent_at": "2026-11-15T21:11:25+00:00",
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-17T12:30:00+01:00"
   },
   "2026-11-15-gemini-4-hydrogen-ricerca": {
