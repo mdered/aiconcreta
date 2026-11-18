@@ -483,6 +483,7 @@
       200
     ],
     "created": "2026-11-18T06:40:00+01:00",
+    "decided_at": "2026-11-18T06:59:12+00:00",
     "hash": "61f21035530c15c43d7dc66323c2f7a205d4f904b75d76e29e6beb3be30417d8",
     "images": [
       "media/2026-11-18-prompt-risposta-recensione/01.jpg",
@@ -495,6 +496,7 @@
     "kind": "prompt",
     "msg_id": 201,
     "sent_at": "2026-11-18T05:33:59+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-24T18:30:00+01:00"
   }
 }
