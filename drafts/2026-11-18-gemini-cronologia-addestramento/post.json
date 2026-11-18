@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-18-gemini-cronologia-addestramento",
+  "kind": "news",
+  "created": "2026-11-18T06:40:00+01:00",
+  "story_key": "https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/",
+  "sources": [
+    {"name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/"},
+    {"name": "TechCrunch", "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "Gemini: *tieni la cronologia* senza addestrare l'AI", "sub": "Due impostazioni separate. Ma le chat si conservano più a lungo.",
+     "image_prompt": "Two matte black toggle switches set into a concrete slab, one glowing lime and one dark."},
+    {"type": "point", "title": "Cosa cambia", "body": "Finora cronologia e addestramento erano legati. Ora Google li separa: puoi tenere le tue chat salvate e rifiutare che servano ad addestrare i suoi modelli."},
+    {"type": "point", "title": "Il rovescio della medaglia", "body": "Se la cronologia è disattivata, le chat future vengono conservate circa due mesi. Prima erano 72 ore, secondo TechCrunch. Google dice che servono a rispondere, gestire i feedback e proteggere utenti e servizi."},
+    {"type": "list", "title": "Quando arriva", "items": ["Nell'app Gemini, in tutto il mondo", "\"Nelle prossime settimane\", senza una data precisa", "Puoi sempre cancellare la cronologia a mano"]},
+    {"type": "concreto", "items": ["Quando compare l'aggiornamento, apri le impostazioni della cronologia di Gemini", "Decidi tu se le chat possono addestrare l'AI", "Niente dati sensibili in chat: né ora né dopo"]}
+  ],
+  "caption": "Gemini ti fa scegliere: cronologia sì, addestramento no.\n\nGoogle separa le due impostazioni nell'app Gemini. Se disattivi la cronologia, però, le chat future restano salvate circa due mesi (prima 72 ore, secondo TechCrunch). L'aggiornamento arriva in tutto il mondo nelle prossime settimane.\n\nIn concreto: quando lo vedi, controlla le impostazioni e scegli cosa vuoi condividere.\n\nTu lasci l'addestramento attivo o lo spegni?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#gemini", "#privacy", "#google", "#tecnologia"],
+  "voiceover": [
+    "Gemini ti fa tenere la cronologia senza addestrare l'AI con le tue chat.",
+    "Google separa le due impostazioni. Puoi salvare le chat e rifiutare l'addestramento.",
+    "Se disattivi la cronologia, le chat future restano salvate circa due mesi.",
+    "L'aggiornamento arriva in tutto il mondo nelle prossime settimane.",
+    "In concreto: quando arriva, controlla le impostazioni e non scrivere dati sensibili."
+  ]
+}

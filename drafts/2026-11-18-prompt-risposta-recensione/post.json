@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-18-prompt-risposta-recensione",
+  "kind": "prompt",
+  "created": "2026-11-18T06:40:00+01:00",
+  "story_key": "evergreen:risposta-recensione",
+  "sources": [],
+  "slides": [
+    {"type": "cover", "title": "Rispondi a una *recensione negativa* con calma", "sub": "Il prompt da copiare per ChatGPT, Claude o Gemini.",
+     "image_prompt": "A single matte black speech bubble resting on a concrete block, a thin lime light along its edge."},
+    {"type": "point", "title": "Il problema", "body": "Una recensione negativa fa arrabbiare. Rispondere di getto peggiora le cose. Serve una risposta educata, breve e che dia una soluzione."},
+    {"type": "prompt", "title": "Incolla la recensione, poi questo:", "prompt": "Sei il titolare di un'attività. Rispondi alla recensione qui sopra in italiano, con tono cortese e professionale.\n1. Ringrazia e riconosci il disagio\n2. Non dare colpe e non inventare fatti\n3. Proponi un contatto per risolvere\nMassimo 80 parole.", "note": "Aggiungi tu i fatti che conosci, ad esempio cosa è successo davvero."},
+    {"type": "list", "title": "Perché funziona", "items": ["Il ruolo e il tono sono chiari", "\"Non inventare fatti\" evita scuse sbagliate", "Il limite di parole tiene la risposta breve"]},
+    {"type": "concreto", "items": ["Aspetta un'ora prima di pubblicare", "Rileggi: nomi, orari e promesse devono essere veri", "Offri un contatto privato per chiudere il caso"]}
+  ],
+  "caption": "La recensione ti ha fatto arrabbiare? Prima di rispondere, fai scrivere una bozza all'AI.\n\nCopia il prompt dalla slide 3 e incollalo dopo la recensione. Ottieni una risposta cortese, senza colpe e con una soluzione.\n\nIn concreto: rileggi sempre fatti e promesse prima di pubblicare.\n\nQual è la recensione più difficile a cui hai risposto?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#prompt", "#pmi", "#lavoro"]
+}

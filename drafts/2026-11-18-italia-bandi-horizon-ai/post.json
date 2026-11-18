@@ -1,0 +1,60 @@
+{
+  "id": "2026-11-18-italia-bandi-horizon-ai",
+  "kind": "italia",
+  "created": "2026-11-18T06:40:00+01:00",
+  "story_key": "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond",
+  "sources": [
+    {
+      "name": "Commissione europea",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+    },
+    {
+      "name": "AI4Business",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/ue-297-milioni-per-ai-robotica-e-data-center-aperti-i-bandi/"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "L'UE mette *297 milioni* su AI, robotica e dati",
+      "sub": "Bandi Horizon Europe aperti fino al 18 marzo 2027.",
+      "image_prompt": "A stack of concrete blocks forming a staircase, a single lime light glowing at the top step."
+    },
+    {
+      "type": "point",
+      "title": "Cosa è successo",
+      "body": "Il 17 novembre 2026 la Commissione europea ha aperto due bandi Horizon Europe per 12 temi digitali, per un totale di 297 milioni di euro."
+    },
+    {
+      "type": "list",
+      "title": "Dove vanno i fondi",
+      "items": [
+        "107 milioni: 4 temi di AI, tra cui robotica e AI nei settori chiave",
+        "112 milioni: dati, AI distribuita e data center a basso consumo",
+        "49 milioni: mondi virtuali, Web 4.0 e standard digitali"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Chi può partecipare",
+      "body": "Secondo AI4Business possono candidarsi anche imprese, startup e centri di ricerca italiani. Molti progetti richiedono consorzi internazionali e le condizioni cambiano da tema a tema."
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Lavori in una PMI o in un'università? Guarda i bandi sul portale Funding & Tenders",
+        "Controlla i requisiti del singolo tema prima di candidarti",
+        "Scadenza: 18 marzo 2027"
+      ]
+    }
+  ],
+  "caption": "297 milioni di euro per l'AI europea, e anche le imprese italiane possono provarci.\n\nLa Commissione europea ha aperto due bandi Horizon Europe su 12 temi: AI, robotica, dati e infrastrutture. Scadenza: 18 marzo 2027.\n\nIn concreto: se lavori in una PMI, una startup o un centro di ricerca, leggi i requisiti di ogni tema. Spesso servono partner di più paesi.\n\nConosci un'azienda italiana che potrebbe candidarsi?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#horizoneurope",
+    "#pmi",
+    "#startup",
+    "#europa"
+  ]
+}
