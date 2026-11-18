@@ -457,6 +457,7 @@
       193
     ],
     "created": "2026-11-18T06:40:00+01:00",
+    "decided_at": "2026-11-18T06:20:13+00:00",
     "hash": "44bfb35c3ea2372e20043a01ac902f1c9840fce54fde0a945504f717ab771e7d",
     "images": [
       "media/2026-11-18-italia-bandi-horizon-ai/01.jpg",
@@ -469,7 +470,8 @@
     "kind": "italia",
     "msg_id": 194,
     "sent_at": "2026-11-18T05:33:57+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-24T12:30:00+01:00"
   },
   "2026-11-18-prompt-risposta-recensione": {
     "album": [
