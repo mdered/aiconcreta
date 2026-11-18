@@ -425,6 +425,7 @@
       186
     ],
     "created": "2026-11-18T06:40:00+01:00",
+    "decided_at": "2026-11-18T06:18:13+00:00",
     "hash": "e019270a93f1099501c6ac5457646fd26007eee39329788ac1033e515ad69acd",
     "images": [
       "media/2026-11-18-gemini-cronologia-addestramento/01.jpg",
@@ -436,8 +437,15 @@
     ],
     "kind": "news",
     "msg_id": 187,
+    "reel": {
+      "msg_id": 202,
+      "status": "scheduled",
+      "video": "media/2026-11-18-gemini-cronologia-addestramento/reel.mp4",
+      "when": "2026-11-23T21:00:00+01:00"
+    },
     "sent_at": "2026-11-18T05:33:56+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-23T18:30:00+01:00"
   },
   "2026-11-18-italia-bandi-horizon-ai": {
     "album": [
