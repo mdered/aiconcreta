@@ -414,5 +414,77 @@
     "sent_at": "2026-11-17T05:34:13+00:00",
     "status": "scheduled",
     "when": "2026-11-23T12:30:00+01:00"
+  },
+  "2026-11-18-gemini-cronologia-addestramento": {
+    "album": [
+      181,
+      182,
+      183,
+      184,
+      185,
+      186
+    ],
+    "created": "2026-11-18T06:40:00+01:00",
+    "hash": "e019270a93f1099501c6ac5457646fd26007eee39329788ac1033e515ad69acd",
+    "images": [
+      "media/2026-11-18-gemini-cronologia-addestramento/01.jpg",
+      "media/2026-11-18-gemini-cronologia-addestramento/02.jpg",
+      "media/2026-11-18-gemini-cronologia-addestramento/03.jpg",
+      "media/2026-11-18-gemini-cronologia-addestramento/04.jpg",
+      "media/2026-11-18-gemini-cronologia-addestramento/05.jpg",
+      "media/2026-11-18-gemini-cronologia-addestramento/06.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 187,
+    "sent_at": "2026-11-18T05:33:56+00:00",
+    "status": "sent"
+  },
+  "2026-11-18-italia-bandi-horizon-ai": {
+    "album": [
+      188,
+      189,
+      190,
+      191,
+      192,
+      193
+    ],
+    "created": "2026-11-18T06:40:00+01:00",
+    "hash": "44bfb35c3ea2372e20043a01ac902f1c9840fce54fde0a945504f717ab771e7d",
+    "images": [
+      "media/2026-11-18-italia-bandi-horizon-ai/01.jpg",
+      "media/2026-11-18-italia-bandi-horizon-ai/02.jpg",
+      "media/2026-11-18-italia-bandi-horizon-ai/03.jpg",
+      "media/2026-11-18-italia-bandi-horizon-ai/04.jpg",
+      "media/2026-11-18-italia-bandi-horizon-ai/05.jpg",
+      "media/2026-11-18-italia-bandi-horizon-ai/06.jpg"
+    ],
+    "kind": "italia",
+    "msg_id": 194,
+    "sent_at": "2026-11-18T05:33:57+00:00",
+    "status": "sent"
+  },
+  "2026-11-18-prompt-risposta-recensione": {
+    "album": [
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ],
+    "created": "2026-11-18T06:40:00+01:00",
+    "hash": "61f21035530c15c43d7dc66323c2f7a205d4f904b75d76e29e6beb3be30417d8",
+    "images": [
+      "media/2026-11-18-prompt-risposta-recensione/01.jpg",
+      "media/2026-11-18-prompt-risposta-recensione/02.jpg",
+      "media/2026-11-18-prompt-risposta-recensione/03.jpg",
+      "media/2026-11-18-prompt-risposta-recensione/04.jpg",
+      "media/2026-11-18-prompt-risposta-recensione/05.jpg",
+      "media/2026-11-18-prompt-risposta-recensione/06.jpg"
+    ],
+    "kind": "prompt",
+    "msg_id": 201,
+    "sent_at": "2026-11-18T05:33:59+00:00",
+    "status": "sent"
   }
 }
