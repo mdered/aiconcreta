@@ -9,8 +9,10 @@
       98,
       99
     ],
+    "attempts": 1,
     "created": "2026-11-15T22:00:00+01:00",
     "decided_at": "2026-11-15T21:20:10+00:00",
+    "error": "POST 17841466726060736/media_publish: Application request limit reached",
     "hash": "7f2d49181f888640aa82680cc6c4e443cafe5e370dd468e47d950a65aefbeda2",
     "images": [
       "media/2026-11-15-aiact-etichetta-contenuti/01.jpg",
