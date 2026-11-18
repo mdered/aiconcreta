@@ -9,7 +9,7 @@
       98,
       99
     ],
-    "attempts": 1,
+    "attempts": 2,
     "created": "2026-11-15T22:00:00+01:00",
     "decided_at": "2026-11-15T21:20:10+00:00",
     "error": "POST 17841466726060736/media_publish: Application request limit reached",
