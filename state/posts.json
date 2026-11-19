@@ -503,5 +503,79 @@
     "sent_at": "2026-11-18T05:33:59+00:00",
     "status": "scheduled",
     "when": "2026-11-24T18:30:00+01:00"
+  },
+  "2026-11-19-ai-mode-chat-temporanee": {
+    "album": [
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211
+    ],
+    "created": "2026-11-19T07:00:00+01:00",
+    "hash": "8f153920eed64fcc46b169346aff5a051b9ab9ebe753a7af94a9931264a54206",
+    "images": [
+      "media/2026-11-19-ai-mode-chat-temporanee/01.jpg",
+      "media/2026-11-19-ai-mode-chat-temporanee/02.jpg",
+      "media/2026-11-19-ai-mode-chat-temporanee/03.jpg",
+      "media/2026-11-19-ai-mode-chat-temporanee/04.jpg",
+      "media/2026-11-19-ai-mode-chat-temporanee/05.jpg",
+      "media/2026-11-19-ai-mode-chat-temporanee/06.jpg",
+      "media/2026-11-19-ai-mode-chat-temporanee/07.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 212,
+    "sent_at": "2026-11-19T05:33:53+00:00",
+    "status": "sent"
+  },
+  "2026-11-19-gemini-android-go": {
+    "album": [
+      213,
+      214,
+      215,
+      216,
+      217,
+      218
+    ],
+    "created": "2026-11-19T07:00:00+01:00",
+    "hash": "0b9c1e6c6a2d840749600361b054d5a2795db4000cee2d70cba48d8c68936632",
+    "images": [
+      "media/2026-11-19-gemini-android-go/01.jpg",
+      "media/2026-11-19-gemini-android-go/02.jpg",
+      "media/2026-11-19-gemini-android-go/03.jpg",
+      "media/2026-11-19-gemini-android-go/04.jpg",
+      "media/2026-11-19-gemini-android-go/05.jpg",
+      "media/2026-11-19-gemini-android-go/06.jpg"
+    ],
+    "kind": "tool",
+    "msg_id": 219,
+    "sent_at": "2026-11-19T05:33:55+00:00",
+    "status": "sent"
+  },
+  "2026-11-19-italia-imprese-ai-istat": {
+    "album": [
+      220,
+      221,
+      222,
+      223,
+      224,
+      225
+    ],
+    "created": "2026-11-19T07:00:00+01:00",
+    "hash": "8bd3cfc7ee6329ab3e32a69297fa1c5063d93c37f9a3374bfa3298d341808b30",
+    "images": [
+      "media/2026-11-19-italia-imprese-ai-istat/01.jpg",
+      "media/2026-11-19-italia-imprese-ai-istat/02.jpg",
+      "media/2026-11-19-italia-imprese-ai-istat/03.jpg",
+      "media/2026-11-19-italia-imprese-ai-istat/04.jpg",
+      "media/2026-11-19-italia-imprese-ai-istat/05.jpg",
+      "media/2026-11-19-italia-imprese-ai-istat/06.jpg"
+    ],
+    "kind": "italia",
+    "msg_id": 226,
+    "sent_at": "2026-11-19T05:33:56+00:00",
+    "status": "sent"
   }
 }
