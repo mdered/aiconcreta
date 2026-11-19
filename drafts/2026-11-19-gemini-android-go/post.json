@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-19-gemini-android-go",
+  "kind": "tool",
+  "created": "2026-11-19T07:00:00+01:00",
+  "story_key": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+  "sources": [
+    {"name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "Gemini arriva sui *telefoni Android* più economici", "sub": "Ora funziona anche su dispositivi con poca memoria.",
+     "image_prompt": "A small matte black phone-sized slab on a concrete pedestal, a soft lime light rising from its surface."},
+    {"type": "point", "title": "Cosa cambia", "body": "Sui telefoni Android (Go edition) compatibili, Gemini era limitato ai comandi vocali di base. Google ha ripensato l'app: ora funziona l'esperienza principale."},
+    {"type": "list", "title": "Cosa puoi fare", "items": ["Gemini Live: parli a voce, in più di 45 lingue", "Allenarti a un colloquio parlando", "Usare la fotocamera per capire o tradurre appunti e moduli", "Creare immagini con Nano Banana"]},
+    {"type": "point", "title": "Come provarlo", "body": "Scarica l'app da Google Play, oppure tieni premuto il tasto di accensione sui telefoni supportati. Arriverà già installata su nuovi dispositivi di partner come Transsion."},
+    {"type": "concreto", "items": ["Hai un Android economico? Cerca Gemini su Google Play.", "Controlla se il tuo telefono è compatibile sulla pagina di supporto di Google."]}
+  ],
+  "caption": "Gemini ora funziona anche sugli Android con poca memoria.\n\nSui telefoni Android (Go edition) compatibili c'erano solo i comandi vocali di base. Ora arrivano Gemini Live in più di 45 lingue, l'aiuto con la fotocamera e la creazione di immagini.\nScarica l'app da Google Play o tieni premuto il tasto di accensione.\n\nIn concreto: hai un Android economico? Controlla se il tuo modello è compatibile.\n\nProveresti Gemini Live per allenarti a un colloquio?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#gemini", "#android", "#google", "#tecnologia"]
+}

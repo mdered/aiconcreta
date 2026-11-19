@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-19-italia-imprese-ai-istat",
+  "kind": "italia",
+  "created": "2026-11-19T07:00:00+01:00",
+  "story_key": "https://www.istat.it/comunicato-stampa/imprese-e-ict-anno-2025/",
+  "sources": [
+    {
+      "name": "Istat",
+      "url": "https://www.istat.it/comunicato-stampa/imprese-e-ict-anno-2025/"
+    },
+    {
+      "name": "AI4Business",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/ai-perche-litalia-resta-indietro-rispetto-allue/"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Perché *8 imprese su 10* in Italia non usano l'AI",
+      "sub": "I dati Istat sulle imprese con almeno 10 addetti.",
+      "image_prompt": "A long row of identical concrete doors, one of them lit with a thin lime glow around its frame."
+    },
+    {
+      "type": "point",
+      "title": "Quante la usano",
+      "body": "Secondo l'Istat, nel 2025 il 16,4% delle imprese con almeno 10 addetti usa almeno una tecnologia di AI. Nel 2024 era l'8,2%, nel 2023 il 5,0%."
+    },
+    {
+      "type": "point",
+      "title": "Grandi e piccole",
+      "body": "Tra le grandi imprese la quota è il 53,1%. Tra le PMI è il 15,7%, contro il 7,7% dell'anno prima."
+    },
+    {
+      "type": "list",
+      "title": "Perché chi non la usa si ferma",
+      "items": [
+        "Mancano le competenze: 58,6%",
+        "Norme poco chiare: 47,3%",
+        "Dati assenti o scarsi: 45,2%",
+        "Privacy e protezione dei dati: 43,2%",
+        "Costi alti: 43,0%"
+      ]
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Se lavori in una PMI, le competenze sono il primo freno: imparare a usare l'AI è un vantaggio.",
+        "Le imprese che non la usano sono l'83,6%: non sei in ritardo."
+      ]
+    }
+  ],
+  "caption": "Nel 2025 solo il 16,4% delle imprese italiane usa l'AI.\n\nÈ il dato Istat sulle imprese con almeno 10 addetti. Nel 2024 era l'8,2%. Le grandi sono al 53,1%, le PMI al 15,7%.\nIl freno principale per chi non la usa? Le competenze: 58,6%. Poi norme poco chiare (47,3%) e dati insufficienti (45,2%).\n\nIn concreto: se lavori in una PMI, saper usare l'AI è un vantaggio che pochi hanno.\n\nNella tua azienda si usa l'AI, o ancora no?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#istat",
+    "#pmi",
+    "#lavoro",
+    "#italia"
+  ]
+}

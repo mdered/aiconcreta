@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-19-ai-mode-chat-temporanee",
+  "kind": "news",
+  "created": "2026-11-19T07:00:00+01:00",
+  "story_key": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
+  "sources": [
+    {"name": "Google", "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/"},
+    {"name": "TechCrunch", "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "AI Mode di Google ora ha la *chat in incognito*", "sub": "Le conversazioni temporanee non finiscono nella cronologia.",
+     "image_prompt": "A single glowing lime door standing slightly open in a dark concrete wall, no light spilling behind it, quiet and private."},
+    {"type": "point", "title": "Cosa sono i thread temporanei", "body": "Sono conversazioni con AI Mode, la ricerca conversazionale di Google, non collegate al tuo account. Google li pensa per cose come il regalo a sorpresa."},
+    {"type": "list", "title": "Cosa cambia in un thread temporaneo", "items": ["Non si basa sulle tue preferenze passate", "Non influenza le future personalizzazioni", "Non viene salvato nella cronologia", "Se lo chiudi, \"è sparito\""]},
+    {"type": "point", "title": "Come si attiva", "body": "Nessuna impostazione da cambiare. In AI Mode tocca l'icona dei thread temporanei in alto a destra. Quando finisci, torni alla sessione normale."},
+    {"type": "point", "title": "Disponibilità", "body": "Arriva in tutto il mondo, su desktop e browser mobile, nelle lingue supportate da AI Mode. È un rollout graduale: potresti non vederla subito."},
+    {"type": "concreto", "items": ["Per una ricerca che non vuoi ritrovare tra i suggerimenti, usa un thread temporaneo.", "Controlla l'icona in alto a destra in AI Mode: se manca, riprova nei prossimi giorni."]}
+  ],
+  "caption": "AI Mode di Google ora ha la sua chat in incognito.\n\nSi chiamano thread temporanei. Non usano le tue preferenze passate, non influenzano la personalizzazione futura e non vengono salvati nella cronologia.\nPer attivarli tocca l'icona in alto a destra in AI Mode. Il rollout è globale, su desktop e browser mobile.\n\nIn concreto: per il regalo a sorpresa, usa un thread temporaneo.\n\nLo useresti per le ricerche che non vuoi ritrovare nei suggerimenti?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#google", "#aimode", "#privacy", "#tecnologia"],
+  "voiceover": [
+    "AI Mode di Google adesso ha la chat in incognito.",
+    "Si chiamano thread temporanei. Sono conversazioni non collegate al tuo account.",
+    "Non usano le tue preferenze, non cambiano le future personalizzazioni e non finiscono nella cronologia.",
+    "Per attivarli, tocca l'icona in alto a destra in AI Mode.",
+    "Arriva in tutto il mondo, su desktop e browser mobile, ma in modo graduale.",
+    "In concreto: per una ricerca che non vuoi ritrovare, usa un thread temporaneo."
+  ]
+}
