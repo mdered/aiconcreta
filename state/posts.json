@@ -574,6 +574,7 @@
       225
     ],
     "created": "2026-11-19T07:00:00+01:00",
+    "decided_at": "2026-11-19T06:20:13+00:00",
     "hash": "8bd3cfc7ee6329ab3e32a69297fa1c5063d93c37f9a3374bfa3298d341808b30",
     "images": [
       "media/2026-11-19-italia-imprese-ai-istat/01.jpg",
@@ -586,6 +587,7 @@
     "kind": "italia",
     "msg_id": 226,
     "sent_at": "2026-11-19T05:33:56+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-26T12:30:00+01:00"
   }
 }
