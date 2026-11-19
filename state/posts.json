@@ -515,6 +515,7 @@
       211
     ],
     "created": "2026-11-19T07:00:00+01:00",
+    "decided_at": "2026-11-19T06:18:12+00:00",
     "hash": "8f153920eed64fcc46b169346aff5a051b9ab9ebe753a7af94a9931264a54206",
     "images": [
       "media/2026-11-19-ai-mode-chat-temporanee/01.jpg",
@@ -527,8 +528,15 @@
     ],
     "kind": "news",
     "msg_id": 212,
+    "reel": {
+      "msg_id": 227,
+      "status": "scheduled",
+      "video": "media/2026-11-19-ai-mode-chat-temporanee/reel.mp4",
+      "when": "2026-11-25T21:00:00+01:00"
+    },
     "sent_at": "2026-11-19T05:33:53+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-25T12:30:00+01:00"
   },
   "2026-11-19-gemini-android-go": {
     "album": [
@@ -540,6 +548,7 @@
       218
     ],
     "created": "2026-11-19T07:00:00+01:00",
+    "decided_at": "2026-11-19T06:18:13+00:00",
     "hash": "0b9c1e6c6a2d840749600361b054d5a2795db4000cee2d70cba48d8c68936632",
     "images": [
       "media/2026-11-19-gemini-android-go/01.jpg",
@@ -552,7 +561,8 @@
     "kind": "tool",
     "msg_id": 219,
     "sent_at": "2026-11-19T05:33:55+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-25T18:30:00+01:00"
   },
   "2026-11-19-italia-imprese-ai-istat": {
     "album": [
