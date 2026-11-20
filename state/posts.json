@@ -639,6 +639,7 @@
       245
     ],
     "created": "2026-11-20T07:00:00+01:00",
+    "decided_at": "2026-11-20T10:43:20+00:00",
     "hash": "e695075220a0141e44145fcf21936ef836ae08ac755dd66b9c75ba81bbc0afad",
     "images": [
       "media/2026-11-20-gemini-mac-computer-use/01.jpg",
@@ -652,7 +653,8 @@
     "kind": "news",
     "msg_id": 246,
     "sent_at": "2026-11-20T05:33:42+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-27T12:30:00+01:00"
   },
   "2026-11-20-tool-chatgpt-dettatura": {
     "album": [
@@ -665,6 +667,7 @@
       253
     ],
     "created": "2026-11-20T07:00:00+01:00",
+    "decided_at": "2026-11-20T10:43:21+00:00",
     "hash": "f239a5def0e9f0ec79af8662d52b7af9eefee2b58f690fc30a338c0c36933166",
     "images": [
       "media/2026-11-20-tool-chatgpt-dettatura/01.jpg",
@@ -678,6 +681,7 @@
     "kind": "tool",
     "msg_id": 254,
     "sent_at": "2026-11-20T05:33:44+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-27T18:30:00+01:00"
   }
 }
