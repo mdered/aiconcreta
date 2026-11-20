@@ -595,5 +595,81 @@
     "sent_at": "2026-11-19T05:33:56+00:00",
     "status": "scheduled",
     "when": "2026-11-26T12:30:00+01:00"
+  },
+  "2026-11-20-canva-interruttore-ai": {
+    "album": [
+      232,
+      233,
+      234,
+      235,
+      236,
+      237
+    ],
+    "created": "2026-11-20T07:00:00+01:00",
+    "hash": "512f335e12105d668f84fcc5e4c39588d17576459a41dea8b42bf294fd032ad4",
+    "images": [
+      "media/2026-11-20-canva-interruttore-ai/01.jpg",
+      "media/2026-11-20-canva-interruttore-ai/02.jpg",
+      "media/2026-11-20-canva-interruttore-ai/03.jpg",
+      "media/2026-11-20-canva-interruttore-ai/04.jpg",
+      "media/2026-11-20-canva-interruttore-ai/05.jpg",
+      "media/2026-11-20-canva-interruttore-ai/06.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 238,
+    "sent_at": "2026-11-20T05:33:40+00:00",
+    "status": "sent"
+  },
+  "2026-11-20-gemini-mac-computer-use": {
+    "album": [
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245
+    ],
+    "created": "2026-11-20T07:00:00+01:00",
+    "hash": "e695075220a0141e44145fcf21936ef836ae08ac755dd66b9c75ba81bbc0afad",
+    "images": [
+      "media/2026-11-20-gemini-mac-computer-use/01.jpg",
+      "media/2026-11-20-gemini-mac-computer-use/02.jpg",
+      "media/2026-11-20-gemini-mac-computer-use/03.jpg",
+      "media/2026-11-20-gemini-mac-computer-use/04.jpg",
+      "media/2026-11-20-gemini-mac-computer-use/05.jpg",
+      "media/2026-11-20-gemini-mac-computer-use/06.jpg",
+      "media/2026-11-20-gemini-mac-computer-use/07.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 246,
+    "sent_at": "2026-11-20T05:33:42+00:00",
+    "status": "sent"
+  },
+  "2026-11-20-tool-chatgpt-dettatura": {
+    "album": [
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253
+    ],
+    "created": "2026-11-20T07:00:00+01:00",
+    "hash": "f239a5def0e9f0ec79af8662d52b7af9eefee2b58f690fc30a338c0c36933166",
+    "images": [
+      "media/2026-11-20-tool-chatgpt-dettatura/01.jpg",
+      "media/2026-11-20-tool-chatgpt-dettatura/02.jpg",
+      "media/2026-11-20-tool-chatgpt-dettatura/03.jpg",
+      "media/2026-11-20-tool-chatgpt-dettatura/04.jpg",
+      "media/2026-11-20-tool-chatgpt-dettatura/05.jpg",
+      "media/2026-11-20-tool-chatgpt-dettatura/06.jpg",
+      "media/2026-11-20-tool-chatgpt-dettatura/07.jpg"
+    ],
+    "kind": "tool",
+    "msg_id": 254,
+    "sent_at": "2026-11-20T05:33:44+00:00",
+    "status": "sent"
   }
 }
