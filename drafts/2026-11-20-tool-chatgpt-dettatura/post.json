@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-20-tool-chatgpt-dettatura",
+  "kind": "tool",
+  "created": "2026-11-20T07:00:00+01:00",
+  "story_key": "https://www.digitaltrends.com/computing/chatgpt-now-supports-live-dictation-openai-removes-the-10-minute-recording-limit/",
+  "sources": [
+    {"name": "Digital Trends", "url": "https://www.digitaltrends.com/computing/chatgpt-now-supports-live-dictation-openai-removes-the-10-minute-recording-limit/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "ChatGPT scrive *mentre parli*", "sub": "Dettatura dal vivo, e il limite di 10 minuti è sparito.",
+     "image_prompt": "A matte black vintage microphone on a concrete pedestal, thin lime light lines flowing from it like a line of text."},
+    {"type": "point", "title": "Cosa cambia", "body": "Con la dettatura dal vivo il testo compare sullo schermo mentre parli, non a registrazione finita. Prima c'era un limite di 10 minuti: ora è stato rimosso. OpenAI non indica una nuova durata massima."},
+    {"type": "list", "title": "Come si usa", "items": ["Tocca il microfono nella casella del messaggio", "Parla: il testo appare mentre detti", "Tocca l'onda audio per mostrare o nascondere la trascrizione"]},
+    {"type": "point", "title": "Dove e per chi", "body": "Su web, app desktop, iOS e Android, in tutti i piani ChatGPT, anche gratis. L'arrivo è graduale: potresti non averla ancora."},
+    {"type": "point", "title": "Un'attenzione", "body": "Puoi decidere se condividere l'audio per migliorare i modelli: lo gestisci nei controlli dei dati, nelle impostazioni di ChatGPT."},
+    {"type": "concreto", "items": ["Detta un'idea o una mail a voce, poi correggila prima di inviare.", "Controlla i controlli dei dati prima di dettare cose riservate."]}
+  ],
+  "caption": "ChatGPT ora scrive mentre parli.\n\nLa dettatura dal vivo mostra il testo man mano che detti. Il limite di 10 minuti è stato tolto. C'è su web, desktop, iOS e Android, in tutti i piani anche gratis, con arrivo graduale.\n\nIn concreto: detta un'idea a voce, poi correggi il testo prima di inviarlo. E controlla i controlli dei dati per l'audio.\n\nTi viene più facile scrivere o dettare?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#produttività", "#lavoro", "#tecnologia"]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-20-canva-interruttore-ai",
+  "kind": "news",
+  "created": "2026-11-20T07:00:00+01:00",
+  "story_key": "https://9to5mac.com/2026/11/19/canva-introduces-new-controls-to-hide-generative-ai-features/",
+  "sources": [
+    {"name": "9to5Mac", "url": "https://9to5mac.com/2026/11/19/canva-introduces-new-controls-to-hide-generative-ai-features/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "Canva ora ti fa *spegnere l'AI*", "sub": "Un interruttore per Free e Pro, senza costi extra.",
+     "image_prompt": "A single matte black toggle switch set into a concrete slab, flipped to the off position, a thin lime light along its edge."},
+    {"type": "point", "title": "Cosa cambia", "body": "Canva ha introdotto due controlli per chi usa i piani Free e Pro, senza costi extra. Puoi cambiarli quando vuoi. Il primo spegne le funzioni di AI generativa, cioè quelle che creano contenuti nuovi."},
+    {"type": "list", "title": "Dove lo trovi", "items": ["Interruttore AI: Profilo > Impostazioni > Permessi", "Voce da disattivare: \"Enable generative AI features\"", "Contenuti AI nella libreria: Profilo > Il tuo account > Personalizzazione AI"]},
+    {"type": "point", "title": "Cosa resta acceso", "body": "Anche con l'interruttore spento restano Background Remover e Magic Grab. Canva spiega che lavorano solo su contenuti già presenti nel design. Il secondo controllo riduce i contenuti generati con AI nella libreria, ma non tocca i tuoi design."},
+    {"type": "concreto", "items": ["Non vuoi l'AI generativa in Canva? Spegnila dalle impostazioni.", "Vuoi meno elementi creati con AI nelle ricerche? Usa il secondo controllo.", "Account Teams, Education o aziendali: i permessi li gestisce l'amministratore."]}
+  ],
+  "caption": "Canva ora ha un interruttore per spegnere l'AI.\n\nSui piani Free e Pro puoi disattivare le funzioni di AI generativa da Profilo > Impostazioni > Permessi. Restano Background Remover e Magic Grab. Un secondo controllo riduce i contenuti creati con AI nella libreria.\n\nIn concreto: se preferisci lavorare senza AI, ora puoi farlo con due tocchi.\n\nUseresti Canva con l'AI spenta?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#canva", "#design", "#privacy", "#tecnologia"],
+  "voiceover": [
+    "Canva ora ti permette di spegnere l'AI.",
+    "Due nuovi controlli, per i piani Free e Pro, senza costi extra.",
+    "Lo trovi in Impostazioni, alla voce Permessi.",
+    "Restano attivi solo Background Remover e Magic Grab.",
+    "In concreto: se preferisci lavorare senza AI generativa, ora puoi farlo."
+  ]
+}

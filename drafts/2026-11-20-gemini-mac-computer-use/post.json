@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-20-gemini-mac-computer-use",
+  "kind": "news",
+  "created": "2026-11-20T07:00:00+01:00",
+  "story_key": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+  "sources": [
+    {"name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"},
+    {"name": "TechCrunch", "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "Gemini ora *usa il tuo Mac* al posto tuo", "sub": "Clicca, scrive e compila moduli. Per ora solo negli USA.",
+     "image_prompt": "A matte black computer mouse on a concrete pedestal, a faint lime afterimage of a cursor trail beside it."},
+    {"type": "point", "title": "Cosa fa", "body": "Descrivi un lavoro e Gemini lo svolge tra file locali, app del Mac e web: clicca, scrive, usa i menu, compila moduli. Lavora in una finestra separata, con un'anteprima in chat. Schermo e cursore restano liberi per te."},
+    {"type": "list", "title": "Esempi di Google", "items": ["Estrarre pesi e indirizzi da PDF per preventivi di spedizione", "Raccogliere dati da dashboard in una presentazione Slides", "Guardare le foto di vestiti, controllare i prezzi e preparare gli annunci"]},
+    {"type": "point", "title": "Tu hai il controllo", "body": "Scegli a quali app può accedere Gemini, guardi ogni passaggio, puoi fermarlo quando vuoi e approvi le azioni importanti prima che vengano eseguite."},
+    {"type": "point", "title": "Chi può usarlo", "body": "Per ora in inglese e solo negli USA. Servono un Mac Apple Silicon con macOS Sequoia 15.0 o successivo, un account Google personale (18+) e un piano Google AI Plus, Pro o Ultra. Disponibilità in Italia non ancora annunciata."},
+    {"type": "concreto", "items": ["In Italia non puoi ancora provarlo: Google non ha dato date.", "Se lo avrai, parti da un lavoro ripetitivo e semplice.", "Controlla sempre le azioni prima di approvarle."]}
+  ],
+  "caption": "Gemini ora può usare il tuo Mac al posto tuo.\n\nDescrivi un lavoro e lui lo svolge tra file, app e web, in una finestra separata. Tu guardi, puoi fermarlo e approvi le azioni importanti.\nPer ora solo in inglese e negli USA, con piano Google AI Plus, Pro o Ultra e un Mac Apple Silicon.\n\nIn concreto: in Italia disponibilità non ancora annunciata, ma è un segnale su dove vanno gli assistenti AI.\n\nQuale lavoro ripetitivo gli affideresti?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#gemini", "#google", "#mac", "#produttività"]
+}
