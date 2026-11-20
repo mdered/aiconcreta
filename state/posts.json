@@ -255,9 +255,12 @@
       "media/2026-11-15-prompt-spiega-documento/06.jpg"
     ],
     "kind": "prompt",
+    "media_id": "18139672018637631",
     "msg_id": 56,
+    "permalink": "https://www.instagram.com/p/Df9j1McDwE0/",
+    "published_at": "2026-11-20T11:34:52+00:00",
     "sent_at": "2026-11-15T20:40:31+00:00",
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-20T12:30:00+01:00"
   },
   "2026-11-16-claude-sheets-whiteboards-data": {
