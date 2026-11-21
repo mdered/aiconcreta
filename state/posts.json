@@ -725,6 +725,7 @@
       271
     ],
     "created": "2026-11-21T07:00:00+01:00",
+    "decided_at": "2026-11-21T07:39:15+00:00",
     "hash": "29071292d179468330db6110c31ad079bb042e0299a913d97aff4071f395ce67",
     "images": [
       "media/2026-11-21-italia-deloitte-ai-agentica/01.jpg",
@@ -738,7 +739,8 @@
     "kind": "italia",
     "msg_id": 272,
     "sent_at": "2026-11-21T05:34:56+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-28T12:30:00+01:00"
   },
   "2026-11-21-prompt-fatti-intervistare": {
     "album": [
