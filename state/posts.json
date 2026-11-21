@@ -303,7 +303,7 @@
       133,
       134
     ],
-    "attempts": 2,
+    "attempts": 3,
     "created": "2026-11-16T07:10:00+01:00",
     "decided_at": "2026-11-16T15:12:42+00:00",
     "error": "POST 17841466726060736/media: Any of the pages_read_engagement, pages_manage_metadata,\n        pages_read_user_content, pages_manage_ads, pages_show_list or\n        pages_messaging permission(s) must be granted before impersonating a\n        user's page.",
@@ -319,7 +319,7 @@
     "kind": "prompt",
     "msg_id": 135,
     "sent_at": "2026-11-16T05:41:19+00:00",
-    "status": "scheduled",
+    "status": "failed",
     "when": "2026-11-21T12:30:00+01:00"
   },
   "2026-11-16-tool-claude-sheets": {
