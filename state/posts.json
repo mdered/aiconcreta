@@ -332,8 +332,10 @@
       141,
       142
     ],
+    "attempts": 1,
     "created": "2026-11-16T07:05:00+01:00",
     "decided_at": "2026-11-16T16:23:10+00:00",
+    "error": "POST 17841466726060736/media: Any of the pages_read_engagement, pages_manage_metadata,\n        pages_read_user_content, pages_manage_ads, pages_show_list or\n        pages_messaging permission(s) must be granted before impersonating a\n        user's page.",
     "hash": "945a1d6460135402e7ec6f81916633968dd88f44d7d9cef3c979fbb28eceaae7",
     "images": [
       "media/2026-11-16-tool-claude-sheets/01.jpg",
