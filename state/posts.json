@@ -303,8 +303,10 @@
       133,
       134
     ],
+    "attempts": 1,
     "created": "2026-11-16T07:10:00+01:00",
     "decided_at": "2026-11-16T15:12:42+00:00",
+    "error": "POST 17841466726060736/media: Any of the pages_read_engagement, pages_manage_metadata,\n        pages_read_user_content, pages_manage_ads, pages_show_list or\n        pages_messaging permission(s) must be granted before impersonating a\n        user's page.",
     "hash": "c285c6c7e396f481b96fa29a1515f08af9e320727cc0548fbe903dafda2f1404",
     "images": [
       "media/2026-11-16-prompt-confronta-preventivi/01.jpg",
