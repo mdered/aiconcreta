@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-21-italia-deloitte-ai-agentica",
+  "kind": "italia",
+  "created": "2026-11-21T07:00:00+01:00",
+  "story_key": "https://www.ansa.it/ansacom/notizie/economia/deloitte-italia-1/2026/11/19/il-46-delle-imprese-punta-sullai-agentica-governance-la-prima-criticita_1f7e9b3c-f71f-496e-8fb5-e98a8f7ee6cc.html",
+  "sources": [
+    {"name": "ANSA", "url": "https://www.ansa.it/ansacom/notizie/economia/deloitte-italia-1/2026/11/19/il-46-delle-imprese-punta-sullai-agentica-governance-la-prima-criticita_1f7e9b3c-f71f-496e-8fb5-e98a8f7ee6cc.html"},
+    {"name": "AI4Business", "url": "https://www.ai4business.it/intelligenza-artificiale/ai-il-46-delle-imprese-italiane-punta-sugli-agenti-nel-2027/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "Imprese italiane: *46%* punta sugli agenti AI", "sub": "Ma solo il 4% è pienamente guidato dall'AI.",
+     "image_prompt": "A row of identical concrete blocks, the first few lit lime from within, the rest dark and unlit."},
+    {"type": "point", "title": "Il dato", "body": "Secondo la AI Driven Organization Survey 2026 di Deloitte, il 46% delle imprese medio-grandi italiane intervistate prevede di investire in AI agentica, cioè sistemi che portano a termine compiti da soli. Solo il 4% è pienamente guidato dall'AI."},
+    {"type": "list", "title": "A cosa serve l'AI in azienda", "items": ["88%: migliorare l'efficienza dei processi", "60%: ridurre i costi", "24%: aumentare i ricavi"]},
+    {"type": "point", "title": "I freni", "body": "La governance, cioè regole e responsabilità su come si usa l'AI, è la difficoltà più citata: 50%. Segue la gestione del cambiamento: 39%."},
+    {"type": "list", "title": "Cosa vogliono imparare", "items": ["Analisi dei dati: 54%", "AI generativa e agentica: 45%", "Cloud: 45%", "Il 78% forma il personale internamente"]},
+    {"type": "concreto", "items": ["Lavori in azienda? Aspettati più corsi e regole sull'uso dell'AI.", "Analisi dei dati e AI generativa sono le competenze più richieste.", "Chiedi chi risponde delle decisioni prese con l'AI."]}
+  ],
+  "caption": "Il 46% delle imprese italiane punta sugli agenti AI nel 2027. Solo il 4% è già guidato dall'AI.\n\nÈ il dato della AI Driven Organization Survey 2026 di Deloitte, su imprese medio-grandi. L'88% usa l'AI per l'efficienza, il 60% per tagliare i costi, il 24% per crescere nei ricavi. Il freno principale è la governance: 50%.\n\nIn concreto: in azienda arriveranno più formazione e più regole. Conviene partire dai dati e dall'AI generativa.\n\nNella tua azienda l'AI è già un progetto vero o solo un esperimento?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#lavoro", "#imprese", "#pmi", "#formazione"]
+}

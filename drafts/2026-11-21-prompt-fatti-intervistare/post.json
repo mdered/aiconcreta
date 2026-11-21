@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-21-prompt-fatti-intervistare",
+  "kind": "prompt",
+  "created": "2026-11-21T07:00:00+01:00",
+  "story_key": "evergreen:prompt-fatti-intervistare",
+  "sources": [],
+  "slides": [
+    {"type": "cover", "title": "Fatti *intervistare* prima di scrivere", "sub": "Un prompt per testi migliori al primo colpo.",
+     "image_prompt": "A single lime-lit question mark carved into a concrete slab, an empty chair facing it."},
+    {"type": "point", "title": "Il problema", "body": "Se chiedi un testo con poche informazioni, l'AI riempie i vuoti a caso. Il risultato è generico. Prova a invertire: falle fare le domande a te."},
+    {"type": "prompt", "title": "Copia questo prompt", "prompt": "Devo scrivere [mail / relazione / post]. Prima di scrivere, fammi una domanda alla volta per capire: a chi è rivolto, qual è l'obiettivo, che tono usare, quali dati inserire. Quando hai abbastanza informazioni, scrivi una bozza.", "note": "Sostituisci le parole tra parentesi quadre."},
+    {"type": "point", "title": "Perché funziona", "body": "Le domande ti obbligano a decidere obiettivo e tono prima del testo. L'AI lavora sulle tue risposte, non su ipotesi. Una domanda alla volta evita di ricevere un elenco a cui non rispondi."},
+    {"type": "concreto", "items": ["Provalo alla prossima mail importante.", "Rispondi in modo breve: bastano poche parole.", "Controlla sempre i dati nella bozza prima di inviarla."]}
+  ],
+  "caption": "Prima di chiedere un testo all'AI, fatti fare le domande.\n\nSe l'istruzione è vaga, la bozza è generica. Con questo prompt l'AI ti chiede a chi scrivi, cosa vuoi ottenere e che tono usare, una domanda alla volta, e solo dopo scrive.\n\nIn concreto: provalo alla prossima mail o relazione e controlla i dati prima di inviare.\n\nPer quale testo lo useresti oggi?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#prompt", "#chatgpt", "#produttività", "#lavoro"]
+}

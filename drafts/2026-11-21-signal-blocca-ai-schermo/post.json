@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-21-signal-blocca-ai-schermo",
+  "kind": "news",
+  "created": "2026-11-21T07:00:00+01:00",
+  "story_key": "https://signal.org/blog/protecting-your-privacy/",
+  "sources": [
+    {"name": "Signal", "url": "https://signal.org/blog/protecting-your-privacy/"},
+    {"name": "Android Authority", "url": "https://www.androidauthority.com/signal-blocks-gemini-siri-ai-private-messages-3737647/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "Signal *blocca l'AI* del telefono", "sub": "Gli assistenti di iOS e Android non devono leggere le tue chat.",
+     "image_prompt": "A heavy concrete door with a single lime-lit keyhole, closed and sealed, a thin beam of light leaking from underneath."},
+    {"type": "point", "title": "Cosa succede", "body": "Il 20 novembre Signal ha annunciato nuove protezioni per impedire agli assistenti AI integrati nel telefono di catturare e conservare le tue chat. Il trucco: bloccare gli screenshot dentro l'app."},
+    {"type": "list", "title": "Come funziona", "items": ["iPhone con iOS 27: impostazione \"Block Siri AI\"", "Android: se un assistente prova a leggere lo schermo, si attiva \"Screen security\"", "Mac: Signal non può bloccare; consiglia di aggiungerla in Siri > App escluse"]},
+    {"type": "point", "title": "I limiti", "body": "Signal stessa dice che la soluzione è incompleta. Non vale su tutti gli Android e non ferma agenti che leggono i file già sul dispositivo. Puoi disattivare la protezione, ma Signal avverte che espone chat tue e dei tuoi contatti."},
+    {"type": "concreto", "items": ["Usi Signal su iPhone? Controlla che \"Block Siri AI\" sia attivo.", "Su Android controlla che \"Screen security\" sia attivo nelle impostazioni.", "Su Mac: Impostazioni di Sistema > Siri > App escluse, aggiungi Signal."]}
+  ],
+  "caption": "Signal prova a tenere l'AI del telefono fuori dalle tue chat.\n\nIl 20 novembre ha annunciato che blocca gli screenshot nell'app, così Siri su iOS 27 e gli assistenti Android non leggono lo schermo. Su Android la protezione \"Screen security\" scatta quando un assistente prova a leggere. Sul Mac non può bloccare: va aggiunta a mano tra le app escluse di Siri.\n\nSignal ammette che non basta: non copre tutti gli Android né i file sul dispositivo.\n\nIn concreto: controlla le impostazioni di Signal e lascia la protezione attiva.\n\nTi fidi di un assistente che legge lo schermo del telefono?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#signal", "#privacy", "#sicurezza", "#tecnologia"],
+  "voiceover": [
+    "Signal vuole tenere l'AI del telefono fuori dalle tue chat.",
+    "Ha annunciato nuove protezioni contro gli assistenti integrati in iOS e Android.",
+    "Su iPhone c'è l'impostazione Block Siri AI. Su Android si attiva Screen security.",
+    "Signal ammette che la soluzione è incompleta e non copre tutti i telefoni.",
+    "In concreto: controlla le impostazioni di Signal e lascia la protezione attiva."
+  ]
+}
