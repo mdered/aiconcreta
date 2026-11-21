@@ -689,5 +689,103 @@
     "sent_at": "2026-11-20T05:33:44+00:00",
     "status": "scheduled",
     "when": "2026-11-27T18:30:00+01:00"
+  },
+  "2026-11-21-google-home-chat-ai": {
+    "album": [
+      258,
+      259,
+      260,
+      261,
+      262,
+      263
+    ],
+    "created": "2026-11-21T07:00:00+01:00",
+    "hash": "55ebf68311110eb1904519e74af05d8dbc7fda59eb49941b1779748976171007",
+    "images": [
+      "media/2026-11-21-google-home-chat-ai/01.jpg",
+      "media/2026-11-21-google-home-chat-ai/02.jpg",
+      "media/2026-11-21-google-home-chat-ai/03.jpg",
+      "media/2026-11-21-google-home-chat-ai/04.jpg",
+      "media/2026-11-21-google-home-chat-ai/05.jpg",
+      "media/2026-11-21-google-home-chat-ai/06.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 264,
+    "sent_at": "2026-11-21T05:34:54+00:00",
+    "status": "sent"
+  },
+  "2026-11-21-italia-deloitte-ai-agentica": {
+    "album": [
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271
+    ],
+    "created": "2026-11-21T07:00:00+01:00",
+    "hash": "29071292d179468330db6110c31ad079bb042e0299a913d97aff4071f395ce67",
+    "images": [
+      "media/2026-11-21-italia-deloitte-ai-agentica/01.jpg",
+      "media/2026-11-21-italia-deloitte-ai-agentica/02.jpg",
+      "media/2026-11-21-italia-deloitte-ai-agentica/03.jpg",
+      "media/2026-11-21-italia-deloitte-ai-agentica/04.jpg",
+      "media/2026-11-21-italia-deloitte-ai-agentica/05.jpg",
+      "media/2026-11-21-italia-deloitte-ai-agentica/06.jpg",
+      "media/2026-11-21-italia-deloitte-ai-agentica/07.jpg"
+    ],
+    "kind": "italia",
+    "msg_id": 272,
+    "sent_at": "2026-11-21T05:34:56+00:00",
+    "status": "sent"
+  },
+  "2026-11-21-prompt-fatti-intervistare": {
+    "album": [
+      273,
+      274,
+      275,
+      276,
+      277,
+      278
+    ],
+    "created": "2026-11-21T07:00:00+01:00",
+    "hash": "b1dfe9bbd9695943f3f4716f6f6d6a8b8e6a00006bee4ad513f0ec5a0b7134a7",
+    "images": [
+      "media/2026-11-21-prompt-fatti-intervistare/01.jpg",
+      "media/2026-11-21-prompt-fatti-intervistare/02.jpg",
+      "media/2026-11-21-prompt-fatti-intervistare/03.jpg",
+      "media/2026-11-21-prompt-fatti-intervistare/04.jpg",
+      "media/2026-11-21-prompt-fatti-intervistare/05.jpg",
+      "media/2026-11-21-prompt-fatti-intervistare/06.jpg"
+    ],
+    "kind": "prompt",
+    "msg_id": 279,
+    "sent_at": "2026-11-21T05:34:58+00:00",
+    "status": "sent"
+  },
+  "2026-11-21-signal-blocca-ai-schermo": {
+    "album": [
+      280,
+      281,
+      282,
+      283,
+      284,
+      285
+    ],
+    "created": "2026-11-21T07:00:00+01:00",
+    "hash": "7289c1d59326eb0d38e91ce26c9ff894bbc69f20554a19b63d4da39de1b2d087",
+    "images": [
+      "media/2026-11-21-signal-blocca-ai-schermo/01.jpg",
+      "media/2026-11-21-signal-blocca-ai-schermo/02.jpg",
+      "media/2026-11-21-signal-blocca-ai-schermo/03.jpg",
+      "media/2026-11-21-signal-blocca-ai-schermo/04.jpg",
+      "media/2026-11-21-signal-blocca-ai-schermo/05.jpg",
+      "media/2026-11-21-signal-blocca-ai-schermo/06.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 286,
+    "sent_at": "2026-11-21T05:34:59+00:00",
+    "status": "sent"
   }
 }
