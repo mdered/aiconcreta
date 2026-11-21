@@ -752,6 +752,7 @@
       278
     ],
     "created": "2026-11-21T07:00:00+01:00",
+    "decided_at": "2026-11-21T07:40:13+00:00",
     "hash": "b1dfe9bbd9695943f3f4716f6f6d6a8b8e6a00006bee4ad513f0ec5a0b7134a7",
     "images": [
       "media/2026-11-21-prompt-fatti-intervistare/01.jpg",
@@ -764,7 +765,8 @@
     "kind": "prompt",
     "msg_id": 279,
     "sent_at": "2026-11-21T05:34:58+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-28T18:30:00+01:00"
   },
   "2026-11-21-signal-blocca-ai-schermo": {
     "album": [
@@ -776,6 +778,7 @@
       285
     ],
     "created": "2026-11-21T07:00:00+01:00",
+    "decided_at": "2026-11-21T07:40:14+00:00",
     "hash": "7289c1d59326eb0d38e91ce26c9ff894bbc69f20554a19b63d4da39de1b2d087",
     "images": [
       "media/2026-11-21-signal-blocca-ai-schermo/01.jpg",
@@ -787,7 +790,14 @@
     ],
     "kind": "news",
     "msg_id": 286,
+    "reel": {
+      "msg_id": 287,
+      "status": "scheduled",
+      "video": "media/2026-11-21-signal-blocca-ai-schermo/reel.mp4",
+      "when": "2026-11-29T21:00:00+01:00"
+    },
     "sent_at": "2026-11-21T05:34:59+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-29T12:30:00+01:00"
   }
 }
