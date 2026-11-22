@@ -874,6 +874,7 @@
       309
     ],
     "created": "2026-11-22T07:00:00+01:00",
+    "decided_at": "2026-11-22T20:26:15+00:00",
     "hash": "6c533f54ea67fc32e012de69268e43cf292a2578ea7244447cd9468cb07e13e0",
     "images": [
       "media/2026-11-22-prompt-testo-semplice/01.jpg",
@@ -886,6 +887,7 @@
     "kind": "prompt",
     "msg_id": 310,
     "sent_at": "2026-11-22T05:34:47+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-11-30T12:30:00+01:00"
   }
 }
