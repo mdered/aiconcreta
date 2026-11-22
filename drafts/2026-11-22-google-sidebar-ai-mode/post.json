@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-22-google-sidebar-ai-mode",
+  "kind": "news",
+  "created": "2026-11-22T07:00:00+01:00",
+  "story_key": "https://cryptobriefing.com/google-homepage-ai-chat-sidebar/",
+  "sources": [
+    {"name": "Crypto Briefing", "url": "https://cryptobriefing.com/google-homepage-ai-chat-sidebar/"},
+    {"name": "Let's Data Science", "url": "https://letsdatascience.com/news/google-adds-collapsible-ai-mode-chat-sidebar-to-homepage-f5c07f7f"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "Google ti fa *riprendere le chat* di AI Mode", "sub": "Una barra laterale sulla homepage elenca le ricerche passate.",
+     "image_prompt": "A row of concrete drawers, one pulled open with a soft lime light spilling out."},
+    {"type": "point", "title": "Cosa cambia", "body": "Sulla homepage di Google da computer c'è una barra laterale che si può chiudere. Elenca le tue ultime ricerche in AI Mode, così le riapri e continui da dove avevi lasciato."},
+    {"type": "list", "title": "Cosa puoi fare dalla barra", "items": ["Aprire un nuovo thread, cioè una nuova conversazione", "Cercare tra i thread passati", "Collegare un Gemini Notebook", "Chiuderla per tornare alla homepage di sempre"]},
+    {"type": "point", "title": "I limiti", "body": "Per ora si parla solo di homepage da computer: non è detto se arriverà su mobile. I thread temporanei di AI Mode, lanciati il 17 novembre, non restano nella cronologia."},
+    {"type": "concreto", "items": ["Usi AI Mode da computer? Cerca la barra a sinistra nella homepage.", "Per una ricerca che non vuoi ritrovare, usa il thread temporaneo.", "Se non ti serve, chiudila: la homepage torna com'era."]}
+  ],
+  "caption": "Google ora ti fa riprendere le chat di AI Mode dalla homepage.\n\nÈ una barra laterale, solo su computer, che elenca le tue ricerche recenti. Puoi aprire un nuovo thread, cercare tra i vecchi e collegare un Gemini Notebook. Si chiude con un clic.\n\nIn concreto: se usi AI Mode, trovi tutto lì. Per le ricerche private c'è il thread temporaneo, che non resta in cronologia.\n\nUseresti AI Mode come una chat da riprendere, o solo per domande al volo?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#google", "#gemini", "#ricerca", "#tecnologia"],
+  "voiceover": [
+    "Google ti fa riprendere le chat di AI Mode direttamente dalla homepage.",
+    "Su computer c'è una barra laterale che elenca le tue ultime ricerche in AI Mode.",
+    "Da lì apri un nuovo thread, cerchi tra quelli vecchi o colleghi un Gemini Notebook.",
+    "Per ora si parla solo di computer. I thread temporanei non restano nella cronologia.",
+    "In concreto: se la barra non ti serve, la chiudi e la homepage torna come prima."
+  ]
+}

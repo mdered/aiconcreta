@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-22-prompt-testo-semplice",
+  "kind": "prompt",
+  "created": "2026-11-22T07:00:00+01:00",
+  "story_key": "evergreen:prompt-testo-semplice",
+  "sources": [],
+  "slides": [
+    {"type": "cover", "title": "Rendi chiaro un testo *pieno di paroloni*", "sub": "Il prompt da copiare per ChatGPT, Claude o Gemini."},
+    {"type": "point", "title": "Il problema", "body": "Contratti, circolari e mail aziendali sono scritti in modo complicato. Spesso quello che ti serve sapere sta in due righe."},
+    {"type": "prompt", "title": "Incolla il testo, poi questo:", "prompt": "Riscrivi il testo qui sopra in italiano semplice, come per una persona che non conosce l'argomento.\n1. Una frase che dice di cosa si tratta\n2. Cosa devo fare io, con le scadenze\n3. Le parole difficili, spiegate in breve\nNon aggiungere nulla che non sia nel testo. Se un punto non è chiaro, scrivilo."},
+    {"type": "list", "title": "Perché funziona", "items": ["Dici a chi deve parlare il testo", "Chiedi una struttura fissa", "\"Non aggiungere nulla\" riduce gli errori"]},
+    {"type": "concreto", "items": ["Provalo sulla prossima circolare o mail lunga.", "Controlla date e importi sul testo originale.", "Non incollare dati personali di altri."]}
+  ],
+  "caption": "Un testo complicato, spiegato in tre righe.\n\nCopia il prompt dalla slide 3 e incollalo dopo il testo: ti dice di cosa si tratta, cosa devi fare e cosa significano le parole difficili.\n\nIn concreto: prima di agire, ricontrolla date e importi sull'originale.\n\nQual è l'ultimo testo che non hai capito al primo colpo?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#prompt", "#produttività", "#lavoro"]
+}

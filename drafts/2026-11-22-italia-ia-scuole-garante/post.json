@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-22-italia-ia-scuole-garante",
+  "kind": "italia",
+  "created": "2026-11-22T07:00:00+01:00",
+  "story_key": "https://www.garanteprivacy.it/garante/doc.jsp?ID=10315228",
+  "sources": [
+    {"name": "Garante privacy, parere n. 787 del 20 ottobre 2026", "url": "https://www.garanteprivacy.it/garante/doc.jsp?ID=10315228"},
+    {"name": "Garante privacy, newsletter 12 novembre 2026", "url": "https://www.garanteprivacy.it/garante/doc.jsp?ID=10319176"},
+    {"name": "Tecnica della Scuola", "url": "https://www.tecnicadellascuola.it/intelligenza-artificiale-a-scuola-via-libera-del-garante-privacy-accessi-pseudonimizzati-e-nuove-garanzie-per-gli-studenti"},
+    {"name": "Cybersecurity360", "url": "https://www.cybersecurity360.it/legal/privacy-dati-personali/ai-nelle-scuole-il-garante-chiede-piu-controlli-su-dati-e-fornitori/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "AI a scuola: gli studenti useranno *account anonimi*", "sub": "Il Garante dice sì allo schema di decreto del Ministero.",
+     "image_prompt": "A concrete classroom desk with a blank lime-lit tablet and a small padlock carved into the surface."},
+    {"type": "point", "title": "Cos'è successo", "body": "Il Garante privacy ha dato parere favorevole, con osservazioni, allo schema di decreto del Ministero dell'Istruzione e del Merito sull'AI nelle scuole. Il parere è del 20 ottobre 2026. Il decreto è ancora una bozza."},
+    {"type": "list", "title": "Cosa prevede la bozza", "items": ["Gli studenti usano l'AI con account pseudonimizzati", "Solo preside e docenti autorizzati risalgono all'identità", "Niente dati personali nei prompt", "I fornitori danno alla scuola una dichiarazione di conformità"]},
+    {"type": "point", "title": "Cosa chiede il Garante", "body": "Al Ministero chiede di aiutare le scuole, con standard per i fornitori di AI e un servizio di assistenza. Le scuole non devono restare sole nella scelta degli strumenti."},
+    {"type": "concreto", "items": ["Genitore o studente? Per ora è una bozza: niente cambia da un giorno all'altro.", "Nei prompt non scrivere mai nomi, voti o dati personali.", "Insegnante? Controlla cosa dirà il testo finale."]}
+  ],
+  "caption": "AI a scuola: gli studenti useranno account anonimi.\n\nIl Garante privacy ha dato parere favorevole, con osservazioni, allo schema di decreto del Ministero dell'Istruzione sull'AI nelle scuole (parere del 20 ottobre 2026). Account pseudonimizzati per gli studenti, niente dati personali nei prompt, dichiarazione di conformità dai fornitori. Il testo è ancora una bozza.\n\nIn concreto: nei prompt niente nomi e dati personali, e aspetta il decreto definitivo.\n\nSe avessi un figlio a scuola, vorresti che usasse l'AI in classe?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#scuola", "#privacy", "#garanteprivacy", "#istruzione"]
+}
