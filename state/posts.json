@@ -423,7 +423,7 @@
       175,
       176
     ],
-    "attempts": 1,
+    "attempts": 2,
     "created": "2026-11-17T06:40:00+01:00",
     "decided_at": "2026-11-17T07:16:16+00:00",
     "error": "POST 17841466726060736/media: Any of the pages_read_engagement, pages_manage_metadata,\n        pages_read_user_content, pages_manage_ads, pages_show_list or\n        pages_messaging permission(s) must be granted before impersonating a\n        user's page.",
