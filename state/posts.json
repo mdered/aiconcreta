@@ -866,7 +866,7 @@
     "kind": "italia",
     "msg_id": 303,
     "sent_at": "2026-11-22T05:34:46+00:00",
-    "status": "sent"
+    "status": "expired"
   },
   "2026-11-22-prompt-testo-semplice": {
     "album": [
