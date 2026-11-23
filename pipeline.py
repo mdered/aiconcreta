@@ -424,14 +424,15 @@ def graph(method, path, **params):
         raise RuntimeError(f"{method} {path}: {err.get('message', e.code)}") from None
 
 
-def wait_ready(container, tries=60):
+def wait_ready(container, tries=15):
+    time.sleep(10)
     for _ in range(tries):
         status = graph("GET", container, fields="status_code").get("status_code")
         if status == "FINISHED":
             return
         if status in ("ERROR", "EXPIRED"):
             raise RuntimeError(f"container {container}: {status}")
-        time.sleep(5)
+        time.sleep(20)                                            # few, spaced checks: Meta limits API calls
     raise RuntimeError(f"container {container}: not ready after 5 minutes")
 
 
@@ -485,7 +486,7 @@ def already_done(state, pid, reel=False):
 
 def instagram_reel(url, caption):
     c = graph("POST", f"{IG_USER}/media", media_type="REELS", video_url=url, caption=caption, share_to_feed="true")["id"]
-    wait_ready(c, tries=120)                                      # video processing: up to 10 minutes
+    wait_ready(c, tries=30)                                       # video processing: up to 10 minutes
     media = graph("POST", f"{IG_USER}/media_publish", creation_id=c)["id"]
     try:
         link = graph("GET", media, fields="permalink").get("permalink")
