@@ -537,6 +537,9 @@ def publish_reels(state, posts):
 
 
 def step_publish(state, posts):
+    if os.environ.get("PAUSED", "").strip().lower() == "true":
+        print("publish: PAUSED (repo variable PAUSED=true), nothing published")
+        return
     try:
         publish_reels(state, posts)
     except Exception:
