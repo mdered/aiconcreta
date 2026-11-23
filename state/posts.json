@@ -889,5 +889,75 @@
     "sent_at": "2026-11-22T05:34:47+00:00",
     "status": "scheduled",
     "when": "2026-11-30T12:30:00+01:00"
+  },
+  "2026-11-23-gemini-importa-chat": {
+    "album": [
+      314,
+      315,
+      316,
+      317,
+      318
+    ],
+    "created": "2026-11-23T07:00:00+01:00",
+    "hash": "822010c38126cbf19b814ca0abfc1d2d43e397ecf0279d826d90351d284c87b8",
+    "images": [
+      "media/2026-11-23-gemini-importa-chat/01.jpg",
+      "media/2026-11-23-gemini-importa-chat/02.jpg",
+      "media/2026-11-23-gemini-importa-chat/03.jpg",
+      "media/2026-11-23-gemini-importa-chat/04.jpg",
+      "media/2026-11-23-gemini-importa-chat/05.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 319,
+    "sent_at": "2026-11-23T05:34:05+00:00",
+    "status": "sent"
+  },
+  "2026-11-23-google-connected-apps-usa": {
+    "album": [
+      320,
+      321,
+      322,
+      323,
+      324,
+      325
+    ],
+    "created": "2026-11-23T07:00:00+01:00",
+    "hash": "b0262950ded191f053f51c4b3c9851e92dcdb1c54c21c9c857ad69bb6c33a91f",
+    "images": [
+      "media/2026-11-23-google-connected-apps-usa/01.jpg",
+      "media/2026-11-23-google-connected-apps-usa/02.jpg",
+      "media/2026-11-23-google-connected-apps-usa/03.jpg",
+      "media/2026-11-23-google-connected-apps-usa/04.jpg",
+      "media/2026-11-23-google-connected-apps-usa/05.jpg",
+      "media/2026-11-23-google-connected-apps-usa/06.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 326,
+    "sent_at": "2026-11-23T05:34:06+00:00",
+    "status": "sent"
+  },
+  "2026-11-23-prompt-decidi-tra-opzioni": {
+    "album": [
+      327,
+      328,
+      329,
+      330,
+      331,
+      332
+    ],
+    "created": "2026-11-23T07:00:00+01:00",
+    "hash": "8f57d28acb6c702a87b549e17fc37d16063b91223b72b33b6500ffbfc455b397",
+    "images": [
+      "media/2026-11-23-prompt-decidi-tra-opzioni/01.jpg",
+      "media/2026-11-23-prompt-decidi-tra-opzioni/02.jpg",
+      "media/2026-11-23-prompt-decidi-tra-opzioni/03.jpg",
+      "media/2026-11-23-prompt-decidi-tra-opzioni/04.jpg",
+      "media/2026-11-23-prompt-decidi-tra-opzioni/05.jpg",
+      "media/2026-11-23-prompt-decidi-tra-opzioni/06.jpg"
+    ],
+    "kind": "prompt",
+    "msg_id": 333,
+    "sent_at": "2026-11-23T05:34:08+00:00",
+    "status": "sent"
   }
 }
