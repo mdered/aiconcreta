@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-23-gemini-importa-chat",
+  "kind": "news",
+  "created": "2026-11-23T07:00:00+01:00",
+  "story_key": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/",
+  "sources": [
+    {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Porta le tue chat *dentro Gemini*",
+      "sub": "Puoi importare la cronologia da un'altra app di AI.",
+      "image_prompt": "A small matte black box being carried across a concrete bridge to a second pedestal, a single lime light glowing inside the box."
+    },
+    {
+      "type": "point",
+      "title": "Cosa puoi fare",
+      "body": "Gemini ti fa importare la cronologia delle chat da altre app di AI. Così le conversazioni continuano da dove le avevi lasciate."
+    },
+    {
+      "type": "list",
+      "title": "I passaggi, in breve",
+      "items": [
+        "Nelle impostazioni di Gemini copia il prompt di importazione",
+        "Incollalo nella tua vecchia app: ti fa un riassunto delle tue preferenze",
+        "Incolla quel riassunto in Gemini",
+        "Esporta lo ZIP della cronologia dalle impostazioni dell'account vecchio",
+        "Carica lo ZIP nelle impostazioni di Gemini"
+      ]
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Se vuoi provare Gemini, parti dal riassunto delle preferenze: è il passaggio più veloce.",
+        "Prima di caricare lo ZIP, controlla cosa contiene: potrebbero esserci dati personali."
+      ]
+    }
+  ],
+  "caption": "Vuoi provare Gemini senza ricominciare da zero? Ora puoi portarti dietro le chat.\n\nGoogle spiega come importare la cronologia da un'altra app di AI: un prompt per riassumere le tue preferenze e poi uno ZIP con le conversazioni.\n\nI passaggi sono nella slide 3.\n\nIn concreto: controlla cosa c'è nello ZIP prima di caricarlo.\n\nHai mai cambiato assistente AI? Cosa ti ha fatto restare o andare via?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#gemini",
+    "#google",
+    "#chatgpt",
+    "#produttività"
+  ],
+  "voiceover": [
+    "Ora puoi portare le tue chat dentro Gemini.",
+    "Google permette di importare la cronologia da altre app di AI, così le conversazioni continuano.",
+    "Copia il prompt di Gemini, incollalo nella vecchia app e riporta il riassunto. Poi carica lo ZIP della cronologia.",
+    "In concreto: prima di caricare lo ZIP, controlla che non contenga dati personali."
+  ]
+}

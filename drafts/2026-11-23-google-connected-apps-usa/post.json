@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-23-google-connected-apps-usa",
+  "kind": "news",
+  "created": "2026-11-23T07:00:00+01:00",
+  "story_key": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/",
+  "sources": [
+    {
+      "name": "Google",
+      "url": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Google Search ti fa la spesa, *ma solo negli USA*",
+      "sub": "Arrivano le Connected Apps: ordini e servizi dentro la ricerca.",
+      "image_prompt": "A concrete shelf holding a small paper grocery bag, with a thin lime line connecting it to a glowing speech bubble shape."
+    },
+    {
+      "type": "point",
+      "title": "Cosa sono",
+      "body": "Le Connected Apps ti fanno completare compiti con servizi esterni direttamente in Search e nell'app Gemini."
+    },
+    {
+      "type": "list",
+      "title": "Cosa c'è già",
+      "items": [
+        "Spesa: Albertsons, Safeway, Shaw's e Target",
+        "Credito: Experian, per vedere il tuo rating e cercare un prestito personale",
+        "Tasse: H&R Block, per calcolare imposte e rimborso"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Dove funziona",
+      "body": "Il lancio riguarda solo gli Stati Uniti. Nelle prossime settimane si potranno collegare anche Angi e Thumbtack per trovare professionisti per la casa."
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "In Italia non serve fare nulla: il lancio è solo USA.",
+        "È la direzione: la ricerca che non ti dà solo link, ma completa il compito."
+      ]
+    }
+  ],
+  "caption": "Google Search ora ti fa anche la spesa. Ma solo negli Stati Uniti.\n\nLe Connected Apps collegano Search e Gemini a servizi esterni: spesa con Albertsons, Safeway, Shaw's e Target, credito con Experian, tasse con H&R Block.\n\nIl lancio riguarda solo gli USA.\n\nIn concreto: per ora è un'anteprima di dove va la ricerca.\n\nFaresti la spesa chiedendo a un'AI?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#google",
+    "#gemini",
+    "#tecnologia"
+  ]
+}

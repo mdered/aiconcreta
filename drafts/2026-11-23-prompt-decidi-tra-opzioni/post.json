@@ -1,0 +1,50 @@
+{
+  "id": "2026-11-23-prompt-decidi-tra-opzioni",
+  "kind": "prompt",
+  "created": "2026-11-23T07:00:00+01:00",
+  "story_key": "evergreen:prompt-decidi-tra-opzioni",
+  "sources": [],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Scegli tra due opzioni *senza girarci intorno*",
+      "sub": "Il prompt da copiare per ChatGPT, Claude o Gemini.",
+      "image_prompt": "Two identical concrete doorways side by side, a lime light shining through only one of them."
+    },
+    {
+      "type": "point",
+      "title": "Il problema",
+      "body": "Quando devi scegliere, ti perdi nei pro e contro. Ti serve qualcuno che ti faccia le domande giuste e ti dia un criterio."
+    },
+    {
+      "type": "prompt",
+      "title": "Descrivi la scelta, poi questo:",
+      "prompt": "Devo scegliere tra le opzioni che ti ho descritto. Prima fammi al massimo 3 domande per capire cosa conta davvero per me. Poi:\n1. Dammi una tabella con pro e contro di ciascuna\n2. Dimmi quale sceglieresti e perché, in 3 righe\n3. Dimmi cosa dovrei scoprire per cambiare idea\nNon inventare dati: se ti manca un'informazione, chiedimela."
+    },
+    {
+      "type": "list",
+      "title": "Perché funziona",
+      "items": [
+        "Le domande iniziali spostano il focus su di te",
+        "La tabella mette le opzioni a confronto",
+        "\"Cosa cambierebbe idea\" evita le false certezze"
+      ]
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Provalo sulla prossima scelta piccola: un fornitore, un abbonamento.",
+        "La decisione resta tua: l'AI ti aiuta a ragionare."
+      ]
+    }
+  ],
+  "caption": "Due opzioni, una scelta. Come non restare bloccati.\n\nCopia il prompt dalla slide 3: l'AI ti fa prima qualche domanda, poi ti dà pro e contro, un consiglio e cosa potrebbe farti cambiare idea.\n\nIn concreto: provalo su una scelta piccola, prima di usarlo su una grande.\n\nQual è l'ultima scelta in cui sei rimasto bloccato?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#chatgpt",
+    "#prompt",
+    "#produttività",
+    "#lavoro"
+  ]
+}
