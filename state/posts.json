@@ -963,5 +963,77 @@
     "msg_id": 333,
     "sent_at": "2026-11-23T05:34:08+00:00",
     "status": "sent"
+  },
+  "2026-11-24-ai-mode-wallet-drive": {
+    "album": [
+      336,
+      337,
+      338,
+      339,
+      340,
+      341
+    ],
+    "created": "2026-11-24T06:40:00+01:00",
+    "hash": "fbc584c41df891527e526e6e81553cbae726f7cd81b39530f96858d073027af5",
+    "images": [
+      "media/2026-11-24-ai-mode-wallet-drive/01.jpg",
+      "media/2026-11-24-ai-mode-wallet-drive/02.jpg",
+      "media/2026-11-24-ai-mode-wallet-drive/03.jpg",
+      "media/2026-11-24-ai-mode-wallet-drive/04.jpg",
+      "media/2026-11-24-ai-mode-wallet-drive/05.jpg",
+      "media/2026-11-24-ai-mode-wallet-drive/06.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 342,
+    "sent_at": "2026-11-24T05:33:39+00:00",
+    "status": "sent"
+  },
+  "2026-11-24-italia-caio-ibm": {
+    "album": [
+      343,
+      344,
+      345,
+      346,
+      347,
+      348
+    ],
+    "created": "2026-11-24T06:40:00+01:00",
+    "hash": "daf15b48359ed6f7d7dcb5d53f348beeda8afeeb491786cb98e1f04f02c13f1c",
+    "images": [
+      "media/2026-11-24-italia-caio-ibm/01.jpg",
+      "media/2026-11-24-italia-caio-ibm/02.jpg",
+      "media/2026-11-24-italia-caio-ibm/03.jpg",
+      "media/2026-11-24-italia-caio-ibm/04.jpg",
+      "media/2026-11-24-italia-caio-ibm/05.jpg",
+      "media/2026-11-24-italia-caio-ibm/06.jpg"
+    ],
+    "kind": "italia",
+    "msg_id": 349,
+    "sent_at": "2026-11-24T05:33:42+00:00",
+    "status": "sent"
+  },
+  "2026-11-24-prompt-prepara-riunione": {
+    "album": [
+      350,
+      351,
+      352,
+      353,
+      354,
+      355
+    ],
+    "created": "2026-11-24T06:40:00+01:00",
+    "hash": "ac716ba7dea71040d64ee87a5cda042e7ffc8e1c90689466931a17340c1cb7b6",
+    "images": [
+      "media/2026-11-24-prompt-prepara-riunione/01.jpg",
+      "media/2026-11-24-prompt-prepara-riunione/02.jpg",
+      "media/2026-11-24-prompt-prepara-riunione/03.jpg",
+      "media/2026-11-24-prompt-prepara-riunione/04.jpg",
+      "media/2026-11-24-prompt-prepara-riunione/05.jpg",
+      "media/2026-11-24-prompt-prepara-riunione/06.jpg"
+    ],
+    "kind": "prompt",
+    "msg_id": 356,
+    "sent_at": "2026-11-24T05:33:44+00:00",
+    "status": "sent"
   }
 }
