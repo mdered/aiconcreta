@@ -23,11 +23,11 @@
       "media/2026-11-15-aiact-etichetta-contenuti/07.jpg"
     ],
     "kind": "italia",
+    "media_id": "18109692457970165",
     "msg_id": 100,
     "sent_at": "2026-11-15T21:12:30+00:00",
     "status": "published",
-    "when": "2026-11-18T12:30:00+01:00",
-    "media_id": "18109692457970165"
+    "when": "2026-11-18T12:30:00+01:00"
   },
   "2026-11-15-chatgpt-wallet": {
     "album": [
