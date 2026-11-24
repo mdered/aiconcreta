@@ -914,7 +914,7 @@
     "kind": "news",
     "msg_id": 319,
     "sent_at": "2026-11-23T05:34:05+00:00",
-    "status": "sent"
+    "status": "expired"
   },
   "2026-11-23-google-connected-apps-usa": {
     "album": [
@@ -938,7 +938,7 @@
     "kind": "news",
     "msg_id": 326,
     "sent_at": "2026-11-23T05:34:06+00:00",
-    "status": "sent"
+    "status": "expired"
   },
   "2026-11-23-prompt-decidi-tra-opzioni": {
     "album": [
@@ -962,7 +962,7 @@
     "kind": "prompt",
     "msg_id": 333,
     "sent_at": "2026-11-23T05:34:08+00:00",
-    "status": "sent"
+    "status": "expired"
   },
   "2026-11-24-ai-mode-wallet-drive": {
     "album": [
