@@ -608,6 +608,12 @@
     ],
     "kind": "tool",
     "msg_id": 219,
+    "reel": {
+      "msg_id": 362,
+      "status": "scheduled",
+      "video": "media/2026-11-19-gemini-android-go/reel.mp4",
+      "when": "2026-11-29T13:00:00+01:00"
+    },
     "sent_at": "2026-11-19T05:33:55+00:00",
     "status": "scheduled",
     "when": "2026-11-29T12:30:00+01:00"
