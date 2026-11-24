@@ -1,0 +1,49 @@
+{
+  "id": "2026-11-24-prompt-prepara-riunione",
+  "kind": "prompt",
+  "created": "2026-11-24T06:40:00+01:00",
+  "story_key": "evergreen:prompt-prepara-riunione",
+  "sources": [],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Prepara una riunione in *5 minuti*",
+      "sub": "Il prompt da copiare per ChatGPT, Claude o Gemini."
+    },
+    {
+      "type": "point",
+      "title": "Il problema",
+      "body": "Le riunioni senza agenda si allungano e finiscono senza decisioni. Basta mezza pagina preparata prima."
+    },
+    {
+      "type": "prompt",
+      "title": "Scrivi il tema, poi incolla:",
+      "prompt": "Devo guidare una riunione di [durata] minuti con [persone]. Obiettivo: [obiettivo]. Prepara:\n1. Un'agenda con tempi per ogni punto\n2. Le 3 decisioni da prendere\n3. Due domande per chi tende a restare in silenzio\nNon aggiungere punti che non ho citato."
+    },
+    {
+      "type": "list",
+      "title": "Perché funziona",
+      "items": [
+        "Parte dall'obiettivo, non dal tema",
+        "I tempi per punto evitano di sforare",
+        "Chiede decisioni, non solo discussione"
+      ]
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Mandala ai partecipanti il giorno prima",
+        "Rivedi i tempi: li conosci meglio dell'AI"
+      ]
+    }
+  ],
+  "caption": "Una riunione senza agenda dura il doppio.\n\nCopia il prompt dalla slide 3, compila durata, persone e obiettivo: ottieni agenda con tempi e decisioni da prendere.\n\nIn concreto: mandala il giorno prima.\n\nQual è la riunione che ti ruba più tempo?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#chatgpt",
+    "#prompt",
+    "#produttività",
+    "#lavoro"
+  ]
+}

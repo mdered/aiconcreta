@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-24-ai-mode-wallet-drive",
+  "kind": "news",
+  "created": "2026-11-24T06:40:00+01:00",
+  "story_key": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+  "sources": [
+    {
+      "name": "Google",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "AI Mode ora può leggere *Wallet e Drive*",
+      "sub": "Risposte più personali, ma solo se lo decidi tu.",
+      "image_prompt": "A small brass key resting on a stack of concrete tablets, one lime light glowing through a keyhole."
+    },
+    {
+      "type": "point",
+      "title": "Cosa cambia",
+      "body": "AI Mode, la modalità AI della ricerca Google, già usa Gmail, Calendar e Foto. Da oggi si aggiunge Google Wallet. Drive e l'app Gemini arrivano nelle prossime settimane."
+    },
+    {
+      "type": "list",
+      "title": "A cosa serve",
+      "items": [
+        "Wallet: seguire obiettivi di spesa e premi delle carte",
+        "Drive: usare i tuoi file e fogli per risposte su misura",
+        "Gemini e AI Mode: la conversazione continua tra le due"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Controllo e limiti",
+      "body": "Collegare le app è facoltativo e puoi staccarle quando vuoi. Su Wallet, AI Mode può solo leggere: non sposta né investe denaro. Disponibilità in Italia non ancora annunciata."
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Se vuoi provarlo: Personalizzazione della ricerca > App collegate",
+        "Collega solo le app di cui ti fidi",
+        "Puoi spegnere la personalizzazione dalle impostazioni di Ricerca"
+      ]
+    }
+  ],
+  "caption": "Google collega Wallet e Drive alla ricerca con AI Mode.\n\nAI Mode usava già Gmail, Calendar e Foto. Da oggi arriva Wallet; Drive e l'app Gemini nelle prossime settimane.\nÈ tutto facoltativo, e su Wallet l'AI può solo leggere. Disponibilità in Italia non ancora annunciata.\n\nIn concreto: se la funzione arriva da te, collega solo le app di cui ti fidi.\n\nLasceresti leggere i tuoi file a una ricerca AI?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#google",
+    "#gemini",
+    "#privacy",
+    "#tecnologia"
+  ],
+  "voiceover": [
+    "La ricerca Google con AI Mode ora può leggere anche Wallet. Se vuoi.",
+    "AI Mode usava già Gmail, Calendar e Foto. Da oggi si aggiunge Wallet. Drive e Gemini arrivano nelle prossime settimane.",
+    "Collegare le app è facoltativo. Su Wallet l'AI può solo leggere, non muove soldi.",
+    "Disponibilità in Italia non ancora annunciata.",
+    "In concreto: collega solo le app di cui ti fidi."
+  ]
+}

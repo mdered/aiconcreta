@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-24-italia-caio-ibm",
+  "kind": "italia",
+  "created": "2026-11-24T06:40:00+01:00",
+  "story_key": "https://www.ai4business.it/intelligenza-artificiale/chief-ai-officer-solo-uno-su-cinque-ha-il-controllo-sulle-decisioni-di-investimento/",
+  "sources": [
+    {
+      "name": "AI4Business (studio IBM Institute for Business Value)",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/chief-ai-officer-solo-uno-su-cinque-ha-il-controllo-sulle-decisioni-di-investimento/"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "AI in azienda: in Italia *84%* si ferma al pilota",
+      "sub": "Lo studio IBM sui responsabili AI delle aziende.",
+      "image_prompt": "A single small lime-lit staircase step on a concrete floor, the rest of the stairs dissolving into shadow."
+    },
+    {
+      "type": "point",
+      "title": "Lo studio",
+      "body": "L'IBM Institute for Business Value ha interpellato oltre 1.600 responsabili AI di aziende nel mondo. AI4Business ne riporta i dati per l'Italia."
+    },
+    {
+      "type": "list",
+      "title": "I numeri italiani",
+      "items": [
+        "84%: il blocco più comune è portare i test su larga scala (nel mondo 69%)",
+        "12%: ha pieno controllo sugli investimenti AI (nel mondo 18%)",
+        "72%: teme che l'azienda resti indietro sui concorrenti"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Chi decide?",
+      "body": "Il 74% dice che la supervisione umana è essenziale. Ma solo il 55% dice che chi decide cosa fa l'AI è definito in modo chiaro (nel mondo 61%)."
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Se proponi l'AI al lavoro, parti da un progetto piccolo",
+        "Chiarisci subito chi controlla il risultato",
+        "Ricorda: i dati vengono dai responsabili AI, non da tutti i lavoratori"
+      ]
+    }
+  ],
+  "caption": "In Italia, per l'84% dei casi il blocco è passare dal test alla scala.\n\nLo studio IBM Institute for Business Value ha coinvolto oltre 1.600 responsabili AI nel mondo. Per l'Italia: solo il 12% controlla gli investimenti AI (18% nel mondo) e il 55% dice che le responsabilità sono chiare (61%).\n\nIn concreto: nel tuo lavoro parti piccolo e decidi chi controlla.\n\nNella tua azienda l'AI è rimasta un test?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#lavoro",
+    "#pmi",
+    "#aziende",
+    "#ibm"
+  ]
+}
