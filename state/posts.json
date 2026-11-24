@@ -544,7 +544,7 @@
     "kind": "prompt",
     "msg_id": 201,
     "reel": {
-      "attempts": 1,
+      "attempts": 2,
       "error": "'content'",
       "status": "make_failed"
     },
