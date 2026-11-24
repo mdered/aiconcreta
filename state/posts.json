@@ -543,6 +543,11 @@
     ],
     "kind": "prompt",
     "msg_id": 201,
+    "reel": {
+      "attempts": 1,
+      "error": "'content'",
+      "status": "make_failed"
+    },
     "sent_at": "2026-11-18T05:33:59+00:00",
     "status": "scheduled",
     "when": "2026-11-28T12:30:00+01:00"
