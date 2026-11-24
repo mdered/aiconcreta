@@ -17,5 +17,13 @@
     {"type": "concreto", "items": ["Lavori in azienda? Aspettati più corsi e regole sull'uso dell'AI.", "Analisi dei dati e AI generativa sono le competenze più richieste.", "Chiedi chi risponde delle decisioni prese con l'AI."]}
   ],
   "caption": "Il 46% delle imprese italiane punta sugli agenti AI nel 2027. Solo il 4% è già guidato dall'AI.\n\nÈ il dato della AI Driven Organization Survey 2026 di Deloitte, su imprese medio-grandi. L'88% usa l'AI per l'efficienza, il 60% per tagliare i costi, il 24% per crescere nei ricavi. Il freno principale è la governance: 50%.\n\nIn concreto: in azienda arriveranno più formazione e più regole. Conviene partire dai dati e dall'AI generativa.\n\nNella tua azienda l'AI è già un progetto vero o solo un esperimento?",
-  "hashtags": ["#intelligenzaartificiale", "#ai", "#lavoro", "#imprese", "#pmi", "#formazione"]
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#lavoro", "#imprese", "#pmi", "#formazione"],
+  "voiceover": [
+    "Quasi metà delle imprese italiane vuole investire negli agenti AI.",
+    "Secondo Deloitte, il 46 per cento delle medio-grandi imprese punta sull'AI agentica. Ma solo il 4 per cento è guidato davvero dall'AI.",
+    "Le aziende la usano soprattutto per processi più efficienti e per ridurre i costi.",
+    "Il freno più citato è la governance: chi decide e chi risponde di come si usa l'AI.",
+    "Le competenze più cercate sono analisi dei dati e AI generativa.",
+    "In concreto: se lavori in azienda, aspettati più corsi e più regole sull'uso dell'AI."
+  ]
 }

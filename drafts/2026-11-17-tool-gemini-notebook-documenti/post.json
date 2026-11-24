@@ -58,5 +58,12 @@
     "#produttività",
     "#studio",
     "#lavoro"
+  ],
+  "voiceover": [
+    "Puoi fare domande ai tuoi documenti, e avere le risposte con le fonti.",
+    "Gemini Notebook di Google è un assistente di ricerca che lavora solo sui materiali che carichi tu, con le citazioni nel testo.",
+    "Puoi caricare PDF, siti web, video di YouTube, file audio, Google Docs e Slides.",
+    "In cambio ottieni riassunti, guide di studio, panoramiche audio, mappe mentali, e una chat basata sulle tue fonti.",
+    "In concreto: provalo con un contratto o un report lungo, e controlla sempre le citazioni prima di fidarti."
   ]
 }

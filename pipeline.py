@@ -6,7 +6,7 @@
   3. notify   send each rendered draft to Telegram with the buttons
   4. expire   drafts nobody answered for 36 hours are dropped (news goes stale)
   5. reel     for an approved draft with a "voiceover": make its Reel (render/reel.py), send it to you, schedule it
-               at REEL_TIME (21:00) on its carousel's day or the next free evening; ❌ Niente Reel skips it
+               at the first free REEL_TIME slot (13:00, 21:00) after its carousel; ❌ Niente Reel skips it
   6. publish  post what's due to Instagram (at most one carousel and one Reel per run)
 
     python pipeline.py              # all steps (what the workflow runs)
@@ -39,7 +39,7 @@ EXPIRE_AFTER = datetime.timedelta(hours=36)
 MAX_LATE = datetime.timedelta(hours=12)
 ICON = {"news": "📰", "tool": "🛠", "prompt": "💬", "italia": "🇮🇹"}
 DAYS = ["lun", "mar", "mer", "gio", "ven", "sab", "dom"]
-REEL_TIME = tuple(map(int, (os.environ.get("REEL_TIME") or "21:00").split(":")))
+REEL_TIMES = [tuple(map(int, t.split(":"))) for t in (os.environ.get("REEL_TIME") or "13:00,21:00").split(",") if t.strip()]
 APPROVED = ("scheduled", "published", "test")
 
 
@@ -163,7 +163,7 @@ def preview(post, entry):
               "published": "📣 Pubblicato", "test": "🧪 Pubblicato in modalità test (non davvero)",
               "missed": "⚠️ Non pubblicato: troppo in ritardo", "failed": "⚠️ Pubblicazione fallita",
               "superseded": "♻️ Sostituito da una versione aggiornata (qui sotto)"}.get(entry["status"], entry["status"])
-    reel = "\n🎬 <b>Con Reel</b>: se approvi, preparo anche il video (esce alle 21:00)." if post.get("voiceover") else ""
+    reel = "\n🎬 <b>Con Reel</b>: se approvi, preparo anche il video (esce dopo il carosello, alle 13:00 o alle 21:00)." if post.get("voiceover") else ""
     return (f"{ICON.get(post['kind'], '')} <b>{postspec.KINDS[post['kind']].upper()}</b> · <code>{e(post['id'])}</code>{reel}\n\n"
             f"<b>{e(postspec.cover_title(post))}</b>\n\n<b>Didascalia</b>\n{e(cap)}\n\n<b>Fonti</b>\n{srcs}\n\n{status}")
 
@@ -222,16 +222,17 @@ def next_slot(state, after=None):
 
 
 def next_reel_slot(state, after):
-    """REEL_TIME on the day of `after` (the carousel's time), or the next evening without a Reel."""
+    """The first free REEL_TIMES slot after the carousel's time (`after`), at most one Reel per slot."""
     taken = {e["reel"]["when"] for e in state.values() if (e.get("reel") or {}).get("status") in ("scheduled", "published", "test")
              and e["reel"].get("when")}
     start = max(datetime.datetime.fromisoformat(after), now() + datetime.timedelta(minutes=15))
     day = start.astimezone(TZ).date()
     for d in range(30):
-        t = datetime.datetime.combine(day + datetime.timedelta(days=d), datetime.time(*REEL_TIME), TZ)
-        if t >= start and t.isoformat() not in taken:
-            return t.isoformat()
-    raise RuntimeError("no free Reel evening in the next 30 days")
+        for h, m in sorted(REEL_TIMES):
+            t = datetime.datetime.combine(day + datetime.timedelta(days=d), datetime.time(h, m), TZ)
+            if t >= start and t.isoformat() not in taken:
+                return t.isoformat()
+    raise RuntimeError("no free Reel slot in the next 30 days")
 
 
 # ---------------------------------------------------------------- steps

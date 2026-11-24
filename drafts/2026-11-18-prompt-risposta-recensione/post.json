@@ -13,5 +13,12 @@
     {"type": "concreto", "items": ["Aspetta un'ora prima di pubblicare", "Rileggi: nomi, orari e promesse devono essere veri", "Offri un contatto privato per chiudere il caso"]}
   ],
   "caption": "La recensione ti ha fatto arrabbiare? Prima di rispondere, fai scrivere una bozza all'AI.\n\nCopia il prompt dalla slide 3 e incollalo dopo la recensione. Ottieni una risposta cortese, senza colpe e con una soluzione.\n\nIn concreto: rileggi sempre fatti e promesse prima di pubblicare.\n\nQual è la recensione più difficile a cui hai risposto?",
-  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#prompt", "#pmi", "#lavoro"]
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#prompt", "#pmi", "#lavoro"],
+  "voiceover": [
+    "Hai ricevuto una recensione negativa? Non rispondere di getto.",
+    "Una risposta arrabbiata peggiora le cose. Serve una risposta educata, breve, che dia una soluzione.",
+    "Incolla la recensione e chiedi all'AI di ringraziare, non dare colpe, non inventare fatti e proporre un contatto. Massimo ottanta parole.",
+    "Il tono è chiaro, e il limite di parole tiene la risposta breve.",
+    "In concreto: aspetta un'ora prima di pubblicare, e controlla che nomi, orari e promesse siano veri."
+  ]
 }

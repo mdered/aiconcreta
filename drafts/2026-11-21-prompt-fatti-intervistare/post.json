@@ -13,5 +13,12 @@
     {"type": "concreto", "items": ["Provalo alla prossima mail importante.", "Rispondi in modo breve: bastano poche parole.", "Controlla sempre i dati nella bozza prima di inviarla."]}
   ],
   "caption": "Prima di chiedere un testo all'AI, fatti fare le domande.\n\nSe l'istruzione è vaga, la bozza è generica. Con questo prompt l'AI ti chiede a chi scrivi, cosa vuoi ottenere e che tono usare, una domanda alla volta, e solo dopo scrive.\n\nIn concreto: provalo alla prossima mail o relazione e controlla i dati prima di inviare.\n\nPer quale testo lo useresti oggi?",
-  "hashtags": ["#intelligenzaartificiale", "#ai", "#prompt", "#chatgpt", "#produttività", "#lavoro"]
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#prompt", "#chatgpt", "#produttività", "#lavoro"],
+  "voiceover": [
+    "Vuoi testi migliori dall'AI al primo colpo? Fatti intervistare prima.",
+    "Con poche informazioni, l'AI riempie i vuoti a caso, e il testo viene generico.",
+    "Scrivi cosa devi preparare, e chiedi all'AI di farti una domanda alla volta: destinatario, obiettivo, tono, dati. Poi la bozza.",
+    "Così decidi obiettivo e tono prima di scrivere, e l'AI lavora sulle tue risposte, non su ipotesi.",
+    "In concreto: provalo alla prossima mail importante, e controlla sempre i dati nella bozza."
+  ]
 }

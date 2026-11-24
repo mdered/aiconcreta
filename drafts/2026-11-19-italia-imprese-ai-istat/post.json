@@ -57,5 +57,12 @@
     "#pmi",
     "#lavoro",
     "#italia"
+  ],
+  "voiceover": [
+    "In Italia, più di otto imprese su dieci non usano l'intelligenza artificiale. Ecco perché.",
+    "Secondo l'Istat, nel 2025 la usa il 16,4 per cento delle imprese con almeno dieci addetti. Nel 2023 era il 5.",
+    "Tra le grandi imprese siamo al 53 per cento, tra le piccole e medie al 15,7.",
+    "Il freno principale sono le competenze, poi norme poco chiare, dati scarsi, privacy e costi.",
+    "In concreto: se lavori in una piccola impresa, imparare a usare l'AI è già un vantaggio."
   ]
 }

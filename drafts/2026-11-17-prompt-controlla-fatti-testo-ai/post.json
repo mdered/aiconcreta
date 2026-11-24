@@ -46,5 +46,12 @@
     "#prompt",
     "#produttività",
     "#lavoro"
+  ],
+  "voiceover": [
+    "Prima di inviare un testo scritto dall'AI, fai questo controllo.",
+    "Un chatbot scrive frasi sicure anche quando sbaglia un numero, una data o un nome.",
+    "Incolla il testo e chiedi di elencare ogni numero, data e nome, con quanto è sicuro e come verificarlo. Senza correggere niente.",
+    "Così il testo diventa una lista di controlli, e non rischi che l'AI aggiunga nuovi errori.",
+    "In concreto: usalo su mail e report, e verifica a mano i punti meno sicuri, con una fonte ufficiale."
   ]
 }

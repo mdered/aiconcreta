@@ -17,5 +17,13 @@
     {"type": "concreto", "items": ["In Italia non puoi ancora provarlo: Google non ha dato date.", "Se lo avrai, parti da un lavoro ripetitivo e semplice.", "Controlla sempre le azioni prima di approvarle."]}
   ],
   "caption": "Gemini ora può usare il tuo Mac al posto tuo.\n\nDescrivi un lavoro e lui lo svolge tra file, app e web, in una finestra separata. Tu guardi, puoi fermarlo e approvi le azioni importanti.\nPer ora solo in inglese e negli USA, con piano Google AI Plus, Pro o Ultra e un Mac Apple Silicon.\n\nIn concreto: in Italia disponibilità non ancora annunciata, ma è un segnale su dove vanno gli assistenti AI.\n\nQuale lavoro ripetitivo gli affideresti?",
-  "hashtags": ["#intelligenzaartificiale", "#ai", "#gemini", "#google", "#mac", "#produttività"]
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#gemini", "#google", "#mac", "#produttività"],
+  "voiceover": [
+    "Gemini ora può usare il tuo Mac al posto tuo: clicca, scrive e compila moduli.",
+    "Descrivi un lavoro e Gemini lo svolge tra file, app e web, in una finestra separata.",
+    "Google fa esempi pratici: estrarre dati dai PDF, preparare presentazioni, creare annunci dalle foto.",
+    "Scegli tu a quali app accede, puoi fermarlo quando vuoi, e approvi le azioni importanti.",
+    "Per ora funziona solo negli Stati Uniti, in inglese, con un piano Google AI a pagamento.",
+    "In concreto: in Italia non ci sono ancora date. Quando arriverà, parti da un lavoro semplice e ripetitivo."
+  ]
 }

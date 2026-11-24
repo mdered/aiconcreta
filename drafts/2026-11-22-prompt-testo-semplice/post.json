@@ -12,5 +12,12 @@
     {"type": "concreto", "items": ["Provalo sulla prossima circolare o mail lunga.", "Controlla date e importi sul testo originale.", "Non incollare dati personali di altri."]}
   ],
   "caption": "Un testo complicato, spiegato in tre righe.\n\nCopia il prompt dalla slide 3 e incollalo dopo il testo: ti dice di cosa si tratta, cosa devi fare e cosa significano le parole difficili.\n\nIn concreto: prima di agire, ricontrolla date e importi sull'originale.\n\nQual è l'ultimo testo che non hai capito al primo colpo?",
-  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#prompt", "#produttività", "#lavoro"]
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#prompt", "#produttività", "#lavoro"],
+  "voiceover": [
+    "Un testo pieno di paroloni? Fattelo riscrivere in italiano semplice.",
+    "Contratti, circolari e mail aziendali sono complicati, ma quello che ti serve spesso sta in due righe.",
+    "Incolla il testo e chiedi: di cosa si tratta, cosa devi fare e le scadenze, e le parole difficili spiegate. Senza aggiungere nulla.",
+    "Una struttura fissa, e il divieto di aggiungere, riducono gli errori.",
+    "In concreto: provalo sulla prossima circolare, e controlla date e importi sul testo originale."
+  ]
 }

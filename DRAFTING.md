@@ -34,8 +34,8 @@ Read `BRAND.md` first, every run. The accuracy rules there come before everythin
    - 4–6 slides total is the sweet spot: cover, 2–4 middle slides, "concreto".
    - Cover picture: an `image_prompt` on the cover (see "Cover images" in BRAND.md), or the official announcement image
      saved as `drafts/<id>/cover.jpg` plus `image_credit`. The workflow generates the AI image when it renders.
-   - **Reel:** give exactly **one** of the 3 drafts a `voiceover` (see "Reels" in BRAND.md): the news or italia story
-     that works best spoken aloud. One line per slide, in the same order; 45-95 words in total (25-35 seconds).
+   - **Reel:** give **every** draft a `voiceover` (see "Reels" in BRAND.md): Reels are what reach people who don't
+     follow the page yet. One line per slide, in the same order; 45-95 words in total (25-35 seconds).
 7. `python3 tools/validate.py` and fix every problem it reports (it checks every draft, lengths, banned hype words).
 8. Re-read each draft once as the reader would: is every sentence true, clear, and useful? Is the cover title something you'd
    stop scrolling for, and does the post deliver what it promises?

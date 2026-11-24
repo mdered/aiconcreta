@@ -46,5 +46,12 @@
     "#prompt",
     "#produttività",
     "#pmi"
+  ],
+  "voiceover": [
+    "Due preventivi diversi e non sai quale scegliere? Fallo fare all'AI.",
+    "Quando le voci sono scritte in modo diverso, confrontarle a occhio è lento, e si sbaglia.",
+    "Incolla i due preventivi e chiedi una tabella: cosa include, cosa no, costo e tempi. Più tre domande da fare a ogni fornitore.",
+    "Così vedi subito cosa manca in una delle due offerte, e arrivi pronto alla telefonata.",
+    "In concreto: togli i dati personali prima di incollare, e i totali controllali tu sui documenti originali."
   ]
 }
