@@ -640,6 +640,11 @@
     ],
     "kind": "italia",
     "msg_id": 226,
+    "reel": {
+      "attempts": 1,
+      "error": "Gemini TTS HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede",
+      "status": "make_failed"
+    },
     "sent_at": "2026-11-19T05:33:56+00:00",
     "status": "scheduled",
     "when": "2026-11-29T18:30:00+01:00"
@@ -1004,6 +1009,7 @@
       341
     ],
     "created": "2026-11-24T06:40:00+01:00",
+    "decided_at": "2026-11-24T23:31:16+00:00",
     "hash": "fbc584c41df891527e526e6e81553cbae726f7cd81b39530f96858d073027af5",
     "images": [
       "media/2026-11-24-ai-mode-wallet-drive/01.jpg",
@@ -1016,7 +1022,8 @@
     "kind": "news",
     "msg_id": 342,
     "sent_at": "2026-11-24T05:33:39+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-12-04T12:30:00+01:00"
   },
   "2026-11-24-italia-caio-ibm": {
     "album": [
@@ -1028,6 +1035,7 @@
       348
     ],
     "created": "2026-11-24T06:40:00+01:00",
+    "decided_at": "2026-11-24T23:31:17+00:00",
     "hash": "daf15b48359ed6f7d7dcb5d53f348beeda8afeeb491786cb98e1f04f02c13f1c",
     "images": [
       "media/2026-11-24-italia-caio-ibm/01.jpg",
@@ -1040,7 +1048,8 @@
     "kind": "italia",
     "msg_id": 349,
     "sent_at": "2026-11-24T05:33:42+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-12-04T18:30:00+01:00"
   },
   "2026-11-24-prompt-prepara-riunione": {
     "album": [
@@ -1052,6 +1061,7 @@
       355
     ],
     "created": "2026-11-24T06:40:00+01:00",
+    "decided_at": "2026-11-24T23:31:21+00:00",
     "hash": "ac716ba7dea71040d64ee87a5cda042e7ffc8e1c90689466931a17340c1cb7b6",
     "images": [
       "media/2026-11-24-prompt-prepara-riunione/01.jpg",
@@ -1064,6 +1074,7 @@
     "kind": "prompt",
     "msg_id": 356,
     "sent_at": "2026-11-24T05:33:44+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-12-05T12:30:00+01:00"
   }
 }
