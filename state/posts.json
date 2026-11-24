@@ -12,7 +12,6 @@
     "attempts": 3,
     "created": "2026-11-15T22:00:00+01:00",
     "decided_at": "2026-11-15T21:20:10+00:00",
-    "error": "POST 17841466726060736/media_publish: Application request limit reached",
     "hash": "7f2d49181f888640aa82680cc6c4e443cafe5e370dd468e47d950a65aefbeda2",
     "images": [
       "media/2026-11-15-aiact-etichetta-contenuti/01.jpg",
@@ -26,8 +25,9 @@
     "kind": "italia",
     "msg_id": 100,
     "sent_at": "2026-11-15T21:12:30+00:00",
-    "status": "failed",
-    "when": "2026-11-18T12:30:00+01:00"
+    "status": "published",
+    "when": "2026-11-18T12:30:00+01:00",
+    "media_id": "18109692457970165"
   },
   "2026-11-15-chatgpt-wallet": {
     "album": [
@@ -306,7 +306,6 @@
     "attempts": 3,
     "created": "2026-11-16T07:10:00+01:00",
     "decided_at": "2026-11-16T15:12:42+00:00",
-    "error": "POST 17841466726060736/media: Any of the pages_read_engagement, pages_manage_metadata,\n        pages_read_user_content, pages_manage_ads, pages_show_list or\n        pages_messaging permission(s) must be granted before impersonating a\n        user's page.",
     "hash": "c285c6c7e396f481b96fa29a1515f08af9e320727cc0548fbe903dafda2f1404",
     "images": [
       "media/2026-11-16-prompt-confronta-preventivi/01.jpg",
@@ -319,8 +318,8 @@
     "kind": "prompt",
     "msg_id": 135,
     "sent_at": "2026-11-16T05:41:19+00:00",
-    "status": "failed",
-    "when": "2026-11-21T12:30:00+01:00"
+    "status": "scheduled",
+    "when": "2026-11-25T12:30:00+01:00"
   },
   "2026-11-16-tool-claude-sheets": {
     "album": [
@@ -335,7 +334,7 @@
     "attempts": 3,
     "created": "2026-11-16T07:05:00+01:00",
     "decided_at": "2026-11-16T16:23:10+00:00",
-    "error": "POST 17841466726060736/media: Any of the pages_read_engagement, pages_manage_metadata,\n        pages_read_user_content, pages_manage_ads, pages_show_list or\n        pages_messaging permission(s) must be granted before impersonating a\n        user's page.",
+    "error": "same news as 2026-11-16-claude-sheets-whiteboards-data (published 20/11)",
     "hash": "945a1d6460135402e7ec6f81916633968dd88f44d7d9cef3c979fbb28eceaae7",
     "images": [
       "media/2026-11-16-tool-claude-sheets/01.jpg",
@@ -349,7 +348,7 @@
     "kind": "tool",
     "msg_id": 143,
     "sent_at": "2026-11-16T05:41:22+00:00",
-    "status": "failed",
+    "status": "skipped",
     "when": "2026-11-21T18:30:00+01:00"
   },
   "2026-11-17-google-maps-ask-maps-itinerari": {
@@ -364,7 +363,6 @@
     "attempts": 3,
     "created": "2026-11-17T06:40:00+01:00",
     "decided_at": "2026-11-17T07:14:12+00:00",
-    "error": "POST 17841466726060736/media: Any of the pages_read_engagement, pages_manage_metadata,\n        pages_read_user_content, pages_manage_ads, pages_show_list or\n        pages_messaging permission(s) must be granted before impersonating a\n        user's page.",
     "hash": "060421f260ee9629b2c722f8062a15ac8dd66b827aafe94210d609e1842e8a62",
     "images": [
       "media/2026-11-17-google-maps-ask-maps-itinerari/01.jpg",
@@ -380,11 +378,11 @@
       "msg_id": 178,
       "status": "scheduled",
       "video": "media/2026-11-17-google-maps-ask-maps-itinerari/reel.mp4",
-      "when": "2026-11-22T21:00:00+01:00"
+      "when": "2026-11-25T21:00:00+01:00"
     },
     "sent_at": "2026-11-17T05:34:10+00:00",
-    "status": "failed",
-    "when": "2026-11-22T12:30:00+01:00"
+    "status": "scheduled",
+    "when": "2026-11-25T18:30:00+01:00"
   },
   "2026-11-17-prompt-controlla-fatti-testo-ai": {
     "album": [
@@ -398,7 +396,6 @@
     "attempts": 3,
     "created": "2026-11-17T06:40:00+01:00",
     "decided_at": "2026-11-17T07:16:15+00:00",
-    "error": "POST 17841466726060736/media: Any of the pages_read_engagement, pages_manage_metadata,\n        pages_read_user_content, pages_manage_ads, pages_show_list or\n        pages_messaging permission(s) must be granted before impersonating a\n        user's page.",
     "hash": "5274cd80da255b566f412b125abae970634dbae13ab83b10c124f007f62231f4",
     "images": [
       "media/2026-11-17-prompt-controlla-fatti-testo-ai/01.jpg",
@@ -411,8 +408,8 @@
     "kind": "prompt",
     "msg_id": 170,
     "sent_at": "2026-11-17T05:34:11+00:00",
-    "status": "failed",
-    "when": "2026-11-22T18:30:00+01:00"
+    "status": "scheduled",
+    "when": "2026-11-26T12:30:00+01:00"
   },
   "2026-11-17-tool-gemini-notebook-documenti": {
     "album": [
@@ -426,7 +423,6 @@
     "attempts": 3,
     "created": "2026-11-17T06:40:00+01:00",
     "decided_at": "2026-11-17T07:16:16+00:00",
-    "error": "POST 17841466726060736/media: Any of the pages_read_engagement, pages_manage_metadata,\n        pages_read_user_content, pages_manage_ads, pages_show_list or\n        pages_messaging permission(s) must be granted before impersonating a\n        user's page.",
     "hash": "febe10f8a6593ccb8eb95a887ea15caad9c35c2d20bd5583bb180626c7e7b8b1",
     "images": [
       "media/2026-11-17-tool-gemini-notebook-documenti/01.jpg",
@@ -439,8 +435,8 @@
     "kind": "tool",
     "msg_id": 177,
     "sent_at": "2026-11-17T05:34:13+00:00",
-    "status": "failed",
-    "when": "2026-11-23T12:30:00+01:00"
+    "status": "scheduled",
+    "when": "2026-11-26T18:30:00+01:00"
   },
   "2026-11-18-gemini-cronologia-addestramento": {
     "album": [
@@ -454,7 +450,6 @@
     "attempts": 3,
     "created": "2026-11-18T06:40:00+01:00",
     "decided_at": "2026-11-18T06:18:13+00:00",
-    "error": "POST 17841466726060736/media: Any of the pages_read_engagement, pages_manage_metadata,\n        pages_read_user_content, pages_manage_ads, pages_show_list or\n        pages_messaging permission(s) must be granted before impersonating a\n        user's page.",
     "hash": "e019270a93f1099501c6ac5457646fd26007eee39329788ac1033e515ad69acd",
     "images": [
       "media/2026-11-18-gemini-cronologia-addestramento/01.jpg",
@@ -470,11 +465,11 @@
       "msg_id": 202,
       "status": "scheduled",
       "video": "media/2026-11-18-gemini-cronologia-addestramento/reel.mp4",
-      "when": "2026-11-23T21:00:00+01:00"
+      "when": "2026-11-27T21:00:00+01:00"
     },
     "sent_at": "2026-11-18T05:33:56+00:00",
-    "status": "failed",
-    "when": "2026-11-23T18:30:00+01:00"
+    "status": "scheduled",
+    "when": "2026-11-27T12:30:00+01:00"
   },
   "2026-11-18-italia-bandi-horizon-ai": {
     "album": [
@@ -500,7 +495,7 @@
     "msg_id": 194,
     "sent_at": "2026-11-18T05:33:57+00:00",
     "status": "scheduled",
-    "when": "2026-11-24T12:30:00+01:00"
+    "when": "2026-11-27T18:30:00+01:00"
   },
   "2026-11-18-prompt-risposta-recensione": {
     "album": [
@@ -526,7 +521,7 @@
     "msg_id": 201,
     "sent_at": "2026-11-18T05:33:59+00:00",
     "status": "scheduled",
-    "when": "2026-11-24T18:30:00+01:00"
+    "when": "2026-11-28T12:30:00+01:00"
   },
   "2026-11-19-ai-mode-chat-temporanee": {
     "album": [
@@ -556,11 +551,11 @@
       "msg_id": 227,
       "status": "scheduled",
       "video": "media/2026-11-19-ai-mode-chat-temporanee/reel.mp4",
-      "when": "2026-11-25T21:00:00+01:00"
+      "when": "2026-11-28T21:00:00+01:00"
     },
     "sent_at": "2026-11-19T05:33:53+00:00",
     "status": "scheduled",
-    "when": "2026-11-25T12:30:00+01:00"
+    "when": "2026-11-28T18:30:00+01:00"
   },
   "2026-11-19-gemini-android-go": {
     "album": [
@@ -586,7 +581,7 @@
     "msg_id": 219,
     "sent_at": "2026-11-19T05:33:55+00:00",
     "status": "scheduled",
-    "when": "2026-11-25T18:30:00+01:00"
+    "when": "2026-11-29T12:30:00+01:00"
   },
   "2026-11-19-italia-imprese-ai-istat": {
     "album": [
@@ -612,7 +607,7 @@
     "msg_id": 226,
     "sent_at": "2026-11-19T05:33:56+00:00",
     "status": "scheduled",
-    "when": "2026-11-26T12:30:00+01:00"
+    "when": "2026-11-29T18:30:00+01:00"
   },
   "2026-11-20-canva-interruttore-ai": {
     "album": [
@@ -640,11 +635,11 @@
       "msg_id": 255,
       "status": "scheduled",
       "video": "media/2026-11-20-canva-interruttore-ai/reel.mp4",
-      "when": "2026-11-26T21:00:00+01:00"
+      "when": "2026-11-30T21:00:00+01:00"
     },
     "sent_at": "2026-11-20T05:33:40+00:00",
     "status": "scheduled",
-    "when": "2026-11-26T18:30:00+01:00"
+    "when": "2026-11-30T12:30:00+01:00"
   },
   "2026-11-20-gemini-mac-computer-use": {
     "album": [
@@ -672,7 +667,7 @@
     "msg_id": 246,
     "sent_at": "2026-11-20T05:33:42+00:00",
     "status": "scheduled",
-    "when": "2026-11-27T12:30:00+01:00"
+    "when": "2026-11-30T18:30:00+01:00"
   },
   "2026-11-20-tool-chatgpt-dettatura": {
     "album": [
@@ -700,7 +695,7 @@
     "msg_id": 254,
     "sent_at": "2026-11-20T05:33:44+00:00",
     "status": "scheduled",
-    "when": "2026-11-27T18:30:00+01:00"
+    "when": "2026-12-01T12:30:00+01:00"
   },
   "2026-11-21-google-home-chat-ai": {
     "album": [
@@ -752,7 +747,7 @@
     "msg_id": 272,
     "sent_at": "2026-11-21T05:34:56+00:00",
     "status": "scheduled",
-    "when": "2026-11-28T12:30:00+01:00"
+    "when": "2026-12-01T18:30:00+01:00"
   },
   "2026-11-21-prompt-fatti-intervistare": {
     "album": [
@@ -778,7 +773,7 @@
     "msg_id": 279,
     "sent_at": "2026-11-21T05:34:58+00:00",
     "status": "scheduled",
-    "when": "2026-11-28T18:30:00+01:00"
+    "when": "2026-12-02T12:30:00+01:00"
   },
   "2026-11-21-signal-blocca-ai-schermo": {
     "album": [
@@ -806,11 +801,11 @@
       "msg_id": 287,
       "status": "scheduled",
       "video": "media/2026-11-21-signal-blocca-ai-schermo/reel.mp4",
-      "when": "2026-11-29T21:00:00+01:00"
+      "when": "2026-12-02T21:00:00+01:00"
     },
     "sent_at": "2026-11-21T05:34:59+00:00",
     "status": "scheduled",
-    "when": "2026-11-29T12:30:00+01:00"
+    "when": "2026-12-02T18:30:00+01:00"
   },
   "2026-11-22-google-sidebar-ai-mode": {
     "album": [
@@ -838,11 +833,11 @@
       "msg_id": 313,
       "status": "scheduled",
       "video": "media/2026-11-22-google-sidebar-ai-mode/reel.mp4",
-      "when": "2026-11-30T21:00:00+01:00"
+      "when": "2026-12-03T21:00:00+01:00"
     },
     "sent_at": "2026-11-22T05:34:45+00:00",
     "status": "scheduled",
-    "when": "2026-11-29T18:30:00+01:00"
+    "when": "2026-12-03T12:30:00+01:00"
   },
   "2026-11-22-italia-ia-scuole-garante": {
     "album": [
@@ -892,7 +887,7 @@
     "msg_id": 310,
     "sent_at": "2026-11-22T05:34:47+00:00",
     "status": "scheduled",
-    "when": "2026-11-30T12:30:00+01:00"
+    "when": "2026-12-03T18:30:00+01:00"
   },
   "2026-11-23-gemini-importa-chat": {
     "album": [
