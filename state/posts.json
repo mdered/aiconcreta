@@ -446,6 +446,12 @@
     ],
     "kind": "tool",
     "msg_id": 177,
+    "reel": {
+      "msg_id": 359,
+      "status": "scheduled",
+      "video": "media/2026-11-17-tool-gemini-notebook-documenti/reel.mp4",
+      "when": "2026-11-26T21:00:00+01:00"
+    },
     "sent_at": "2026-11-17T05:34:13+00:00",
     "status": "scheduled",
     "when": "2026-11-26T18:30:00+01:00"
