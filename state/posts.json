@@ -316,7 +316,10 @@
       "media/2026-11-16-prompt-confronta-preventivi/06.jpg"
     ],
     "kind": "prompt",
+    "media_id": "18090837053307404",
     "msg_id": 135,
+    "permalink": "https://www.instagram.com/p/DgKb7xHjx85/",
+    "published_at": "2026-11-25T11:36:09+00:00",
     "reel": {
       "msg_id": 357,
       "status": "scheduled",
@@ -324,7 +327,7 @@
       "when": "2026-11-25T13:00:00+01:00"
     },
     "sent_at": "2026-11-16T05:41:19+00:00",
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-25T12:30:00+01:00"
   },
   "2026-11-16-tool-claude-sheets": {
