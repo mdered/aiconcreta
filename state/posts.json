@@ -321,8 +321,11 @@
     "permalink": "https://www.instagram.com/p/DgKb7xHjx85/",
     "published_at": "2026-11-25T11:36:09+00:00",
     "reel": {
+      "media_id": "18121617229810978",
       "msg_id": 357,
-      "status": "scheduled",
+      "permalink": "https://www.instagram.com/reel/DgKfPv1sV4N/",
+      "published_at": "2026-11-25T12:05:22+00:00",
+      "status": "published",
       "video": "media/2026-11-16-prompt-confronta-preventivi/reel.mp4",
       "when": "2026-11-25T13:00:00+01:00"
     },
