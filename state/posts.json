@@ -385,7 +385,10 @@
       "media/2026-11-17-google-maps-ask-maps-itinerari/06.jpg"
     ],
     "kind": "news",
+    "media_id": "18504087793100534",
     "msg_id": 163,
+    "permalink": "https://www.instagram.com/p/DgLFIwnjXTU/",
+    "published_at": "2026-11-25T17:36:09+00:00",
     "reel": {
       "msg_id": 178,
       "status": "scheduled",
@@ -393,7 +396,7 @@
       "when": "2026-11-25T21:00:00+01:00"
     },
     "sent_at": "2026-11-17T05:34:10+00:00",
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-25T18:30:00+01:00"
   },
   "2026-11-17-prompt-controlla-fatti-testo-ai": {
