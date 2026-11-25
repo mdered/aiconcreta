@@ -1117,6 +1117,7 @@
       375
     ],
     "created": "2026-11-25T07:00:00+01:00",
+    "decided_at": "2026-11-25T08:42:16+00:00",
     "hash": "18d5d686bafdd20afd816c7b33393a68359095fd4d9a964729cec6b912ceb317",
     "images": [
       "media/2026-11-25-italia-assintel-imprese/01.jpg",
@@ -1128,8 +1129,15 @@
     ],
     "kind": "italia",
     "msg_id": 376,
+    "reel": {
+      "msg_id": 391,
+      "status": "scheduled",
+      "video": "media/2026-11-25-italia-assintel-imprese/reel.mp4",
+      "when": "2026-12-05T21:00:00+01:00"
+    },
     "sent_at": "2026-11-25T05:33:45+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-12-05T18:30:00+01:00"
   },
   "2026-11-25-tidal-stop-musica-ai": {
     "album": [
@@ -1141,6 +1149,7 @@
       382
     ],
     "created": "2026-11-25T07:00:00+01:00",
+    "decided_at": "2026-11-25T08:42:17+00:00",
     "hash": "9bedea875ee6019c7ab38725f8d7fb4e3237c29d1b0f43160f0993f382bd644c",
     "images": [
       "media/2026-11-25-tidal-stop-musica-ai/01.jpg",
@@ -1153,7 +1162,8 @@
     "kind": "news",
     "msg_id": 383,
     "sent_at": "2026-11-25T05:33:47+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-12-06T12:30:00+01:00"
   },
   "2026-11-25-tool-muse-meta": {
     "album": [
@@ -1165,6 +1175,7 @@
       389
     ],
     "created": "2026-11-25T07:00:00+01:00",
+    "decided_at": "2026-11-25T08:42:18+00:00",
     "hash": "5e1df0816b2050b25f08ada7a560eeaae7eb157633b520300452f94111873ad2",
     "images": [
       "media/2026-11-25-tool-muse-meta/01.jpg",
@@ -1177,6 +1188,7 @@
     "kind": "tool",
     "msg_id": 390,
     "sent_at": "2026-11-25T05:33:48+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-12-06T18:30:00+01:00"
   }
 }
