@@ -1047,7 +1047,7 @@
     "kind": "news",
     "msg_id": 342,
     "reel": {
-      "attempts": 1,
+      "attempts": 2,
       "error": "Gemini TTS HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede",
       "status": "make_failed"
     },
