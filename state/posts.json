@@ -1161,6 +1161,12 @@
     ],
     "kind": "news",
     "msg_id": 383,
+    "reel": {
+      "msg_id": 392,
+      "status": "scheduled",
+      "video": "media/2026-11-25-tidal-stop-musica-ai/reel.mp4",
+      "when": "2026-12-06T13:00:00+01:00"
+    },
     "sent_at": "2026-11-25T05:33:47+00:00",
     "status": "scheduled",
     "when": "2026-12-06T12:30:00+01:00"
