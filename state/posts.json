@@ -390,8 +390,11 @@
     "permalink": "https://www.instagram.com/p/DgLFIwnjXTU/",
     "published_at": "2026-11-25T17:36:09+00:00",
     "reel": {
+      "media_id": "18101846339651774",
       "msg_id": 178,
-      "status": "scheduled",
+      "permalink": "https://www.instagram.com/reel/DgLWIRJPoGi/",
+      "published_at": "2026-11-25T20:04:56+00:00",
+      "status": "published",
       "video": "media/2026-11-17-google-maps-ask-maps-itinerari/reel.mp4",
       "when": "2026-11-25T21:00:00+01:00"
     },
