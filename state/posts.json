@@ -1193,6 +1193,12 @@
     ],
     "kind": "tool",
     "msg_id": 390,
+    "reel": {
+      "msg_id": 393,
+      "status": "scheduled",
+      "video": "media/2026-11-25-tool-muse-meta/reel.mp4",
+      "when": "2026-12-06T21:00:00+01:00"
+    },
     "sent_at": "2026-11-25T05:33:48+00:00",
     "status": "scheduled",
     "when": "2026-12-06T18:30:00+01:00"
