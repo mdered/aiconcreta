@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-25-italia-assintel-imprese",
+  "kind": "italia",
+  "created": "2026-11-25T07:00:00+01:00",
+  "story_key": "https://www.ai4business.it/intelligenza-artificiale/assintel-ai-a-40-ma-solo-il-29-delle-imprese-la-usa/",
+  "sources": [
+    {"name": "AI4Business (Assintel Report 2026)", "url": "https://www.ai4business.it/intelligenza-artificiale/assintel-ai-a-40-ma-solo-il-29-delle-imprese-la-usa/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "AI nelle imprese italiane: solo *1,8%* ha una strategia", "sub": "Il mercato cresce, ma formazione e regole restano indietro.",
+     "image_prompt": "A tall stack of concrete blocks with only the top block lit in lime, the lower blocks left unfinished and empty."},
+    {"type": "point", "title": "Il rapporto", "body": "L'Assintel Report 2026, legato a Confcommercio, ha intervistato 801 imprese italiane con almeno 3 dipendenti, dall'1 al 18 settembre 2026."},
+    {"type": "list", "title": "I numeri", "items": ["Il mercato AI in Italia cresce del 40,2%: 2,1 miliardi di euro", "29%: ha avviato test o usa l'AI", "1,8%: ha una strategia AI coordinata in tutta l'azienda"]},
+    {"type": "list", "title": "Cosa manca", "items": ["Solo il 17% ha fatto formazione sull'AI nell'ultimo anno", "Il 76% non ha strumenti di governo, come linee guida o controlli sulla privacy", "Il 53% teme che i dipendenti seguano i consigli dell'AI senza capirli"]},
+    {"type": "concreto", "items": ["Se usi l'AI al lavoro, chiedi se esistono linee guida.", "Controlla sempre un risultato dell'AI prima di usarlo.", "Ricorda: sono stime di un sondaggio, non prove di risparmi reali."]}
+  ],
+  "caption": "In Italia solo l'1,8% delle imprese ha una strategia AI coordinata.\n\nSecondo l'Assintel Report 2026, il mercato AI cresce del 40,2% (2,1 miliardi di euro) e il 29% delle imprese ha avviato test o usa l'AI. Ma solo il 17% ha fatto formazione nell'ultimo anno e il 76% non ha strumenti di governo.\n\nIn concreto: al lavoro, chiedi le regole e controlla sempre i risultati.\n\nNella tua azienda ci sono linee guida sull'AI?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#lavoro", "#pmi", "#aziende", "#formazione"],
+  "voiceover": [
+    "In Italia solo l'1,8% delle imprese ha una strategia AI coordinata.",
+    "L'Assintel Report ha intervistato 801 imprese italiane a settembre.",
+    "Il mercato AI cresce del 40,2%. Il 29% delle imprese fa test o usa l'AI.",
+    "Solo il 17% ha fatto formazione nell'ultimo anno. E il 76% non ha strumenti di governo.",
+    "In concreto: al lavoro chiedi se esistono linee guida, e controlla sempre i risultati."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-25-tool-muse-meta",
+  "kind": "tool",
+  "created": "2026-11-25T07:00:00+01:00",
+  "story_key": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+  "sources": [
+    {"name": "Meta (annuncio Muse nel Regno Unito)", "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/"},
+    {"name": "TechCrunch (Muse nei DM di Instagram)", "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "Muse di Meta *fa acquisti e prenotazioni* per te", "sub": "L'agente AI chiede il permesso prima delle azioni importanti.",
+     "image_prompt": "A matte black key with a lime-lit tip resting on a concrete ledge, ready to open a door that is just out of frame."},
+    {"type": "point", "title": "Cos'è", "body": "Muse è l'agente AI personale di Meta. Gli dai un compito, come fare acquisti, prenotare un viaggio o organizzare il calendario, e lavora sulle app e sui siti che colleghi."},
+    {"type": "list", "title": "Come funziona", "items": ["Scrivi cosa ti serve nell'app o in WhatsApp", "Muse mostra cosa ha fatto e cosa pensa di fare", "Chiede conferma prima di azioni importanti, come inviare una mail o pagare", "Scegli tu a quali app collegarlo"]},
+    {"type": "point", "title": "Prezzo e dove c'è", "body": "Gratis per la maggior parte degli usi, con piani a pagamento opzionali. Meta lo lancia nel Regno Unito, per chi ha 18 anni o più. La chat con Muse nei messaggi di Instagram parte in USA, Canada, Messico, Giappone e Singapore. Disponibilità in Italia non ancora annunciata."},
+    {"type": "concreto", "items": ["Per ora non puoi provarlo dall'Italia: aspetta un annuncio ufficiale.", "Se arriverà, parti da compiti semplici e leggi sempre la conferma prima di approvare."]}
+  ],
+  "caption": "Meta lancia Muse, un agente AI che fa compiti al posto tuo.\n\nÈ gratis per la maggior parte degli usi. Può fare acquisti, prenotare viaggi e organizzare il calendario sulle app che colleghi, e chiede conferma prima di azioni importanti come pagare o inviare una mail. Debutta nel Regno Unito per chi ha 18 anni o più. Disponibilità in Italia non ancora annunciata.\n\nIn concreto: per ora non c'è da fare nulla, ma se arriva, parti da compiti semplici.\n\nLasceresti a un agente AI il tuo carrello?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#meta", "#muse", "#agentiai", "#tecnologia"],
+  "voiceover": [
+    "Meta lancia Muse, un agente AI che fa acquisti e prenotazioni al posto tuo.",
+    "Gli dai un compito, e lavora sulle app e sui siti che colleghi.",
+    "Ti mostra cosa ha fatto e chiede conferma prima di azioni importanti, come pagare.",
+    "È gratis per la maggior parte degli usi. Parte nel Regno Unito. Per l'Italia, nessun annuncio.",
+    "In concreto: se arriverà, parti da compiti semplici e leggi la conferma."
+  ]
+}

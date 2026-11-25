@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-25-tidal-stop-musica-ai",
+  "kind": "news",
+  "created": "2026-11-25T07:00:00+01:00",
+  "story_key": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Tidal vieta la musica *fatta solo dall'AI*",
+      "sub": "Dal 9 dicembre, le canzoni interamente generate spariscono.",
+      "image_prompt": "A black vinyl record on a concrete pedestal, one half dissolving into lime-lit static noise while the other half stays sharp."
+    },
+    {
+      "type": "point",
+      "title": "Cosa cambia",
+      "body": "Tidal, il servizio di musica in streaming, dal 9 dicembre vieta i brani generati interamente con l'AI. Quelli già presenti verranno rimossi."
+    },
+    {
+      "type": "list",
+      "title": "Cosa è vietato e cosa no",
+      "items": [
+        "Vietati: brani generati al 100% con l'AI",
+        "Vietati anche i distributori che consegnano solo brani così",
+        "Ammessi: brani fatti con l'aiuto dell'AI, ma non interamente generati"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Perché ora",
+      "body": "Secondo i dati riportati, i brani interamente AI sono il 6,3% del catalogo. Tidal prevede di rifiutare ogni giorno circa 80.000-85.000 nuovi brani."
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Se usi Tidal, da dicembre troverai meno musica fatta solo dall'AI.",
+        "Se pubblichi musica tua, dichiara come usi l'AI: l'aiuto è ammesso, la generazione totale no."
+      ]
+    }
+  ],
+  "caption": "Tidal vieta la musica fatta solo dall'AI, dal 9 dicembre.\n\nIl servizio di streaming toglierà i brani generati interamente con l'AI, circa il 6,3% del catalogo. Prevede di rifiutarne ogni giorno 80.000-85.000 nuovi. Restano ammessi i brani fatti con l'aiuto dell'AI.\n\nIn concreto: se pubblichi musica, l'AI come aiuto va bene, come unico autore no.\n\nPreferisci una piattaforma che vieta la musica AI o che la segnala?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#musica",
+    "#tidal",
+    "#streaming",
+    "#tecnologia"
+  ],
+  "voiceover": [
+    "Tidal vieta la musica fatta interamente dall'AI. Dal nove dicembre.",
+    "Il servizio di streaming toglie i brani generati interamente con l'AI. Quelli già presenti verranno rimossi.",
+    "Restano ammessi i brani fatti con l'aiuto dell'AI, ma non generati del tutto.",
+    "I brani interamente AI sono il 6,3% del catalogo. Tidal ne prevede ogni giorno ottantamila-ottantacinquemila nuovi da rifiutare.",
+    "In concreto: se pubblichi musica, l'AI come aiuto va bene. Come unico autore no."
+  ]
+}
