@@ -424,7 +424,10 @@
       "media/2026-11-17-prompt-controlla-fatti-testo-ai/06.jpg"
     ],
     "kind": "prompt",
+    "media_id": "18123197002951113",
     "msg_id": 170,
+    "permalink": "https://www.instagram.com/p/DgNAu9iII9G/",
+    "published_at": "2026-11-26T11:36:11+00:00",
     "reel": {
       "msg_id": 358,
       "status": "scheduled",
@@ -432,7 +435,7 @@
       "when": "2026-11-26T13:00:00+01:00"
     },
     "sent_at": "2026-11-17T05:34:11+00:00",
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-26T12:30:00+01:00"
   },
   "2026-11-17-tool-gemini-notebook-documenti": {
