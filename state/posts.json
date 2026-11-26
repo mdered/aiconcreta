@@ -1237,6 +1237,7 @@
       403
     ],
     "created": "2026-11-26T07:00:00+01:00",
+    "decided_at": "2026-11-26T23:07:22+00:00",
     "hash": "182d43fe2d3f20eb061ae5e523800d2071131ec658f266316140d4c8145d7d0d",
     "images": [
       "media/2026-11-26-chatgpt-limiti-condivisi/01.jpg",
@@ -1248,8 +1249,15 @@
     ],
     "kind": "news",
     "msg_id": 404,
+    "reel": {
+      "msg_id": 423,
+      "status": "scheduled",
+      "video": "media/2026-11-26-chatgpt-limiti-condivisi/reel.mp4",
+      "when": "2026-12-07T13:00:00+01:00"
+    },
     "sent_at": "2026-11-26T05:33:38+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-12-07T12:30:00+01:00"
   },
   "2026-11-26-italia-minervae": {
     "album": [
@@ -1261,6 +1269,7 @@
       410
     ],
     "created": "2026-11-26T07:00:00+01:00",
+    "decided_at": "2026-11-26T23:07:23+00:00",
     "hash": "283c3800104a9fec086b9987226d00314bf7d3a0c63b894df9e5fc0825a19db5",
     "images": [
       "media/2026-11-26-italia-minervae/01.jpg",
@@ -1273,7 +1282,8 @@
     "kind": "italia",
     "msg_id": 411,
     "sent_at": "2026-11-26T05:33:39+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-12-07T18:30:00+01:00"
   },
   "2026-11-26-prompt-chat-in-decisioni": {
     "album": [
@@ -1285,6 +1295,7 @@
       417
     ],
     "created": "2026-11-26T07:00:00+01:00",
+    "decided_at": "2026-11-26T23:07:24+00:00",
     "hash": "d0684e6b4d822ba7579fa9e591b1872f811d4d0c0c6ccf79d37d26df5c64edf9",
     "images": [
       "media/2026-11-26-prompt-chat-in-decisioni/01.jpg",
@@ -1297,6 +1308,7 @@
     "kind": "prompt",
     "msg_id": 418,
     "sent_at": "2026-11-26T05:33:41+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-12-08T12:30:00+01:00"
   }
 }
