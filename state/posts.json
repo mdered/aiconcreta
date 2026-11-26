@@ -429,8 +429,11 @@
     "permalink": "https://www.instagram.com/p/DgNAu9iII9G/",
     "published_at": "2026-11-26T11:36:11+00:00",
     "reel": {
+      "media_id": "18652863910020058",
       "msg_id": 358,
-      "status": "scheduled",
+      "permalink": "https://www.instagram.com/reel/DgND_wVBHE7/",
+      "published_at": "2026-11-26T12:05:18+00:00",
+      "status": "published",
       "video": "media/2026-11-17-prompt-controlla-fatti-testo-ai/reel.mp4",
       "when": "2026-11-26T13:00:00+01:00"
     },
