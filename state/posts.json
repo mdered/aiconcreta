@@ -1214,5 +1214,77 @@
     "sent_at": "2026-11-25T05:33:48+00:00",
     "status": "scheduled",
     "when": "2026-12-06T18:30:00+01:00"
+  },
+  "2026-11-26-chatgpt-limiti-condivisi": {
+    "album": [
+      398,
+      399,
+      400,
+      401,
+      402,
+      403
+    ],
+    "created": "2026-11-26T07:00:00+01:00",
+    "hash": "182d43fe2d3f20eb061ae5e523800d2071131ec658f266316140d4c8145d7d0d",
+    "images": [
+      "media/2026-11-26-chatgpt-limiti-condivisi/01.jpg",
+      "media/2026-11-26-chatgpt-limiti-condivisi/02.jpg",
+      "media/2026-11-26-chatgpt-limiti-condivisi/03.jpg",
+      "media/2026-11-26-chatgpt-limiti-condivisi/04.jpg",
+      "media/2026-11-26-chatgpt-limiti-condivisi/05.jpg",
+      "media/2026-11-26-chatgpt-limiti-condivisi/06.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 404,
+    "sent_at": "2026-11-26T05:33:38+00:00",
+    "status": "sent"
+  },
+  "2026-11-26-italia-minervae": {
+    "album": [
+      405,
+      406,
+      407,
+      408,
+      409,
+      410
+    ],
+    "created": "2026-11-26T07:00:00+01:00",
+    "hash": "283c3800104a9fec086b9987226d00314bf7d3a0c63b894df9e5fc0825a19db5",
+    "images": [
+      "media/2026-11-26-italia-minervae/01.jpg",
+      "media/2026-11-26-italia-minervae/02.jpg",
+      "media/2026-11-26-italia-minervae/03.jpg",
+      "media/2026-11-26-italia-minervae/04.jpg",
+      "media/2026-11-26-italia-minervae/05.jpg",
+      "media/2026-11-26-italia-minervae/06.jpg"
+    ],
+    "kind": "italia",
+    "msg_id": 411,
+    "sent_at": "2026-11-26T05:33:39+00:00",
+    "status": "sent"
+  },
+  "2026-11-26-prompt-chat-in-decisioni": {
+    "album": [
+      412,
+      413,
+      414,
+      415,
+      416,
+      417
+    ],
+    "created": "2026-11-26T07:00:00+01:00",
+    "hash": "d0684e6b4d822ba7579fa9e591b1872f811d4d0c0c6ccf79d37d26df5c64edf9",
+    "images": [
+      "media/2026-11-26-prompt-chat-in-decisioni/01.jpg",
+      "media/2026-11-26-prompt-chat-in-decisioni/02.jpg",
+      "media/2026-11-26-prompt-chat-in-decisioni/03.jpg",
+      "media/2026-11-26-prompt-chat-in-decisioni/04.jpg",
+      "media/2026-11-26-prompt-chat-in-decisioni/05.jpg",
+      "media/2026-11-26-prompt-chat-in-decisioni/06.jpg"
+    ],
+    "kind": "prompt",
+    "msg_id": 418,
+    "sent_at": "2026-11-26T05:33:41+00:00",
+    "status": "sent"
   }
 }
