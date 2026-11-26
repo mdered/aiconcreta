@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-26-prompt-chat-in-decisioni",
+  "kind": "prompt",
+  "created": "2026-11-26T07:00:00+01:00",
+  "story_key": "evergreen:prompt-chat-in-decisioni",
+  "sources": [],
+  "slides": [
+    {"type": "cover", "title": "Da una chat infinita a *decisioni e scadenze*", "sub": "Il prompt da copiare per ChatGPT, Claude o Gemini.",
+     "image_prompt": "A tangled lime-lit thread running through a concrete block and coming out as one straight line."},
+    {"type": "point", "title": "Il problema", "body": "Il gruppo di lavoro ha scritto per due giorni e nessuno ricorda cosa si è deciso. Rileggere tutto costa mezz'ora."},
+    {"type": "prompt", "title": "Incolla la chat sotto il prompt:", "prompt": "Ti incollo una conversazione di lavoro. Estrai:\n1. Le decisioni prese\n2. Le cose da fare, con chi e per quando (se non è scritto, scrivi \"da definire\")\n3. Le domande rimaste aperte\nUsa solo ciò che c'è nel testo. Non inventare nomi o date.",
+     "note": "Non incollare dati riservati dei clienti."},
+    {"type": "list", "title": "Perché funziona", "items": ["Separa decisioni, azioni e dubbi", "\"Da definire\" evita date inventate", "Il vincolo sul testo riduce gli errori"]},
+    {"type": "concreto", "items": ["Rileggi il risultato con la chat accanto prima di inviarlo.", "Mandalo al gruppo come promemoria."]}
+  ],
+  "caption": "Due giorni di messaggi e nessuno sa cosa si è deciso.\n\nCopia il prompt dalla slide 3, incolla la conversazione: ottieni decisioni, cose da fare con responsabile e scadenza, e domande aperte. Se manca una data, l'AI scrive \"da definire\".\n\nIn concreto: rileggi il risultato con la chat accanto, poi mandalo al gruppo.\n\nQual è la chat di lavoro che non riesci più a seguire?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#prompt", "#produttività", "#lavoro"],
+  "voiceover": [
+    "Una chat di lavoro infinita? L'AI la trasforma in decisioni e cose da fare.",
+    "Il problema: due giorni di messaggi e nessuno ricorda cosa si è deciso.",
+    "Incolla la conversazione e chiedi decisioni, azioni con responsabile e scadenza, e domande aperte.",
+    "Chiedi di usare solo il testo e di scrivere da definire quando manca una data.",
+    "In concreto: rileggi il risultato con la chat accanto, poi mandalo al gruppo."
+  ]
+}

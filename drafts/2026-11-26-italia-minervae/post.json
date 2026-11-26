@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-26-italia-minervae",
+  "kind": "italia",
+  "created": "2026-11-26T07:00:00+01:00",
+  "story_key": "https://www.ai4business.it/intelligenza-artificiale/coding/minervae-il-nuovo-modello-italiano-di-ai-aperto-e-pubblico/",
+  "sources": [
+    {"name": "Minerva (sito ufficiale)", "url": "https://minerva-ai.org/"},
+    {"name": "AI4Business (MinervaE)", "url": "https://www.ai4business.it/intelligenza-artificiale/coding/minervae-il-nuovo-modello-italiano-di-ai-aperto-e-pubblico/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "MinervaE: arriva *l'AI italiana* da 20 miliardi di parametri", "sub": "La prova è già aperta in ChatMinerva.",
+     "image_prompt": "A lime-lit laurel branch resting on a block of raw concrete, carved with a thin circuit pattern."},
+    {"type": "point", "title": "Cos'è", "body": "MinervaE è un nuovo modello di AI, cioè il \"cervello\" dietro un chatbot, sviluppato dal gruppo di ricerca sul linguaggio della Sapienza di Roma con Babelscape. Ha 20 miliardi di parametri."},
+    {"type": "list", "title": "Cosa sa fare", "items": ["Ragiona sul problema prima di rispondere", "Conosce meglio la cultura italiana", "Conosce meglio le altre lingue europee delle versioni precedenti", "Addestrato sul supercomputer Leonardo del Cineca"]},
+    {"type": "point", "title": "Aperto, ma con calma", "body": "Il sito di Minerva parla di un modello \"truly open\", con modelli e documentazione che saranno disponibili \"nei prossimi giorni\". Non indica ancora la licenza. La versione per le conversazioni si prova in anteprima su chatminerva.org."},
+    {"type": "concreto", "items": ["Provalo su chatminerva.org e confrontalo con il chatbot che usi già.", "Aspetta di leggere la licenza prima di usarlo per lavoro."]}
+  ],
+  "caption": "L'Italia ha un nuovo modello di AI: si chiama MinervaE.\n\nLo sviluppa il gruppo di ricerca della Sapienza di Roma con Babelscape. Ha 20 miliardi di parametri, ragiona prima di rispondere ed è stato addestrato sul supercomputer Leonardo del Cineca. La versione per le chat si prova in anteprima su chatminerva.org. I modelli saranno disponibili \"nei prossimi giorni\".\n\nIn concreto: provalo e confrontalo con il chatbot che usi già.\n\nUseresti un'AI italiana per il tuo lavoro?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#minerva", "#sapienza", "#italia", "#tecnologia"],
+  "voiceover": [
+    "Arriva MinervaE, il nuovo modello di AI italiano da venti miliardi di parametri.",
+    "Lo sviluppa la Sapienza di Roma con Babelscape.",
+    "Ragiona prima di rispondere e conosce meglio la cultura italiana.",
+    "Modelli e documentazione arrivano nei prossimi giorni. La licenza non è ancora indicata.",
+    "In concreto: provalo su chatminerva punto org e confrontalo con il tuo chatbot."
+  ]
+}

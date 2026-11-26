@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-26-chatgpt-limiti-condivisi",
+  "kind": "news",
+  "created": "2026-11-26T07:00:00+01:00",
+  "story_key": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+  "sources": [
+    {"name": "TechCrunch (Chat e Work uniti)", "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"},
+    {"name": "OpenAI Help Center (limiti di utilizzo)", "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "ChatGPT: *un solo limite* per Chat e Work", "sub": "Cosa cambia per chi ha un piano a pagamento.",
+     "image_prompt": "A single concrete water tank with a lime-lit gauge, fed by two pipes that merge into one."},
+    {"type": "point", "title": "Cosa succede", "body": "OpenAI sta unendo in ChatGPT le due sezioni Chat e Work. Per ora il test è partito con un piccolo gruppo di utenti, a cominciare dagli abbonati Pro."},
+    {"type": "point", "title": "Un solo contatore", "body": "Chat e Work useranno lo stesso limite di utilizzo. Da dicembre i piani Plus, Pro e Business condividono un'unica quota tra ChatGPT e Codex. Si misura in token, cioè in pezzetti di testo: i modelli avanzati e i compiti complessi ne consumano di più."},
+    {"type": "point", "title": "Chi se ne accorge", "body": "Secondo OpenAI la maggior parte degli utenti non dovrà aspettare i reset più spesso di adesso. Una piccola parte di quelli che lo usano di più potrebbe raggiungere il limite prima. Il prezzo dell'abbonamento non cambia."},
+    {"type": "concreto", "items": ["Controlla quanto ti resta in Impostazioni → Utilizzo.", "Le chat con il modello Instant non consumano il tuo limite: usalo per i compiti semplici.", "Lascia i modelli avanzati ai lavori che ne hanno bisogno."]}
+  ],
+  "caption": "ChatGPT unisce Chat e Work e li mette sotto un solo limite di utilizzo.\n\nIl test è partito con un piccolo gruppo, a cominciare dagli abbonati Pro. Da dicembre i piani Plus, Pro e Business condividono una quota unica tra ChatGPT e Codex. Secondo OpenAI quasi nessuno aspetterà i reset più spesso di adesso, ma una piccola parte dei più assidui potrebbe arrivare al limite prima.\n\nIn concreto: guarda in Impostazioni → Utilizzo quanto ti resta, e usa Instant per le cose semplici, perché non consuma il limite.\n\nTu quanto usi i modelli avanzati, ogni giorno?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#openai", "#produttività", "#lavoro"],
+  "voiceover": [
+    "ChatGPT mette Chat e Work sotto un solo limite di utilizzo.",
+    "OpenAI sta unendo le due sezioni. Il test è partito con un piccolo gruppo, a cominciare dagli abbonati Pro.",
+    "Da dicembre Plus, Pro e Business condividono una quota unica con Codex.",
+    "Secondo OpenAI quasi nessuno dovrà aspettare di più. Chi lo usa moltissimo potrebbe arrivare al limite prima.",
+    "In concreto: controlla il tuo utilizzo nelle impostazioni, e usa Instant per i compiti semplici."
+  ]
+}
