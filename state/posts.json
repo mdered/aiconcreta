@@ -468,8 +468,11 @@
     "permalink": "https://www.instagram.com/p/DgNp7EvF6L3/",
     "published_at": "2026-11-26T17:36:03+00:00",
     "reel": {
+      "media_id": "18085816838710079",
       "msg_id": 359,
-      "status": "scheduled",
+      "permalink": "https://www.instagram.com/reel/DgN67Kuh4c2/",
+      "published_at": "2026-11-26T20:04:55+00:00",
+      "status": "published",
       "video": "media/2026-11-17-tool-gemini-notebook-documenti/reel.mp4",
       "when": "2026-11-26T21:00:00+01:00"
     },
