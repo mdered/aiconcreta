@@ -540,7 +540,10 @@
       "media/2026-11-18-italia-bandi-horizon-ai/06.jpg"
     ],
     "kind": "italia",
+    "media_id": "18141698263638029",
     "msg_id": 194,
+    "permalink": "https://www.instagram.com/p/DgQOthRG3_-/",
+    "published_at": "2026-11-27T17:36:04+00:00",
     "reel": {
       "msg_id": 360,
       "status": "scheduled",
@@ -548,7 +551,7 @@
       "when": "2026-11-27T21:00:00+01:00"
     },
     "sent_at": "2026-11-18T05:33:57+00:00",
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-27T18:30:00+01:00"
   },
   "2026-11-18-prompt-risposta-recensione": {
