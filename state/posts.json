@@ -502,7 +502,10 @@
       "media/2026-11-18-gemini-cronologia-addestramento/06.jpg"
     ],
     "kind": "news",
+    "media_id": "18146119105525270",
     "msg_id": 187,
+    "permalink": "https://www.instagram.com/p/DgPlhSDDQdP/",
+    "published_at": "2026-11-27T11:36:05+00:00",
     "reel": {
       "msg_id": 202,
       "status": "scheduled",
@@ -510,7 +513,7 @@
       "when": "2026-11-27T13:00:00+01:00"
     },
     "sent_at": "2026-11-18T05:33:56+00:00",
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-27T12:30:00+01:00"
   },
   "2026-11-18-italia-bandi-horizon-ai": {
