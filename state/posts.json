@@ -1322,5 +1322,77 @@
     "sent_at": "2026-11-26T05:33:41+00:00",
     "status": "scheduled",
     "when": "2026-12-08T12:30:00+01:00"
+  },
+  "2026-11-27-google-foto-ricordi-feste": {
+    "album": [
+      426,
+      427,
+      428,
+      429,
+      430,
+      431
+    ],
+    "created": "2026-11-27T07:00:00+01:00",
+    "hash": "4f618bf2754faeb8e5734412b56d0008d7a96e328b3af13b7dda1fb47a6f4359",
+    "images": [
+      "media/2026-11-27-google-foto-ricordi-feste/01.jpg",
+      "media/2026-11-27-google-foto-ricordi-feste/02.jpg",
+      "media/2026-11-27-google-foto-ricordi-feste/03.jpg",
+      "media/2026-11-27-google-foto-ricordi-feste/04.jpg",
+      "media/2026-11-27-google-foto-ricordi-feste/05.jpg",
+      "media/2026-11-27-google-foto-ricordi-feste/06.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 432,
+    "sent_at": "2026-11-27T05:33:46+00:00",
+    "status": "sent"
+  },
+  "2026-11-27-newyork-vieta-giocattoli-ai": {
+    "album": [
+      433,
+      434,
+      435,
+      436,
+      437,
+      438
+    ],
+    "created": "2026-11-27T07:00:00+01:00",
+    "hash": "96e76918e22c2bb6905fb73f59b1ec6d2a21cfe134c4b0e52a687c5e04d8d5d1",
+    "images": [
+      "media/2026-11-27-newyork-vieta-giocattoli-ai/01.jpg",
+      "media/2026-11-27-newyork-vieta-giocattoli-ai/02.jpg",
+      "media/2026-11-27-newyork-vieta-giocattoli-ai/03.jpg",
+      "media/2026-11-27-newyork-vieta-giocattoli-ai/04.jpg",
+      "media/2026-11-27-newyork-vieta-giocattoli-ai/05.jpg",
+      "media/2026-11-27-newyork-vieta-giocattoli-ai/06.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 439,
+    "sent_at": "2026-11-27T05:33:47+00:00",
+    "status": "sent"
+  },
+  "2026-11-27-tool-gemini-canvas": {
+    "album": [
+      440,
+      441,
+      442,
+      443,
+      444,
+      445
+    ],
+    "created": "2026-11-27T07:00:00+01:00",
+    "hash": "232e3b55439188d23802a7489168dbbb15e02e335d8c736c435567e6d0d31962",
+    "images": [
+      "media/2026-11-27-tool-gemini-canvas/01.jpg",
+      "media/2026-11-27-tool-gemini-canvas/02.jpg",
+      "media/2026-11-27-tool-gemini-canvas/03.jpg",
+      "media/2026-11-27-tool-gemini-canvas/04.jpg",
+      "media/2026-11-27-tool-gemini-canvas/05.jpg",
+      "media/2026-11-27-tool-gemini-canvas/06.jpg"
+    ],
+    "kind": "tool",
+    "msg_id": 446,
+    "sent_at": "2026-11-27T05:33:49+00:00",
+    "status": "sent"
   }
 }
