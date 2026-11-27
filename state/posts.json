@@ -545,8 +545,11 @@
     "permalink": "https://www.instagram.com/p/DgQOthRG3_-/",
     "published_at": "2026-11-27T17:36:04+00:00",
     "reel": {
+      "media_id": "18128638786917669",
       "msg_id": 360,
-      "status": "scheduled",
+      "permalink": "https://www.instagram.com/reel/DgQfuUwBz0Q/",
+      "published_at": "2026-11-27T20:04:59+00:00",
+      "status": "published",
       "video": "media/2026-11-18-italia-bandi-horizon-ai/reel.mp4",
       "when": "2026-11-27T21:00:00+01:00"
     },
