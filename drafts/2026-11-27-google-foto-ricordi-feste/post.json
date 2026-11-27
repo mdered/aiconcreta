@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-27-google-foto-ricordi-feste",
+  "kind": "news",
+  "created": "2026-11-27T07:00:00+01:00",
+  "story_key": "https://blog.google/products-and-platforms/products/photos/google-photo-tools-holiday-season-2026/",
+  "sources": [
+    {
+      "name": "Google (novità di Google Foto per le feste)",
+      "url": "https://blog.google/products-and-platforms/products/photos/google-photo-tools-holiday-season-2026/"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Google Foto: *5 novità* per i ricordi delle feste",
+      "sub": "Album, modelli per biglietti e filtri per persone."
+    },
+    {
+      "type": "list",
+      "title": "Le novità",
+      "items": [
+        "Album highlight di un evento, con link da mandare ai parenti",
+        "12 nuovi modelli Remix: biglietti e illustrazioni",
+        "Filtro per persone o animali negli album condivisi",
+        "Scheda Raccolte: fissi in alto gli album preferiti",
+        "Regali: fotolibri e tazze dal negozio Fujifilm"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Album condivisi più facili",
+      "body": "Tocca un volto nel carosello in alto e vedi solo le foto di quella persona o di quell'animale. Utile quando tutta la famiglia carica foto nello stesso album."
+    },
+    {
+      "type": "point",
+      "title": "Remix per i biglietti",
+      "body": "I modelli Remix trasformano le tue foto in biglietti di auguri stile scrapbook o in illustrazioni color pastello. Sono 12 modelli nuovi."
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Crea un album highlight del pranzo di Natale e mandane il link.",
+        "Cerca nell'app la scheda Raccolte e fissa gli album che usi di più."
+      ]
+    }
+  ],
+  "caption": "Google Foto porta 5 novità per organizzare i ricordi delle feste.\n\nAlbum highlight da condividere con un link, 12 nuovi modelli Remix per biglietti e illustrazioni, filtro per persone e animali negli album condivisi, scheda Raccolte e ordini di fotolibri e regali.\n\nIn concreto: prova il filtro per volto nel prossimo album di famiglia.\n\nQuale useresti per prima?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#googlefoto",
+    "#google",
+    "#natale",
+    "#tecnologia",
+    "#produttività"
+  ],
+  "voiceover": [
+    "Google Foto ha cinque novità per i ricordi delle feste.",
+    "Puoi creare un album highlight e mandare il link ai parenti.",
+    "Nei dodici nuovi modelli Remix trasformi le foto in biglietti di auguri.",
+    "Negli album condivisi filtri per persona o per animale con un tocco.",
+    "In concreto: prova il filtro per volto nel prossimo album di famiglia."
+  ]
+}

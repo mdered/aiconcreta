@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-27-tool-gemini-canvas",
+  "kind": "tool",
+  "created": "2026-11-27T07:00:00+01:00",
+  "story_key": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks/",
+  "sources": [
+    {
+      "name": "Google (4 usi di Gemini Canvas)",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks/"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Gemini Canvas: *4 cose utili* oltre alla chat",
+      "sub": "Uno spazio di lavoro accanto alla conversazione.",
+      "image_prompt": "An empty concrete drafting table with a single lime-lit sheet of paper pinned on it, tools neatly arranged beside it."
+    },
+    {
+      "type": "point",
+      "title": "Cos'è",
+      "body": "Canvas è, nelle parole di Google, \"uno spazio di lavoro interattivo\" accanto alla chat di Gemini. Lavori sul risultato mentre continui a parlare con l'assistente."
+    },
+    {
+      "type": "list",
+      "title": "Cosa puoi farci",
+      "items": [
+        "Mini app e giochi nel browser",
+        "Quiz e flashcard da appunti o PDF",
+        "Da un foglio di calcolo a un tracker o a un calcolatore di prezzi",
+        "Riscrivere un testo evidenziandolo"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Per scrivere meglio",
+      "body": "Evidenzia una frase sul canvas e chiedi a Gemini di cambiare il tono, riformularla o riorganizzare una proposta. Lavori sul testo, non su una nuova risposta."
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Carica gli appunti di un corso e chiedi quiz e flashcard per ripassare.",
+        "Evidenzia un paragrafo di una mail o proposta e chiedi un tono più diretto."
+      ]
+    }
+  ],
+  "caption": "Gemini Canvas è uno spazio di lavoro accanto alla chat.\n\nSecondo Google puoi creare mini app e giochi, trasformare appunti o PDF in quiz e flashcard, usare un foglio di calcolo per fare tracker e calcolatori di prezzi, e riscrivere testi evidenziandoli.\n\nIn concreto: carica i tuoi appunti e chiedi dei quiz per ripassare.\n\nLo useresti per studiare o per lavorare?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#gemini",
+    "#google",
+    "#produttività",
+    "#studio",
+    "#lavoro"
+  ],
+  "voiceover": [
+    "Gemini Canvas è uno spazio di lavoro accanto alla chat.",
+    "Lavori sul risultato mentre continui a parlare con l'assistente.",
+    "Puoi trasformare appunti o PDF in quiz e flashcard, o un foglio di calcolo in un tracker.",
+    "Evidenzi un testo e chiedi di cambiare tono o struttura.",
+    "In concreto: carica i tuoi appunti e chiedi dei quiz per ripassare."
+  ]
+}

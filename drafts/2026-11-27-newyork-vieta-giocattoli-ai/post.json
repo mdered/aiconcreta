@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-27-newyork-vieta-giocattoli-ai",
+  "kind": "news",
+  "created": "2026-11-27T07:00:00+01:00",
+  "story_key": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+  "sources": [
+    {
+      "name": "TechCrunch (divieto a New York)",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
+    },
+    {
+      "name": "Common Sense Media (valutazione dei giocattoli AI)",
+      "url": "https://institute.commonsensemedia.org/risk-assessments/ai-toys"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "New York vieta per 5 anni i *giocattoli con chatbot*",
+      "sub": "Peluche e robot che parlano con l'AI: cosa dicono i test.",
+      "image_prompt": "A small plush bear sitting alone on a concrete shelf, one lime light behind it casting a long shadow."
+    },
+    {
+      "type": "point",
+      "title": "Cosa è successo",
+      "body": "La governatrice Kathy Hochul ha firmato una legge che vieta di produrre, distribuire e vendere giocattoli con chatbot integrato per cinque anni. È una legge dello Stato di New York. California ha già un divieto simile."
+    },
+    {
+      "type": "point",
+      "title": "Perché",
+      "body": "Common Sense Media ha testato tre giocattoli (Grem, Bondu, Miko 3) con account di bambini tra 6 e 13 anni. Circa il 27% delle risposte non era adatto ai minori. Giudizio: \"rischio inaccettabile\"."
+    },
+    {
+      "type": "list",
+      "title": "Altri problemi trovati",
+      "items": [
+        "Il giocattolo ricorda le conversazioni e crea attaccamento",
+        "Raccoglie voce, trascrizioni e dati di comportamento",
+        "I controlli per i genitori sono inaffidabili",
+        "Alcuni giocattoli 13+ sono venduti per bambini di 3-8 anni"
+      ]
+    },
+    {
+      "type": "concreto",
+      "items": [
+        "Per Common Sense Media: niente giocattoli AI sotto i 5 anni, cautela fino a 12.",
+        "Se ne regali uno, controlla quali dati raccoglie e se si possono cancellare."
+      ]
+    }
+  ],
+  "caption": "New York vieta per 5 anni i giocattoli con chatbot integrato.\n\nLa legge firmata dalla governatrice Hochul riguarda produzione, distribuzione e vendita nello Stato di New York. Common Sense Media ha testato Grem, Bondu e Miko 3: circa il 27% delle risposte non era adatto ai bambini.\n\nIn concreto: se pensi a un regalo di Natale con un chatbot dentro, controlla prima quali dati raccoglie. Common Sense Media sconsiglia questi giocattoli sotto i 5 anni.\n\nRegaleresti un peluche che risponde con l'AI?",
+  "hashtags": [
+    "#intelligenzaartificiale",
+    "#ai",
+    "#giocattoli",
+    "#privacy",
+    "#genitori",
+    "#sicurezza",
+    "#tecnologia"
+  ],
+  "voiceover": [
+    "New York vieta per cinque anni i giocattoli con chatbot dentro.",
+    "La governatrice ha firmato la legge: niente produzione, distribuzione o vendita.",
+    "Common Sense Media ha testato tre giocattoli. Circa il ventisette per cento delle risposte non era adatto ai bambini.",
+    "Tra i problemi: raccolgono dati e creano attaccamento.",
+    "In concreto: sotto i cinque anni meglio evitarli, e se ne regali uno controlla i dati che raccoglie."
+  ]
+}
