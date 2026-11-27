@@ -1415,6 +1415,12 @@
     ],
     "kind": "tool",
     "msg_id": 446,
+    "reel": {
+      "msg_id": 452,
+      "status": "scheduled",
+      "video": "media/2026-11-27-tool-gemini-canvas/reel.mp4",
+      "when": "2026-12-09T13:00:00+01:00"
+    },
     "sent_at": "2026-11-27T05:33:49+00:00",
     "status": "scheduled",
     "when": "2026-12-09T12:30:00+01:00"
