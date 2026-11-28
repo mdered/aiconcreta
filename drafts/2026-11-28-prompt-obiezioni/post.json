@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-28-prompt-obiezioni",
+  "kind": "prompt",
+  "created": "2026-11-28T07:00:00+01:00",
+  "story_key": "evergreen:prompt-obiezioni",
+  "sources": [],
+  "slides": [
+    {"type": "cover", "title": "Prima di presentare, *fatti fare le obiezioni*", "sub": "Il prompt da copiare per ChatGPT, Claude o Gemini.",
+     "image_prompt": "A concrete wall with a lime-lit crack, a single stone block pushing against it from the other side."},
+    {"type": "point", "title": "Il problema", "body": "Hai preparato una proposta o un preventivo. Ti sembra chiaro, ma il cliente farà domande a cui non hai pensato."},
+    {"type": "prompt", "title": "Incolla la tua proposta sotto:", "prompt": "Fai il cliente scettico. Leggi la proposta che ti incollo e scrivi le 5 obiezioni più probabili, dalla più dura. Per ognuna dammi una risposta breve e onesta che io possa dire a voce. Se manca un dato per rispondere, scrivilo invece di inventarlo.",
+     "note": "Non incollare dati riservati del cliente."},
+    {"type": "list", "title": "Perché funziona", "items": ["Un ruolo preciso: l'AI fa il cliente scettico", "Cinque obiezioni, in ordine di durezza", "\"Scrivilo invece di inventarlo\" evita risposte false"]},
+    {"type": "concreto", "items": ["Prova le risposte ad alta voce, una volta.", "Aggiungi alla proposta i dati che l'AI ti dice che mancano."]}
+  ],
+  "caption": "Il cliente farà la domanda a cui non hai pensato. Meglio sentirla prima.\n\nCopia il prompt dalla slide 3 e incolla la tua proposta: l'AI fa il cliente scettico e scrive le 5 obiezioni più dure, con una risposta breve per ognuna. Se manca un dato, te lo dice.\n\nIn concreto: prova le risposte ad alta voce e aggiungi alla proposta i dati che mancano.\n\nQual è l'obiezione che senti più spesso?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#prompt", "#lavoro", "#freelance"],
+  "voiceover": [
+    "Prima di presentare una proposta, fatti fare le obiezioni dall'AI.",
+    "Il problema: il cliente farà domande a cui non hai pensato.",
+    "Incolla la proposta e chiedi all'AI di fare il cliente scettico, con cinque obiezioni dalla più dura.",
+    "Chiedi una risposta breve per ognuna e di scrivere cosa manca invece di inventarlo.",
+    "In concreto: prova le risposte ad alta voce e aggiungi i dati che mancano."
+  ]
+}

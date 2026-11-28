@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-28-ray-ban-meta-olanda",
+  "kind": "news",
+  "created": "2026-11-28T07:00:00+01:00",
+  "story_key": "https://www.dutchnews.nl/2026/11/meta-could-face-dutch-ban-on-camera-glasses-over-secret-filming/",
+  "sources": [
+    {"name": "DutchNews.nl", "url": "https://www.dutchnews.nl/2026/11/meta-could-face-dutch-ban-on-camera-glasses-over-secret-filming/"},
+    {"name": "Tech Times", "url": "https://www.techtimes.com/articles/331673/20261127/meta-smart-glasses-could-face-ban-netherlands-over-privacy-concerns.htm"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "Gli occhiali Meta *davanti a un giudice* in Olanda", "sub": "Alcuni gruppi chiedono di fermarne la vendita per motivi di privacy.",
+     "image_prompt": "A pair of dark glasses on a concrete pedestal in front of a gavel-like slab, a single lime light on one lens."},
+    {"type": "point", "title": "Cosa chiedono", "body": "Consumentenbond, Offlimits e The Firewall hanno chiesto al tribunale di Amsterdam di vietare in Olanda la vendita degli occhiali Ray-Ban di Meta. Dicono che permettono di filmare le persone di nascosto."},
+    {"type": "point", "title": "La replica di Meta", "body": "Meta dice che gli occhiali non sono fatti per filmare di nascosto, che una piccola luce segnala la registrazione e che non può rispondere di ogni uso scorretto. Per Meta un divieto spetta alla politica o all'autorità, non ai giudici."},
+    {"type": "point", "title": "Cosa succede ora", "body": "La sentenza non c'è ancora: è attesa a dicembre. Intanto l'autorità olandese per la privacy ha sconsigliato l'acquisto, ma ha detto che un divieto totale non è la soluzione."},
+    {"type": "concreto", "items": ["Se hai gli occhiali, non filmare chi non lo sa e chiedi il permesso.", "Non condividere video con altre persone riconoscibili senza il loro consenso.", "Se pensi di regalarli, ricorda che il caso è ancora aperto: la sentenza arriva a dicembre."]}
+  ],
+  "caption": "Gli occhiali smart di Meta sono in tribunale in Olanda.\n\nTre gruppi di consumatori e privacy hanno chiesto al tribunale di Amsterdam di fermarne la vendita: dicono che si può filmare di nascosto. Meta risponde che non sono fatti per questo e che la luce segnala la registrazione. La sentenza è attesa a dicembre.\n\nIn concreto: se li usi, chiedi sempre il permesso prima di filmare qualcuno.\n\nIndosseresti un paio di occhiali con la camera?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#meta", "#privacy", "#tecnologia", "#rayban"],
+  "voiceover": [
+    "Gli occhiali smart di Meta sono davanti a un giudice, in Olanda.",
+    "Tre gruppi chiedono al tribunale di Amsterdam di fermarne la vendita: dicono che si può filmare di nascosto.",
+    "Meta risponde che non sono fatti per questo e che una luce segnala la registrazione.",
+    "La sentenza non c'è ancora. È attesa a dicembre.",
+    "In concreto: se li usi, chiedi il permesso prima di filmare qualcuno."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-28-openai-correzione-limiti",
+  "kind": "news",
+  "created": "2026-11-28T07:00:00+01:00",
+  "story_key": "https://www.ai4business.it/intelligenza-artificiale/openai-corregge-gpt-6-2-astra-raggiunge-i-limiti-il-40-prima/",
+  "sources": [
+    {"name": "AI4Business (OpenAI corregge GPT-6.2)", "url": "https://www.ai4business.it/intelligenza-artificiale/openai-corregge-gpt-6-2-astra-raggiunge-i-limiti-il-40-prima/"}
+  ],
+  "slides": [
+    {"type": "cover", "title": "GPT-6.2: i limiti arrivano *il 40% prima*", "sub": "OpenAI ha corretto un errore di conteggio. Cosa cambia per i piani a pagamento.",
+     "image_prompt": "A concrete fuel gauge with a lime-lit needle, the dial scale recalibrated and marked with a fresh scratch."},
+    {"type": "point", "title": "Cosa è successo", "body": "Al lancio, ChatGPT conteggiava meno del dovuto l'uso di GPT-6.2 Astra e GPT-6.2 Sol nei piani a pagamento. OpenAI ha corretto l'errore."},
+    {"type": "list", "title": "Cosa cambia, a parità di lavoro", "items": ["Con Astra il limite arriva il 40% prima", "Con Sol il limite arriva il 25% prima", "Il prezzo dell'abbonamento non cambia", "Nessun addebito sul passato"]},
+    {"type": "point", "title": "Il reset una tantum", "body": "Chi ha un piano Go, Plus, Pro o Business riceve un reset del limite da attivare a mano, dalle impostazioni di Utilizzo sul web o nell'app desktop. Non c'è nell'app mobile."},
+    {"type": "concreto", "items": ["Guarda la pagina Utilizzo per vedere quanto ti resta e quando si azzera.", "Usa il reset quando il limite è quasi finito, non prima.", "Per i compiti semplici scegli un modello meno pesante."]}
+  ],
+  "caption": "OpenAI ha corretto un errore: con GPT-6.2 Astra il limite arriva il 40% prima.\n\nAl lancio, l'uso di Astra e Sol nei piani a pagamento era conteggiato in difetto. Ora, a parità di lavoro, il limite arriva il 40% prima con Astra e il 25% prima con Sol. Il prezzo non cambia e non ci sono addebiti sul passato. Come compensazione, un reset una tantum per Go, Plus, Pro e Business.\n\nIn concreto: guarda la pagina Utilizzo e attiva il reset quando il limite sta per finire.\n\nTe ne sei accorto, di aver finito prima i messaggi?",
+  "hashtags": ["#intelligenzaartificiale", "#ai", "#chatgpt", "#openai", "#produttività", "#lavoro"],
+  "voiceover": [
+    "ChatGPT: con GPT-6.2 Astra il limite di utilizzo arriva il quaranta per cento prima.",
+    "OpenAI ha corretto un errore: al lancio l'uso dei due nuovi modelli veniva contato in meno.",
+    "A parità di lavoro, il limite arriva prima: quaranta per cento con Astra, venticinque con Sol.",
+    "Il prezzo non cambia. Ti spetta un reset una tantum, da attivare a mano sul web o nell'app desktop.",
+    "In concreto: guarda la pagina Utilizzo e usa il reset quando il limite sta per finire."
+  ]
+}
