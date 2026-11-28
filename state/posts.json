@@ -1488,6 +1488,12 @@
     ],
     "kind": "prompt",
     "msg_id": 467,
+    "reel": {
+      "msg_id": 477,
+      "status": "scheduled",
+      "video": "media/2026-11-28-prompt-obiezioni/reel.mp4",
+      "when": "2026-12-10T21:00:00+01:00"
+    },
     "sent_at": "2026-11-28T05:34:45+00:00",
     "status": "scheduled",
     "when": "2026-12-10T18:30:00+01:00"
@@ -1502,6 +1508,7 @@
       473
     ],
     "created": "2026-11-28T07:00:00+01:00",
+    "decided_at": "2026-11-28T14:55:16+00:00",
     "hash": "43920243e4b387ce33bd3975a1058c3c9d95a367043d56eff4a287d72f6ac322",
     "images": [
       "media/2026-11-28-ray-ban-meta-olanda/01.jpg",
@@ -1514,6 +1521,7 @@
     "kind": "news",
     "msg_id": 474,
     "sent_at": "2026-11-28T05:34:46+00:00",
-    "status": "sent"
+    "status": "scheduled",
+    "when": "2026-12-11T12:30:00+01:00"
   }
 }
