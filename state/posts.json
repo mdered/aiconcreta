@@ -1430,5 +1430,77 @@
     "sent_at": "2026-11-27T05:33:49+00:00",
     "status": "scheduled",
     "when": "2026-12-09T12:30:00+01:00"
+  },
+  "2026-11-28-openai-correzione-limiti": {
+    "album": [
+      454,
+      455,
+      456,
+      457,
+      458,
+      459
+    ],
+    "created": "2026-11-28T07:00:00+01:00",
+    "hash": "6f2d76ebbb7d0aee95a55babebc2b8b4bf5d092dfba15e263da8e841095c4e32",
+    "images": [
+      "media/2026-11-28-openai-correzione-limiti/01.jpg",
+      "media/2026-11-28-openai-correzione-limiti/02.jpg",
+      "media/2026-11-28-openai-correzione-limiti/03.jpg",
+      "media/2026-11-28-openai-correzione-limiti/04.jpg",
+      "media/2026-11-28-openai-correzione-limiti/05.jpg",
+      "media/2026-11-28-openai-correzione-limiti/06.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 460,
+    "sent_at": "2026-11-28T05:34:44+00:00",
+    "status": "sent"
+  },
+  "2026-11-28-prompt-obiezioni": {
+    "album": [
+      461,
+      462,
+      463,
+      464,
+      465,
+      466
+    ],
+    "created": "2026-11-28T07:00:00+01:00",
+    "hash": "667182f8a60340e4386d69e2cbac9b5eb33c608e01eb2ffc7485d3d1360006f1",
+    "images": [
+      "media/2026-11-28-prompt-obiezioni/01.jpg",
+      "media/2026-11-28-prompt-obiezioni/02.jpg",
+      "media/2026-11-28-prompt-obiezioni/03.jpg",
+      "media/2026-11-28-prompt-obiezioni/04.jpg",
+      "media/2026-11-28-prompt-obiezioni/05.jpg",
+      "media/2026-11-28-prompt-obiezioni/06.jpg"
+    ],
+    "kind": "prompt",
+    "msg_id": 467,
+    "sent_at": "2026-11-28T05:34:45+00:00",
+    "status": "sent"
+  },
+  "2026-11-28-ray-ban-meta-olanda": {
+    "album": [
+      468,
+      469,
+      470,
+      471,
+      472,
+      473
+    ],
+    "created": "2026-11-28T07:00:00+01:00",
+    "hash": "43920243e4b387ce33bd3975a1058c3c9d95a367043d56eff4a287d72f6ac322",
+    "images": [
+      "media/2026-11-28-ray-ban-meta-olanda/01.jpg",
+      "media/2026-11-28-ray-ban-meta-olanda/02.jpg",
+      "media/2026-11-28-ray-ban-meta-olanda/03.jpg",
+      "media/2026-11-28-ray-ban-meta-olanda/04.jpg",
+      "media/2026-11-28-ray-ban-meta-olanda/05.jpg",
+      "media/2026-11-28-ray-ban-meta-olanda/06.jpg"
+    ],
+    "kind": "news",
+    "msg_id": 474,
+    "sent_at": "2026-11-28T05:34:46+00:00",
+    "status": "sent"
   }
 }
