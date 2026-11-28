@@ -578,14 +578,17 @@
       "media/2026-11-18-prompt-risposta-recensione/06.jpg"
     ],
     "kind": "prompt",
+    "media_id": "17895183825529055",
     "msg_id": 201,
+    "permalink": "https://www.instagram.com/p/DgSKTsMlA_j/",
+    "published_at": "2026-11-28T11:36:01+00:00",
     "reel": {
       "attempts": 3,
       "error": "'content'",
       "status": "make_failed"
     },
     "sent_at": "2026-11-18T05:33:59+00:00",
-    "status": "scheduled",
+    "status": "published",
     "when": "2026-11-28T12:30:00+01:00"
   },
   "2026-11-19-ai-mode-chat-temporanee": {
